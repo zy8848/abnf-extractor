@@ -1,0 +1,3850 @@
+rfc_num,rule
+5,treename = id;
+48,C = ok
+48,C = busy
+48,C = bufbig
+48,"C = not open     if no connection is currently open and
+                 otherwise uninhibited"
+55,CR = IMP DEAD  Our imp has died
+55,CR = BUSY
+55,CR = NOROOM
+55,CR = IMP DEAD
+55,CR = LINK DEAD
+55,CR = BADSKT
+55,CR = OK
+55,CR = BADCOMM
+70,M=L
+76,USER= GROSSMAN
+82,Cn=EOL
+360,PASS = (password)
+360,INPASS = (password)
+360,INPATH = (pathname)
+360,INPUT = (pathname)
+360,USER=myself
+360,PASS=dorwssap
+360,USER=roundabout
+360,PASS=aaabbbc
+360,OUTUSER=roundab1
+360,INUSER=rounder
+360,PASS=aaabbbcc
+407,USER=myself
+407,PASS=dorwssap
+407,OUT=H70002
+407,INPUT=H50003
+407,USER=roundabout
+407,PASS=aaabbbc
+407,OUTUSER=roundab1
+407,INUSER=rounder
+407,PASS=aaabbbcc
+477,jjj             = HASP assigned job number
+477,"rem             = terminal number of remote terminal
+                  where job is queued to print or punch"
+477,dev             = device name
+477,"PURGE           = signifies job will be purged at
+                  completion of current function"
+490,SYSOUT=A
+490,SYSOUT=B
+490,SYSYOUT=A
+515,C = A2 ;
+622,Ident = AAM
+675,S = size of sequence number space
+675,L = left window edge
+675,x = sequence number to be tested
+675,B = the total user receive buffers
+707,message-type=RESPONSE  tid  outcome      results
+707,message-type=REPLY    tid  outcome results
+707,message-type=RETURN  tid  outcome        results
+708,message-type=RETURN      tid  outcome        results
+713,BCDEFGH=tuvwxyz containing the character
+713,CDEFGH=uvwxyz containing the actual number
+713,FGH=xyz specifying the number of bytes
+713,H=z specifying the value
+713,DEFGH=vwxyz specifying the particular type
+713,A=s specifying the manner in which the size
+720,Id = Name
+720,Filename = Name
+721,x = sequence number to be tested
+721,FCLE = flow control left window edge
+721,TSE = time since connection establishment (in sec)
+721,MPL = maximum packet lifetime (in sec)
+741,D = data bits (from here to the end of the message)
+757,G = gateway
+760,dest = destination address
+760,TOS = type of service
+760,TTL = time to live
+760,BufPTR = buffer pointer
+760,len = length of buffer
+760,Id  = Identifier
+760,options = option data
+760,result = response
+760,OK = datagram sent ok
+760,Error = error in arguments or local network error
+760,OK = datagram received ok
+760,Error = error in arguments
+760,prot = protocol
+761,dest = destination address
+761,TOS = type of service
+761,TTL = time to live
+761,BufPTR = buffer pointer
+761,len = length of buffer
+761,Id  = Identifier
+761,options = internet option data
+761,result = response
+761,OK = datagram sent ok
+761,Error = error in arguments or local network error
+761,OK = datagram received ok
+761,Error = error in arguments
+761,prot = protocol
+781,offset =    the number of octets from the beginning of this option to the
+781,overflow =  the number of IP modules that cannot register timestamps due
+782,VT = VIRTUAL TERMINAL
+782,AU = ADAPTATION UNIT
+791,src = source address
+791,dst = destination address
+791,prot = protocol
+791,TOS = type of service
+791,TTL = time to live
+791,BufPTR = buffer pointer
+791,len = length of buffer
+791,Id  = Identifier
+791,opt = option data
+791,result = response
+791,OK = datagram sent ok
+791,Error = error in arguments or local network error
+791,OK = datagram received ok
+791,Error = error in arguments
+809,r = reverse image
+809,a = additive image
+822,domain-ref  =  atom                         ; symbolic reference
+832,T = tcp (no particular services mentioned)
+833,T = tcp (no particular services mentioned)
+834,T = tcp (no particular services mentioned)
+835,T = tcp (no particular services mentioned)
+836,T = tcp (no particular services mentioned)
+837,T = tcp (no particular services mentioned)
+838,T = tcp (no particular services mentioned)
+839,T = tcp (no particular services mentioned)
+842,T = tcp (no particular services mentioned)
+843,T = tcp (no particular services mentioned)
+845,T = tcp (no particular services mentioned)
+846,T = tcp (no particular services mentioned)
+882,auth=false;                               
+898,l = number lines
+898,AS2 = G1
+902,DARPA = Defense Advanced Research Projects Agency
+902,DDN   = Defense Data Network
+905,LWE  = lower window edge
+905,UWE  = upper window edge
+905,"KUWE = lower bound on upper window edge
+       held by remote transport entity"
+908,State = OPEN
+920,GOV  =  Government
+920,EDU  =  Education
+920,COM  =  Commercial
+920,MIL  =  Military
+920,ORG  =  Organization
+937,RETR                              =yyy
+987,action                       = relayed
+1002,G = GROUP;
+1002,ONT = B;
+1002,G = DONT CARE;
+1002,ONT = P;
+1002,G = UNIQUE;
+1002,ONT = M;
+1002,retarget = FALSE;
+1002,retarget = TRUE;
+1002,group = FALSE;
+1002,group = TRUE;
+1008,p = mess ; p3 = mess + len ;
+1008,Ar  = time needed by remote entity to generate an acknowledgement
+1008,Al  = time needed by local entity to generate an acknowledgement
+1008,x   = local processing time for an incoming TPDU
+1008,"T1  = bound for maximum time local entity will wait for
+      acknowledgement before retransmitting a TPDU"
+1008,"R   = bound for maximum local entity will continue to transmit a
+      TPDU that requires acknowledgment"
+1008,"N   = bound for maximum number of times local entity  will transmit
+      a TPDU requiring acknowledgement"
+1008,"I   = bound for the time after which an entity will initiate
+      procedures to terminate a transport connection if a TPDU is
+      not received from the peer entity"
+1045,X = reserved
+1045,RG = restricted group
+1045,UG = unrestricted group
+1045,A  = alias
+1046,N = Queue size for low delay queue
+1046,P = Percentage of link resources allocated to low delay
+1055,c = END;
+1055,c = ESC;
+1058,dir = directly connected
+1058,unreach = unreachable
+1063,ProbeRetry = Current Time
+1063,ProbeReply = false
+1063,SupportsProbes = true
+1073,Name = NAWS (Negotiate About Window Size)
+1085,argument              = NONE
+1095,v = version of CMOT supported
+1108,CF = Copy on Fragmentation
+1134,v = b;
+1138,preferred-recipient = mailbox
+1138,mta              = word
+1142,Deltak = call
+1142,octetTimeStamp = BinaryAbsoluteTime;
+1142,IDEntry =  RECORD
+1142,NETEntry =  RECORD
+1142,Nb = Number of Routeing Layer buffers 
+1144,lcs = cs;
+1144,deltaS = hlen;
+1144,cp = bufp;
+1148,preferred-recipient = mailbox
+1148,mta              = word
+1171,v = b;
+1186,tmp = count;
+1205,Opcode = Cancel Invite
+1228,cp = packet;
+1244,NCSC = National Computer Security Center
+1244,NTISS = National Telecommunications and
+1249,type=value
+1255,countryName= US
+1255,objectClass= country
+1255,description= United States of America
+1255,stateOrProvinceName= California
+1255,objectClass= usStateOrEquivalent
+1255,description= State of California
+1255,localityName= California
+1255,localityName= CA
+1255,fipsStateAlphaCode= CA
+1255,localityName= Santa Clara
+1255,objectClass= usCountyOrEquivalent
+1255,stateOrProvinceName= CA
+1255,description= County of Santa Clara
+1255,localityName= Mountain View
+1255,localityName= San Jose
+1255,addmdName= PSINet
+1255,objectClass= nadfADDMD
+1279,DomainComponent=UK
+1292,C=fr;A=atlas;P=e3x;O=e3x;S=Brun
+1320,AA = A
+1320,BB = B
+1320,CC = C
+1320,DD = D
+1321,AA = A
+1321,BB = B
+1321,CC = C
+1321,DD = D
+1327,preferred-recipient = mailbox
+1327,mta              = word
+1327,C=ch;ADMD=arcom;PRMD=switch;O=switch;OU=cosine-mhs;
+1328,PD-ADDRESS=Empire State Building;  PRMD=XX; ADMD=ZZ; C=US;
+1328,CN=Postmaster; O=A; ADMD=B; C=GB;
+1330,surName= Anderson
+1330,surName= Brown
+1330,surName= Green
+1330,surName= Jones
+1330,surName= Smith
+1330,surName= White
+1331,v = b;
+1341,boundary=gc0p4Jq0M2Yt08jU534c0p
+1341,access-type=AFS
+1342,charset = token    ; legal charsets defined by RFC 1341
+1343,implicitwild = type
+1345,Equals                     = Cyrillic
+1345,K=     041a    CYRILLIC CAPITAL LETTER KA
+1345,L=     041b    CYRILLIC CAPITAL LETTER EL
+1345,M=     041c    CYRILLIC CAPITAL LETTER EM
+1345,N=     041d    CYRILLIC CAPITAL LETTER EN
+1345,P=     041f    CYRILLIC CAPITAL LETTER PE
+1345,Y=     042b    CYRILLIC CAPITAL LETTER YERU
+1345,k=     043a    CYRILLIC SMALL LETTER KA
+1345,l=     043b    CYRILLIC SMALL LETTER EL
+1345,m=     043c    CYRILLIC SMALL LETTER EM
+1345,n=     043d    CYRILLIC SMALL LETTER EN
+1345,p=     043f    CYRILLIC SMALL LETTER PE
+1345,y=     044b    CYRILLIC SMALL LETTER YERU
+1345,W=     20a9    WON SIGN
+1352,msgIsValidated = FALSE;
+1374,H  =  Host computer
+1374,PP  =  Outboard Protocol Processor
+1374,G  =  Gateway
+1404,n = Polling or aggregation period
+1404,j = Entry number
+1404,n = Period over which the peak is calculated
+1404,m = The peak period length
+1405,xx  = country code of the gateway performing the conversion
+1405,yyy = Admd of the gateway performing the conversion
+1405,zzz = Prmd of the gateway performing the conversion
+1405,ooo = Organisation of the gateway performing the conversion
+1405,C=it; ADMD=garr; DD.Dnet=HEP; DD.Mail-11=X4TDEC::USER47;
+1405,C=it; ADMD=garr; DD.Dnet=HEP; DD.Mail-11=MYNODE::BETTY;
+1405,C=it; ADMD=garr; DD.Dnet=HEP; DD.Mail-11=BOSTON::GOOFY1::MARY34;
+1405,C=it; ADMD=garr; DD.Dnet=HEP;
+1405,C=it; ADMD=garr; DD.Dnet=HEP; DD.Mail-11=MIAMI2::George.Rosenthal;
+1405,C=gb; ADMD=Gold 400; PRMD=AC.UK; O=ucl; OU=cs; G=Jim; S=Clay;
+1405,C=fr; ADMD=atlas; PRMD=ifip; O=poly; S=Moreau;
+1405,PRMD=Botwa;O=Miner;S=Chiuaw;(q)
+1405,C=gb; ADMD=Gold 400; PRMD=AC.UK; O=UCL; OU=cs; G=Jim; S=Clay;
+1405,C=it; A=garr; P=dom1; O=gw1; OU=RELAY; S=BETTY(p)MYNODE;
+1405,C=it; ADMD=garr; DD.Dnet=HEP; DD.Mail-11=RELAY::MYNODE::BETTY;
+1405,C=it; A=garr; P=Trieste; O=Elettra; S=Allocchio; G=Claudio;
+1415,trans   =    transient error
+1415,perman  =    permanent error
+1446,msgIsValidated = FALSE;
+1465,S=user; O=org ltd.; OU1=sect1; P=org; A=rel400; C=aq;
+1465,G=john; I=w; S=doe; P=org; A=rel400; C=aq;
+1465,S=nosuchuser; to do connectivity and availability
+1465,C=ch; matches only case a).
+1465,"C=CH; operates MTA-B, only connected to public X.25.  A second"
+1465,P=REMOTE; A=ARCOM; C=CH;.  It is therefore possible to set RELAY-MTA
+1465,C=CH;ADMD=ARCOM;PRMD=REMOTE;O=Big-Org is documented with its own
+1465,P=SWITCH; A=ARCOM; C=CH;
+1465,S=Eppenberger; O=SWITCH; P=SWITCH; A=ARCOM; C=CH;
+1484,CN=GB
+1484,Organisation=UN
+1485,C=GB
+1485,CN=Christian Huitema; O=INRIA; C=FR
+1485,"O=INRIA; C=FR>.  Another example, shows how different attribute types"
+1485,CN=GB
+1491,c=CH; a=ARCOM; p=SWITCH; o=ETHZ; ou=TIK; s=Lanz (lanz@tik.ethz.ch)
+1491,c=CH;o=ETH Zurich.
+1494,page-length=A4
+1494,page-width=A4
+1494,resolution=Coarse
+1494,page-length=A4             no bit set
+1494,page-width=A4              no bit set
+1494,resolution=Coarse          no bit set
+1494,class=formatted
+1505,r = i;
+1506,xxxE = xxx Entity ;   SDE = Submission & Delivery Entity
+1506,C=zz
+1506,ADMD=ade
+1506,PRMD=fhbo
+1506,O=a bank
+1506,S=plork
+1506,G=mary
+1506,G=jo; S=plork; O=a bank; OU1=owe; OU2=you; P=fhbo; A=ade; C=zz
+1506,G=jo; S=plork; OU=you; OU=owe; O=a bank; PRMD=fhbo; ADMD=ade; C=zz
+1506,C=zz; ADMD=ade; PRMD=fhbo; O=a bank; OU=owe; OU=you; S=plork; G=jo
+1506,C=zz; ADMD=ade; PRMD=fhbo; O=tlec; S=plork; ->
+1506,C=zz; ADMD=ade; PRMD=fhbo; O=a bank; S=plork->
+1506,C=zz; ADMD=ade; PRMD=fhbo; O=tlec; S=plork; G=mary
+1506,C=zz; ADMD=ade; PRMD=fhbo; O=tlec; S=plork;     ->
+1506,C=nl; ADMD= ; PRMD=tlec; O=gateway
+1506,C=us; ADMD=dole; S=bush
+1506,C=B;...;S=Z
+1506,C=nl; ADMD=ade; PRMD=tlec; O=owe; OU=you; S=plork; GQ=jr
+1506,C=nl; ADMD=ade; PRMD=tlec; O=owe; OU=spc ctr; OU=u; S=plork
+1506,C=nl; ADMD=ade; PRMD=tlec; O=you; OU=owe; S=plork
+1506,C=nl; ADMD=ade; PRMD=tlec; O=owe; OU=space ctr;
+1506,OU=u; S=plork; GQ=jr
+1506,C=nl; ADMD=ade; PRMD=tlec; O=work
+1506,C=us; ADMD=Internet; PRMD=gateway
+1506,P=tlec; A=ade; C=nl;       # tlec.nl
+1506,C=CH
+1506,TSEL=0103Hex
+1510,tempkey = NULL;
+1521,boundary=gc0p4Jq0M2Yt08jU534c0p
+1521,access-type=AFS
+1522,charset = token    ; see section 3
+1522,encoding = token   ; see section 4
+1524,implicitwild = type
+1532,B = BROADCAST flag
+1542,B = BROADCAST flag
+1549,v = b;
+1564,surname=XXX
+1564,objectClass=person AND
+1574,clnpAddrTable = SEQUENCE OF ClnpAddrEntry
+1574,clnpAdEntAddr = ClnpAddress
+1574,clnpAdEntIfIndex = INTEGER;
+1574,clnpRoutingTable =  SEQUENCE OF ClnpRouteEntry;
+1578,a=shadow angle of vertical stick
+1593,other    = free form DisplayString
+1608,objectClass= organizationalUnit
+1608,organizationalUnitName= IP networks
+1608,description= root of IP number tree
+1608,organizationalUnitName= AS numbers
+1608,description= root of Autonomous System number space
+1615,O=rare;S=houttuin;
+1615,O=jnt;I=J;S=Craigie;
+1617,CN=Directory Manager
+1617,CN=Postmaster
+1617,CN=Secretary
+1617,P=switch; A=arcom; C=ch;
+1617,country=CH
+1617,associatedDomain=ch
+1617,friendlyCountryName=CH
+1617,friendlyCountryName=Confoederatio Helvetica
+1617,friendlyCountryName=Schweiz
+1617,friendlyCountryName=Suisse
+1617,friendlyCountryName=Svizzera
+1617,friendlyCountryName=Switzerland
+1617,description=Swiss Academic and Research Network
+1617,organizationName=SWIss TeleCommunication system for Higher
+1617,organizationName=Swiss Academic and Research Network
+1617,organizationName=SWITCH
+1617,localityName=Zuerich
+1617,localityName=Zurich
+1617,stateOrProvinceName=ZH
+1617,stateOrProvinceName=Zuerich
+1617,stateOrProvinceName=Zurich
+1617,organizationalUnitName=SWITCHdirectory
+1617,commonName=Directory Manager
+1617,description=SWITCH Directory Managers
+1617,commonName=Postmaster
+1617,commonName=Helpdesk
+1617,commonName=Secretary
+1617,commonName=Thomas Lenggenhager
+1617,surname=Lenggenhager
+1617,userPassword=secret
+1617,A=arcom; C=ch;
+1632,s=info;p=cdc;a=attmail;c=us
+1644,CCsend = CCgen;
+1646,SOH = 0X01
+1646,R = 0XD9
+1648,Surname=User; <Other X.400 Address Elements>
+1648,Surname=Postmaster; <Same X.400 Address Elements>
+1648,CommonName=Postmaster; <Same X.400 Address Elements>
+1649,ADMD=Internet; PRMD=XNREN; with O=UW-Madison and they are using OU=cs
+1649,C=US; ADMD=Internet; PRMD=xnren; O=UW-Madison; OU=cs; S=user;
+1649,C=us; ADMD=Internet; PRMD=Internet; DD.RFC-822=user(a)some.place.edu;
+1649,C=us; ADMD=Internet; PRMD=Internet;
+1649,C=IT; ADMD=MASTER400; DD.RFC-822=user(a)some.place.it
+1649,C=GB; ADMD= ; PRMD=UK.AC; O=MHS-relay; DD.RFC-822=user(a)some.place.uk
+1649,C=us; ADMD=ATTMail; PRMD=CDC; O=CPG; S=Lastname; G=Firstname;
+1649,G=Alf; S=Hansen; O=uninett; P=uninett; C=no
+1662,v = b;
+1664,C=de; ADMD=pkz; PRMD=nfc; O=top;
+1664,S=Allocchio;G=Claudio;
+1664,S=giordano;
+1685,G=john; S=smith; O=a bank ltd; P=abl; A=snomail; C=aq
+1685,g=per;s=hansen;o=teledir;ou1=forskning;p=tele;a=telemax;c=no
+1685,G=harald
+1689,C=nl; ADMD=400net; PRMD=surf; O=rare; S=raresec;
+1711,OU=orgunB;. Since MTA B in the same organisation serves all other
+1711,C=zz;A=a;P=p;O=oo;S=plork ->
+1711,C=zz;A=a;
+1738,gtype          = xchar
+1746,Name=Acceptable and Unacceptable Use of Net Resources (K12)
+1755,S = Specified
+1755,MBS = Maximum Burst Size
+1768,AI = Multicast Announcement information supported
+1768,MI = Multicast Address Mapping information supported
+1768,M = Mandatory;  O = Optional;  - = not applicable
+1779,C=GB
+1779,CN=Christian Huitema; O=INRIA; C=FR
+1779,"O=INRIA; C=FR>.  Another example, shows how different attribute types"
+1781,C=GB
+1781,Organisation=UN
+1786,pref=MED is specified the preference indicated by the remote AS via
+1795,CurrentWindow = InitialWindowSize
+1795,CurrentWindow    = InitialWindowSize
+1795,FCACKOwed        = FALSE
+1795,GrantDelayed     = FALSE
+1795,GrantDelayed = FALSE
+1795,GrantDelayed = TRUE
+1795,FCACKOwed     = TRUE
+1795,FCACKOwed = FALSE
+1795,FCACK            = FALSE
+1795,FCACKOwed = FALSE;
+1801,P=ABC; A=XYZMail; C=GB;
+1801,A=Mailnet; C=FI;
+1802,OU=ARH; O=CPG; P=CDC; A=ATTMail; C=US
+1824,type=         human
+1824,name=         Hadmut Danisch
+1835,AUTHENTICATE= password                                   GLOBAL
+1835,value=phone;search=substring
+1835,search-all=Peter ; search=substring;case=consider
+1836,"I=S; S=Kille; OU1=CS; O=UCL,"
+1836,A=Mailnet; C=FI;
+1837,A=Mailnet; C=FI;
+1838,A=Mailnet; C=FI;
+1849,separator       = eol
+1849,hh            = 2digit
+1849,mm            = 2digit
+1849,ss            = 2digit
+1849,whogets-delimiter  = eol
+1857,n = Polling or aggregation period
+1857,j = Entry number
+1857,n = Period over which the peak is calculated
+1857,m = The peak period length
+1876,cp = ascii;
+1876,latit = lltemp1;
+1876,longit = lltemp2;
+1876,longit = lltemp1;
+1876,latit = lltemp2;
+1876,bcp = binary;
+1876,rcp = binary;
+1876,cp = tmpbuf;
+1876,latdeg = latval;
+1876,longdeg = longval;
+1889,rsp = rspn;
+1889,n = members;
+1889,n = senders;
+1891,addr-type = atom
+1891,sub-domain = atom
+1891,ORCPT=rfc822;Bob@Big-Bucks.COM
+1891,ORCPT=rfc822;Carol@Ivory.EDU
+1891,ORCPT=rfc822;Dana@Ivory.EDU
+1891,ORCPT=rfc822;Eric@Bombs.AF.MIL
+1891,ORCPT=rfc822;George@Tax-ME.GOV
+1891,boundary=abcde
+1891,boundary=bcdef
+1891,boundary=cdefg
+1891,boundary=defgh
+1894,address-type = atom
+1894,diagnostic-type = atom
+1894,mta-name-type = atom
+1894,extension-field-name = atom
+1894,boundary=foobar
+1914,ServerList = OriginalServers;
+1936,CLR    = zero the register
+1936,OE     = write the register onto the data bus
+1936,CLK    = clock to cycle the pipeline operation
+1936,ICLK   = input data latch clock
+1936,ADD    = initiating an add of latched input data
+1942,valign=baseline should be vertically positioned so that the
+1945,name = definition
+1945,type           = token
+1945,subtype        = token
+1945,attribute      = token
+1945,product-version = token
+1945,field-name     = token
+1945,extension-method = token
+1945,auth-scheme    = token
+1952,c = (unsigned long) n;
+1977,i = hsize;
+1977,ent = proto;
+1977,ent = c;
+1977,bp = cmsg;
+1977,wptr0 = wptr;
+1977,oldcode = CLEAR;
+1977,oldcode = incode;
+1978,orgdest = dest;
+1978,len3 = len1;
+2002,Identification = Network Time Protocol timestamp or Nonce
+2020,DA = destination address (six octets)
+2020,SA = source address (six octets)
+2022,index2 = K;
+2024,EntryType = group;  GroupDefinition = pointer to an enterprise-
+2024,Index = the retrieved index; Mac = the MAC address; Mask = all
+2024,Location = OID for dlswTConnConfigEntry of the 1st partner; Status
+2040,from = keyBytes;
+2040,to = keyBytesCopy;
+2040,P = ffffffffffffffff7875dbf6738c647811223344556677
+2040,C = 7875dbf6738c64787cb3f1df34f948117fd1a023a5bba217
+2047,charset = token    ; see section 3
+2047,encoding = token   ; see section 4
+2056,database       = uchar
+2056,docid          = uchar
+2056,elementset     = uchar
+2056,recordsyntax   = uchar
+2058,Login-Service = Telnet
+2058,Framed-Protocol = PPP
+2058,Framed-Routing = None
+2065,NK = no key type value
+2065,AL = algorithm byte
+2065,PR = protocols indicated by protocol byte or protocol flags
+2065,hash = MD5 ( data )
+2067,H  =  Host computer
+2067,PP  =  Outboard Protocol Processor
+2067,G  =  Gateway
+2068,charset = token
+2068,content-coding   = token
+2068,transfer-extension      = token
+2068,chunk-ext-name = token
+2068,type           = token
+2068,subtype        = token
+2068,attribute      = token
+2068,product-version = token
+2068,other-range-unit = token
+2068,field-name     = token
+2068,extension-method = token
+2068,auth-scheme    = token
+2068,connection-token  = token
+2068,protocol-name     = token
+2068,protocol-version  = token
+2068,pseudonym         = token
+2083,"m =  Yr Yg Yb
+     Zr Zg Zb"
+2083,c = (unsigned long) n;
+2104,ipad = the byte 0x36 repeated B times
+2104,key = tk;
+2104,key =         0x0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+2104,digest =      0x9294727a3638bb1c13f48ef8158bfc9d
+2104,digest =      0x750c783e6ab0b503eaa86e310a5db738
+2104,key =         0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2104,digest =      0x56be34521d144c88dbb8c733f0e8b3f6
+2109,attr            =       token
+2109,value           =       word
+2116,a=MAILNET; c=FI
+2136,zrr = rr
+2138,Login-Service = Telnet
+2138,Framed-Protocol = PPP
+2138,Framed-Routing = None
+2156,c=gb; a= ; p=uk.ac; o=mr; dd.rfc-822=(a)relay.co.uk:userb(a)host2;
+2156,c=us; a=MCI; P=relay; dd.rfc-822=Tom(u)Harris(a)cs.widget.com;
+2156,c=gb; a=BTglobal; P=relay; dd.rfc-822=postmaster(a)UK.alter.net;
+2156,S=Support; O=sales;  A=Master400; C=it;
+2156,S=renseignements; O=Region Parisienne; P=autoroutes; A=atlas; C=fr;
+2156,S=Rossi; DD.cap=20100; DD.ph1=Via Larga 11; DDA.city=Milano;
+2156,A=PtPostel; C=it;
+2156,G=Andy; S=Wharol; O=MMNY; A=ATT; C=us;
+2156,preferred-recipient = mailbox
+2156,mta              = word
+2156,mta-name = word
+2156,S=MailFLOW;O=MailFLOW;P=DANTE;A=mailnet;C=fi;
+2157,mime-type = word
+2157,g1 = NULL
+2157,g2 = NULL
+2157,g3 = NULL
+2157,c1 = NULL
+2159,page-length=A4
+2159,page-width=A4
+2159,resolution=Coarse
+2159,page-length=A4             no bit set
+2159,page-width=A4              no bit set
+2159,resolution=Coarse          no bit set
+2162,xx  = country code of the gateway performing the conversion
+2162,yyy = Admd of the gateway performing the conversion
+2162,zzz = Prmd of the gateway performing the conversion
+2162,ooo = Organisation of the gateway performing the conversion
+2162,C=it; ADMD=garr; DD.Dnet=OMNI; DD.Mail-11=.IT.DM.X4TDEC::USER47;
+2162,C=it; ADMD=garr; DD.Dnet=OMNI; DD.Mail-11=MYNODE::BETTY;
+2162,C=it; ADMD=garr; DD.Dnet=OMNI; DD.Mail-11=BOSTON::GOOFY1::MARY34;
+2162,C=it; ADMD=garr; DD.Dnet=OMNI;
+2162,C=it; ADMD=garr; DD.Dnet=ENET;
+2162,C=gb; ADMD=G400; PRMD=AC.UK; O=ucl; S=Clay;
+2162,C=fr; ADMD=atlas; PRMD=ifip; O=poly; S=Moreau;
+2162,PRMD=Botwa;O=Miner;S=Chiuaw;(q)
+2162,C=gb; ADMD=Gold 400; PRMD=AC.UK; O=UCL; OU=cs; G=Jim; S=Clay;
+2162,C=it; A=garr; P=dom1; O=gw1; OU=RELAY; S=BETTY(p)MYNODE;
+2162,C=it; ADMD=garr; DD.Dnet=HEP;
+2162,C=it; ADMD=garr; DD.Dnet=OMNI; DD.Mail-11=RELAY::MYNODE::BETTY;
+2162,C=it; A=garr; P=Trieste; O=Elettra; S=Allocchio; G=Claudio;
+2163,C=de; ADMD=pkz; PRMD=nfc; O=top;
+2163,S=Allocchio;G=Claudio;
+2164,P=Isode; A=Mailnet; C=FI
+2167,crlf = cr lf
+2167,year = 4digit
+2167,month = 2digit
+2167,day = 2digit
+2167,hour = 2digit
+2167,minute = 2digit
+2167,second = 2digit
+2167,milli-second = 3digit
+2167,error-code = 3digit
+2167,C =a0sQ
+2167,S =vZ2x
+2168,terminal = false;
+2168,terminal = true;
+2168,key = newkey;
+2168,rewriteflag = true;
+2192,ucs4 = utf16;
+2192,ucs4 = c;
+2202,key =           0x0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+2202,digest =        0x9294727a3638bb1c13f48ef8158bfc9d
+2202,digest =        0x750c783e6ab0b503eaa86e310a5db738
+2202,key =           0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2202,digest =        0x56be34521d144c88dbb8c733f0e8b3f6
+2202,key =           0x0102030405060708090a0b0c0d0e0f10111213141516171819
+2202,digest =        0x697eaf0aca3a3aea3a75164746ffaa79
+2202,key =           0x0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c
+2202,digest =        0x56461ef2342edc00f9bab995690efd4c
+2202,digest =        0x6b1ab7fe4bd7bf8f0b62e6ce61b9d0cd
+2202,digest =        0x6f630fad67cda0ee1fb1f562db3aa53e
+2202,key =           0x0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+2202,digest =        0xb617318655057264e28bc0b6fb378c8ef146be00
+2202,digest =        0xeffcdf6ae5eb2fa2d27416d5f184df9c259a7c79
+2202,key =           0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2202,digest =        0x125d7342b9ac11cd91a39af48aa17b4f63f175d3
+2202,digest =        0x4c9007f4026250c6bc8414f9bf50c86c2d7235da
+2202,key =           0x0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c
+2202,digest =        0x4c1a03424b55e07fe7f27be1d58bb9324a9a5a04
+2202,digest-96 =     0x4c1a03424b55e07fe7f27be1
+2202,digest =        0xaa4ae5e15272d00e95705637ce8a3b55ed402112
+2202,digest =        0xe8e99d0f45237d786d6bbaa7965c7808bbff1a91
+2229,cmd-word    = atom
+2229,database    = atom
+2229,strategy    = atom
+2234,b           =  binary
+2234,d           =  decimal
+2234,x           =  hexadecimal
+2234,"CHAR           =  %x01-7F
+                       ; any 7-bit US-ASCII character,
+                          excluding NUL"
+2243,type              = token
+2243,argument          = token
+2244,acl-rights         = quoted
+2246,RSA = none
+2252,CountryString  = p p
+2252,ruleidentifier = integer
+2252,initial = value
+2252,final = value
+2254,initial    = value
+2254,final      = value
+2256,object-class = woid
+2256,ttx-term   = printablestring
+2256,ttx-value  = octetstring
+2256,actual-number = printablestring
+2256,country       = printablestring
+2256,answerback    = printablestring
+2263,snmpTargetAddrTDomain     = snmpUDPDomain
+2264,temp = keyOld;
+2266,DA = destination address (six octets)
+2266,SA = source address (six octets)
+2268,Ciphertext = ebb773f9 93278eff
+2268,Key = ffffffff ffffffff
+2268,Plaintext = ffffffff ffffffff
+2268,Ciphertext = 278b27e4 2e2f0d49
+2268,Ciphertext = 30649edf 9be7d2c2
+2268,Ciphertext = 61a8a244 adacccf0
+2268,Key = 88bca90e 90875a
+2268,Ciphertext = 6ccf4308 974c267f
+2268,Key = 88bca90e 90875a7f 0f79c384 627bafb2
+2268,Ciphertext = 1a807d27 2bbe5db1
+2268,Ciphertext = 2269552a b0f85ca6
+2268,Ciphertext = 5b78d3a4 3dfff1f1
+2273,snmpTargetAddrTDomain     = snmpUDPDomain
+2274,temp = keyOld;
+2280,med = igp;                     # igp is not one of the enum values
+2286,key =               0x0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+2286,digest =            0x24cb4bd67d20fc1a5d2ed7732dcc39377f0a5668
+2286,digest =            0xdda6c0213a485a9e24f4742064a7f033b43c4069
+2286,key =               0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2286,digest =            0xb0b105360de759960ab4f35298e116e295d8e7c1
+2286,key =               0x0102030405060708090a0b0c0d0e0f10111213141516171819
+2286,digest =            0xd5ca862f4d21d5e610e18b4cf1beb97a4365ecf4
+2286,key =               0x0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c
+2286,digest =            0x7619693978f91d90539ae786500ff3d8e0518e39
+2286,digest-96 =         0x7619693978f91d90539ae786
+2286,digest =            0x6466ca07ac5eac29e1bd523e5ada7605b791fd8b
+2286,digest =            0x69ea60798d71616cce5fd0871e23754cd75d5a0a
+2286,key =               0x0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+2286,digest =            0xfbf61f9492aa4bbf81c172e84e0734db
+2286,digest =            0x875f828862b6b334b427c55f9f7ff09b
+2286,key =               0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2286,digest =            0x09f0b2846d2f543da363cbec8d62a38d
+2286,digest =            0xbdbbd7cf03e44b5aa60af815be4d2294
+2286,key =               0x0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c
+2286,digest =            0xe79808f24b25fd031c155f0d551d9a3a
+2286,digest-96 =         0xe79808f24b25fd031c155f0d
+2286,digest =            0xdc732928de98104a1f59d373c150acbb
+2286,digest =            0x5c6bec96793e16d40690c237635f30c5
+2286,key = tk;
+2294,"I=S; S=Kille; OU1=CS; O=UCL,"
+2295,source-quality = qvalue
+2295,extension-name      = token
+2298,address-type = atom
+2298,mta-name-type = atom
+2298,disposition-modifier-extension = atom
+2298,extension-field-name = atom
+2301,Count = number of strips
+2301,Count = SamplesPerPixel
+2301,Count = number of child IFDs
+2302,Application=foo
+2303,"string = PCHAR
+         ; note that printable characters are %x20-7E"
+2303,mta-I-pstn = domain
+2303,S=Allocchio;G=Claudio;
+2304,mta-I-fax = domain
+2304,S=Allocchio;G=Claudio;
+2307,key               = keystring
+2307,server            = keystring
+2307,path              = keystring
+2307,encryptedpassword      = encrypted password
+2307,altscheme               = keystring
+2308,RDCODE=NXDOMAIN
+2308,RDCODE=NOERROR
+2311,micalg=sha1; boundary=boundary42
+2326,extension-method = token
+2326,s=SDP Seminar
+2326,i=A Seminar on the session description protocol
+2326,a=recvonly
+2326,address             =    host
+2326,i=audio test
+2326,i=See above
+2326,field-name         =      token
+2326,s=I contain
+2327,v=  (protocol version)
+2327,s=  (session name)
+2327,s=SDP Seminar
+2327,i=A Seminar on the session description protocol
+2327,a=recvonly
+2327,"username =            safe
+                      ;pretty wide definition, but doesn't include space"
+2332,Length = variable
+2334,Length = variable
+2338,H  =  Host computer
+2338,MR  =  Master Router
+2371,unreserved = ASCII character octets with values in the range
+2377,cn=Reading Room
+2381,SCR = R
+2401,Hx   = host x
+2401,SGx  = security gateway x
+2401,Rx   = router x
+2401,lastSeq = seq;
+2401,bitmap = bits;
+2401,lastSeq = last;
+2410,data =           0x123456789abcdef
+2421,application=faxbw reduces interoperability in the absence of explicit
+2421,application=faxbw content type
+2425,boundary=woof;
+2426,value        = uri
+2426,"agent-refer-value = uri
+     ; URI MUST refer to image content of given type"
+2426,"snd-refer-value      = uri
+     ; URI MUST refer to audio content of given type"
+2426,"img-refer-value = uri
+     ;URI MUST refer to image content of given type"
+2437,s = OS2IP (S)
+2439,setfigure-of-merit =ceiling
+2445,cal-address        = uri
+2445,FREQ=DAILY;COUNT=10;INTERVAL=2
+2447,component=vevent
+2447,Component=vevent
+2453,dir = directly connected
+2453,unreach = unreachable
+2457,PLU = Primary Logical Unit (session initiator)
+2457,SLU = Secondary Logical Unit (session destination)
+2459,O=gov; C=US
+2478,negResult = accept (the negotiation result)
+2478,negResult = reject (the negotiation result)
+2494,done = false
+2494,done = true
+2508,U = UDP checksum
+2508,M = RTP marker bit
+2508,S = RTP sequence number
+2508,T = RTP timestamp
+2508,L = RTP CSRC count and list
+2518,Extension = path  ; path is defined in section 3.2.1 of RFC 2068
+2518,No-tag-list = List
+2520,Length = variable
+2522,DU13 = Communication Administratively Prohibited
+2522,SF0  = Bad SPI
+2522,SF4  = Need Authentication
+2522,SF5  = Need Authorization
+2522,WC   = Want Confidentiality
+2522,RBC  = Receive Bad Cookie
+2522,RRL  = Receive Resource Limit
+2522,RVF  = Receive Verification Failure
+2522,RMR  = Receive Message Reject
+2522,TO-  = Timeout with counter expired
+2522,UTO  = Update TimeOut
+2522,XTO  = Exchange TimeOut
+2522,sbc  = Send Bad Cookie
+2522,srl  = Send Resource Limit
+2522,svf  = Send Verification Failure
+2522,brto = Backoff Retransmission TimeOut
+2522,buto = Backoff Update TimeOut
+2522,rto  = Set Retransmission TimeOut
+2522,uto  = Set Update TimeOut
+2522,xto  = Set Exchange TimeOut
+2533,attr       =  ftag
+2533,fname      =  ftag        ; Feature predicate name
+2533,param      =  expr
+2535,AL = algorithm byte
+2535,PR = protocols indicated by protocol byte or future assigned flags
+2537,hash = MD5 ( data )
+2543,option-tag  =  token
+2543,field-name      =  token
+2543,encryption-scheme  =  token
+2543,key-scheme    =  token
+2543,protocol-version = token
+2543,concealed-host   = token
+2543,s=Mbone Audio
+2543,i=Discussion of Mbone Engineering Issues
+2543,best = r;
+2543,name  =  definition
+2550,month    = 2digit
+2550,day      = 2digit
+2550,hour     = 2digit
+2550,minute   = 2digit
+2550,second   = 2digit
+2562,tn3270eRtDataAvgCountTrans = AvgCountTrans
+2573,snmpTargetAddrTDomain     = snmpUDPDomain
+2573,snmpTargetParamsMPModel                = 3m
+2574,temp = keyOld;
+2574,usmUserPrivKeyChange=pkcValue
+2574,usmUserAuthKeyChange=akcValue
+2574,usmUserAuthKeyChange=kcValue
+2574,usmUserOwnAuthKeyChange=kcValue
+2608,scope-list = Development
+2609,driver=scsi;platform=sys3.2-rs3000
+2609,template-type=FOO
+2609,sample-rate= integer L
+2612,KEYSIZE=the current key length in bits
+2612,KEY=the key in hexadecimal format
+2612,PT=the plaintext to be encrypted
+2612,KEY=2342bb9efa38542c0af75647f29f615d
+2612,OUT=e2c604af966715811b377f12de19e459
+2612,OUT=5375c3be208f38eed0419d98f50dd9b3
+2612,OUT=732e4ec0f205e39afaf407c956d83728
+2612,OUT=af23fd837033dc81a60be8a69865c543
+2612,OUT=8b5e011401e1124f731135fa780c59ef
+2612,OUT=bdea3985cd08c7902096561b76f20944
+2612,OUT=438053fe465c299bcb35f273b10ea71a
+2612,OUT=172c3a9a2791509d5939f58b703f2533
+2612,OUT=79178d5f90187732f8007fd3884cc309
+2612,OUT=e9e2b1f23e82479baec3b3b35fdf890f
+2612,OUT=1f3270101b2b38adc4818ca2aafc334a
+2612,OUT=c842a08972b43d20836c91d1b7530f6b
+2612,CT=c842a08972b43d20836c91d1b7530f6b
+2612,KEY=2342bb9efa38542cbed0ac83940ac298bac77a7717942863
+2612,OUT=4d468c8ca43c1ab66eae0bb9062fe876
+2612,OUT=1fd808cfd82ac7354728e719a4cc0ebe
+2612,OUT=d3507d51934db5335cebdbb550b774b6
+2612,OUT=fab3a20243c1c67bf1759f40c4b732e8
+2612,OUT=cf003a27ba91d2346ddfa8ec76bdf029
+2612,OUT=b4fb78a74bbacccbfa45c36c23ed997e
+2612,OUT=1cedb6d94abb223765f0fb9364a8f07f
+2612,OUT=b3289009a03b021d54cec6628712c165
+2612,OUT=a4d8f6d0abd8613d241fff3c2ba02882
+2612,OUT=61a3f74a9a5da18d53a25ce8f3302357
+2612,OUT=ca5ad45111a662f740c9a94b1d43dfb6
+2612,OUT=1b386c0210dcadcbdd0e41aa08a7a7e8
+2612,CT=1b386c0210dcadcbdd0e41aa08a7a7e8
+2612,KEY=2342bb9efa38542cbed0ac83940ac2988d7c47ce264908461cc1b5137ae6b604
+2612,OUT=f6c3b9a6ffd8a31ce04dbcf7772f1536
+2612,OUT=9477ef6fd7d6fce3dcaa27d6132465ee
+2612,OUT=c056ec5748ecd90f992cf07f3529160f
+2612,OUT=7bcc57d80603b6c7b9ca75eea5cb1c2d
+2612,OUT=d62686a2b01d11837fb6a46c79fc1816
+2612,OUT=1b03a108d6f1878e03a62e72c9c97662
+2612,OUT=b11d972f22ed26d085189ca3b6c79d36
+2612,OUT=4265774a393a8a32ed78c5c1571893e4
+2612,OUT=f4f1322a076d4f5eb2d14dc75815ccf1
+2612,OUT=57c3a554eafe71dc6a33fe0bda83f566
+2612,OUT=dd9940f4f2e1786ab6f2bdee519a407e
+2612,OUT=4f6a2038286897b9c9870136553317fa
+2612,CT=4f6a2038286897b9c9870136553317fa
+2616,charset = token
+2616,content-coding   = token
+2616,attribute               = token
+2616,chunk-ext-name = token
+2616,type           = token
+2616,subtype        = token
+2616,product-version = token
+2616,other-range-unit = token
+2616,field-name     = token
+2616,extension-method = token
+2616,connection-token  = token
+2616,protocol-name     = token
+2616,protocol-version  = token
+2616,pseudonym         = token
+2616,disp-extension-token = token
+2617,auth-scheme    = token
+2617,nc-value         = 8LHEX
+2622,med = igp;                     # igp is not one of the enum values
+2633,micalg=sha1; boundary=boundary42
+2640,byte2mask=0x00;
+2652,body = comment linebreak payload
+2657,idx= Roland
+2657,idx= Hedberg
+2660,recv-required=DH
+2660,orig-required=CMS
+2660,orig-optional=encrypt
+2660,recv-optional=CMS
+2660,recv-required=encrypt;
+2660,Key-name = string
+2660,"orig-required=cms; recv-optional=cms,MOSS"
+2660,Data = Bytes
+2660,DigestedData = DigestAlg Content DigestBytes
+2693,S1 = I2
+2693,D1 = TRUE
+2706,Express=AMER; Diners Club=DINE; Discover=DISC; JCB=JCB;
+2706,Mastercard=MAST; Visa=VISA.
+2716,L = Length included
+2716,M = More fragments
+2716,R = Reserved
+2733,p = pnew;
+2733,p = NULL;
+2733,s=FEC Seminar
+2735,Type = 0x0009
+2735,Length = 0x0008
+2755,FH=0x3
+2755,FH = 0x01
+2781,W1 = 110110yyyyyyyyyy
+2781,W2 = 110111xxxxxxxxxx
+2787,if      = vrrpOperIfIndex
+2787,VrId    = vrrpOperVrId
+2787,State   = vrrpOperState
+2787,Prior   = vrrpOperPriority
+2787,AddrCnt = vrrpOperIpAddrCount
+2787,IpAddr  = vrrpOperMasterIpAddr
+2787,RowStat = vrrpOperRowStatus
+2806,"provider-hostname     = domain ; <domain> is defined in [RFC1035]
+                        ; See section 2.5.10"
+2817,product-version = token
+2823,crc = 0xFFFF;
+2823,crc = 0xFFFFFFFFul;
+2829,dn         = utf8string    ; with syntax defined in RFC 2253
+2829,userid     = utf8string    ; syntax unspecified
+2831,nc-value         = 8LHEX
+2831,serv-name        = host
+2831,response-value   = 32LHEX
+2846,"string = PCHAR
+         ; note that printable characters are %x20-7E"
+2846,mta-I-pstn = domain
+2846,string = PCHAR
+2846,S=Allocchio;G=Claudio;
+2848,s=R2C
+2848,i=Ironing Board Promotion
+2848,s=marketing
+2848,s=faxback
+2848,s=R2F
+2848,s=faxserver
+2848,s=R2HC
+2848,s=R2FB
+2848,i=ISDN Price List
+2848,i=Your documents
+2848,i=NFL Final Scores
+2848,s=BillsRUs
+2880,dpi  = dots per inch
+2880,dpmm = dots per millimetre
+2885,Mode=SendReceive
+2886,"digitMapDescriptor = DigitMapToken EQUAL digitMapName
+             [ LBRKT digitMapValue RBRKT ]"
+2903,ASM = Application Specific Module
+2903,RP  = Repository
+2904,PRP = Policy Retrieval Point
+2904,PIP = Policy Information Point
+2904,PDP = Policy Decision Point
+2904,PEP = Policy Enforcement Point
+2905,Cardholder = User
+2905,Merchant = Service Provider
+2905,Issuer = User Organization
+2905,Acquirer = Broker
+2912,"Feature-expr   =  filter      ; See [1], section 4.1"
+2915,ere          = POSIX Extended Regular Expression
+2926,template-type = printer
+2926,description = STRING
+2926,printer-security-mechanisms-supported = STRING L M
+2926,printer-operator = STRING O L M
+2926,printer-location-address = STRING O
+2926,printer-priority-queue = BOOLEAN O
+2926,printer-number-up = INTEGER O
+2926,printer-paper-output = STRING M L O
+2926,template-url-syntax = queue
+2926,color-supported = STRING   M
+2926,identifier = STRING
+2926,weight = STRING
+2926,template-type = mount
+2926,mountHost = STRING L
+2926,mountDirectory = STRING L
+2926,mountType = STRING L
+2926,mountOption = STRING M O L
+2926,mountDumpFrequency = INTEGER O
+2926,mountPassNo = INTEGER O
+2926,security-mechanisms-supported = none
+2960,cwnd = ssthresh
+2965,attr        =     token
+2965,VALUE           =       value
+2965,VALUE           =  value
+2967,fn=leslie;search=exact and org=think:search=substring
+2967,name= thinking cat
+2967,template=USER
+2967,LDAPResult = success
+2967,FN=th;search=lstring AND FN=C;search=substring AND
+2967,FN=T;search=tstring AND ORG=green AND ORG=groceries:case=ignore<NL>
+2967,FN=T;search=tstring AND ORG=green\ groceries:case=ignore<NL>
+2967,ADR-TYPE=org
+2967,TEL-TYPE=work
+2967,TEL-TYPE=home
+2967,TEL-TYPE=fax
+2967,TEL-TYPE=mobile
+2967,TEL-TYPE=pager
+2967,ADR-TYPE=unqualified
+2967,TEL-TYPE=unqualified
+2967,c=US
+2967,TEL-TYPE=org
+2989,M = MUST
+2989,S = SHOULD
+2989,O = MAY
+2989,N = MUST NOT
+2989,B = SHOULD NOT
+3015,Mode=SendReceive
+3024,Mc=M             H1b     H1c
+3024,Md=M            H2b     H2d
+3049,TerminalType=NVT
+3049,TerminalType=TN3270E
+3049,template-type=tn3270e
+3049,load=integer
+3049,LUPool=string X M L
+3049,BIND=keyword
+3049,DATA=keyword
+3049,RESPONSES=keyword
+3049,SCS=keyword
+3049,SYSREQ=keyword
+3049,RFC1576=keyword
+3049,RFC1646=keyword
+3049,RFC2355=keyword
+3049,security=string M
+3049,Ciphersuites=string M
+3049,platform=string X
+3049,protocol=string X
+3049,release=string X
+3049,template-type=commserver
+3050,extension-method  =  token
+3050,extension-token    =  token
+3050,product-version  =  token
+3057,Tr = Recovery Timer
+3075,r = 8BAC1AB6 6410435C B7181F95 B16AB97C 92B341C0
+3075,s = 41E2345F 1F56DF24 58F426D1 55B4BA2D B6DCD8C8
+3079,s = Magic3
+3079,s = Magic2
+3081,ackno      = seqno
+3081,window     = size
+3087,s=Session SDP
+3088,domain = null;
+3094,state = OOS
+3105,template-type = rsip
+3105,tunnel-type = STRING L M O
+3105,transport = STRING L M O
+3108,c=ATM GWID officeABCmgx101vism12
+3108,c=ATM ALIAS officeABCmgx101vism12
+3108,c=ATM NSAP
+3110,hash = SHA1 ( data )
+3116,Checksum = EDAF
+3116,Checksum = E5FD
+3116,Checksum = F7FF
+3119,needToEnqueue = False;
+3119,endOfData = endOfHeadFrame;
+3119,aduFrame = the next ADU frame from the depacketizing step;
+3119,iiLastSeen = ii;
+3119,iccLastSeen = icc;
+3149,s=MGCP RTP Session
+3149,s=MGCP Call
+3155,T = the sending rate in bytes per second
+3155,s = the packet size in bytes
+3155,tRTO = TCP retransmit timeout value in seconds
+3174,H1 = EFCDAB89
+3174,H2 = 98BADCFE
+3174,s = t AND MASK;
+3174,D = C;
+3174,A = temp;
+3189,s=POI Seminar
+3189,i=A Seminar on how to make Presentations on the Internet
+3190,s=POI (Audio only)
+3190,i=A Seminar on making Presentations on the Internet
+3191,"string = PCHAR
+         ; note that printable characters are %x20-7E"
+3191,mta-I-pstn = domain
+3192,mta-I-fax = domain
+3204,other-handling        =  token
+3204,disp-extension-token  =  token
+3204,s=SDP seminar
+3204,base=etsi121
+3212,Type = 0x0804
+3212,Type = 0x0823
+3212,Type = 0x0100
+3212,S= User specified
+3220,Identification = Network Time Protocol timestamp or Nonce
+3224,template-type=NetHive
+3224,features= string M O
+3224,current-users= string M
+3229,instance-manipulation = token [imparams]
+3229,imparam-name = token
+3230,digest-algorithm = token
+3249,ORCPT=rfc822;ifax@example.net
+3249,boundary=JUK199912121854870001
+3249,boundary=JUK199912121934240002
+3259,"CHAR            =  %x01-7E
+                   ; any 7-bit US-ASCII character,
+                    excluding NUL and delete"
+3259,MsgDigest = base64
+3259,key              =    base64
+3259,SCOPE=HOSTLOCAL
+3261,handling=required
+3261,micalg=sha1; boundary=boundary42
+3261,s=Session SDP
+3264,a=recvonly
+3264,a=sendonly
+3264,a=inactive
+3264,a=sendrecv
+3265,extension-substate   = token
+3265,event-reason-extension = token
+3275,r = 8BAC1AB6 6410435C B7181F95 B16AB97C 92B341C0
+3275,s = 41E2345F 1F56DF24 58F426D1 55B4BA2D B6DCD8C8
+3280,O=gov; C=US
+3285,bPrecedingCR = FALSE;
+3285,bPrecedingLF = TRUE;
+3285,bPrecedingFF = FALSE;
+3285,bPrecedingFF = TRUE;
+3285,bPrecedingLF = FALSE;
+3285,bPrecedingCR = TRUE;
+3292,Code = SYN indicates that the controller has not specified if
+3292,Code = SYN indicates that the switch does not support
+3331,Tr = Recovery Timer
+3332,Tr = Recovery Timer
+3334,acc-indication = on
+3344,Identification = Network Time Protocol timestamp or Nonce
+3357,Type-P-One-Way-Loss-Period-Total = maximum value of the first entry
+3385,C = CRC;
+3385,D = Data;
+3388,identification-tag = token
+3388,i=This media stream contains the Spanish translation
+3388,a=recvonly
+3404,terminal = false;
+3404,terminal = true;
+3404,key = newkey;
+3404,rewriteflag = true;
+3413,snmpTargetAddrTDomain     = snmpUDPDomain
+3414,temp = keyOld;
+3414,usmUserPrivKeyChange=pkcValue
+3414,usmUserAuthKeyChange=akcValue
+3414,usmUserAuthKeyChange=kcValue
+3414,usmUserOwnAuthKeyChange=kcValue
+3448,DF = THRESHOLD;
+3459,other-handling    =  token
+3461,addr-type = atom
+3461,sub-domain = atom
+3461,ORCPT=rfc822;Bob@Example.COM
+3461,ORCPT=rfc822;Carol@Ivory.EDU
+3461,ORCPT=rfc822;Dana@Ivory.EDU
+3461,ORCPT=rfc822;Eric@Bombs.AF.MIL
+3461,ORCPT=rfc822;George@Tax-ME.GOV
+3461,boundary=abcde
+3461,boundary=bcdef
+3461,boundary=cdefg
+3461,boundary=defgh
+3464,address-type = atom
+3464,diagnostic-type = atom
+3464,mta-name-type = atom
+3464,extension-field-name = atom
+3464,boundary=foobar
+3486,other-compression  =  token
+3492,n = m;
+3507,Extension-Method = token
+3523,CSN = Circuit Switched Network
+3525,Mode=SendReceive
+3530,modified = TRUE;
+3539,Pending = FALSE;
+3539,Pending = TRUE;
+3539,Pending = TRUE       OKAY
+3539,Pending = TRUE       REOPEN
+3539,TdA   = Delayed ACK timer
+3539,Tsr   = Server request processing time
+3539,Tpr   = Proxy request processing time
+3539,TpR   = Proxy reply processing time
+3539,TpD   = Proxy delayed ack processing time
+3542,extlen = currentlen;
+3542,value4 = 0x12345678;
+3542,value8 = 0x0102030405060708;
+3542,value1 = 0x01;
+3542,value2 = 0x1331;
+3542,value4 = 0x01020304;
+3545,dI  = delta IPv4 ID
+3545,dT  = delta RTP timestamp
+3545,I   = absolute IPv4 ID
+3545,F   = additional flags byte
+3545,M   = marker bit
+3545,S   = absolute RTP sequence number
+3545,T   = absolute RTP timestamp
+3545,P   = RTP payload type
+3545,C   = CSRC count
+3545,CID = Context ID
+3550,rsp = rspn;
+3550,n = members;
+3550,n = senders;
+3556,s=SDP Seminar
+3556,i=A Seminar on the session description protocol
+3566,K1 = 0x01010101010101010101010101010101 encrypted with Key K
+3566,K2 = 0x02020202020202020202020202020202 encrypted with Key K
+3566,K3 = 0x03030303030303030303030303030303 encrypted with Key K
+3579,EAP-Type=Nak
+3579,EAP-Type=Foo
+3580,Tunnel-Private-Group-ID=VLANID
+3588,FQDN               = Fully Qualified Host Name
+3588,supported-auth-applications= string L M
+3588,supported-acct-applications= string L M
+3588,supported-transports= string L M
+3603,RKS-Group-ID            = token
+3603,Laes-sig          = hostport
+3611,c31 = c13;
+3611,c32 = c23;
+3632,ip-address-v6-compressed =  colon colon
+3640,config=11B0; sizeLength=13; indexLength=3;
+3659,"type=file;x.myfact=foo,bar;"
+3666,Interworking=encountered
+3713,MASK8   = 0xff;
+3713,MASK32  = 0xffffffff;
+3713,MASK64  = 0xffffffffffffffff;
+3713,MASK128 = 0xffffffffffffffffffffffffffffffff;
+3713,KL = K;    KR = 0;
+3713,Sigma1 = 0xA09E667F3BCC908B;
+3713,Sigma2 = 0xB67AE8584CAA73B2;
+3713,Sigma3 = 0xC6EF372FE94F82BE;
+3713,Sigma4 = 0x54FF53A5F1D36F1C;
+3713,Sigma5 = 0x10E527FADE682D1D;
+3713,Sigma6 = 0xB05688C2B3E6C1FD;
+3720,key=value in the data part of a Login or Text Request or Response
+3720,key=value pairs of its own as part of a sequence and not only in
+3720,InitiatorAlias=Exchange Server
+3720,AuthMethod=KRB5
+3720,AuthMethod=SPKM1
+3720,AuthMethod=SPKM2
+3720,AuthMethod=SRP
+3720,TargetAuth=Yes
+3720,TargetAuth=No
+3720,AuthMethod=CHAP
+3720,AuthMethod=None
+3720,SendTargets=All
+3720,send-data-SNACK = TRUE;
+3720,send-status-SNACK = TRUE;
+3720,send-recovery-R2T = TRUE;
+3720,snack-failure = FALSE;
+3720,snack-failure = TRUE;
+3720,send-status-SNACK = FALSE;
+3720,AffectedConnection = Connection;
+3720,NewConnection = Connection;
+3723,B = maximum bytes sent on the SA
+3723,n = block size in bits
+3743,VersionDate = YYYYMMDD
+3768,H  =  Host computer
+3768,MR  =  Master Router
+3776,proto = MH
+3776,proto = ICMPv6
+3776,proto = X
+3779,Encoding = 0x03 0x02  0x04  0x80
+3794,s=SDP Seminar
+3794,a=recvonly
+3794,X = reserved
+3794,RG = restricted group
+3794,UG = unrestricted group
+3794,A  = alias
+3798,address-type = atom
+3798,mta-name-type = atom
+3798,disposition-modifier-extension = atom
+3798,extension-field-name = atom
+3813,mplsInSegmentIndex              = 0x00000015
+3817,Host-Uniq = R1 (assigned)
+3817,Host-Uniq = R2 (assigned)
+3817,Host-Uniq = R1 (echoed)
+3817,AC-Cookie = C1 (assigned)
+3817,Host-Uniq = R2 (echoed)
+3817,AC-Cookie = C2 (assigned)
+3817,AC-Cookie = C1 (echoed)
+3817,Host-Uniq =  R2 (assigned)
+3817,Host-Uniq = R1
+3822,template-type=fcip
+3822,fcip-entity-name = opaque L
+3822,transports = string M L
+3822,mgmt-entity = string M O L
+3822,fcip-discovery-domain = string M L
+3834,extension                = token
+3851,micalg=sha1; boundary=boundary42
+3859,to             =  mailbox
+3860,to             =  mailbox
+3862,micalg=sha1;
+3865,Attdl-Protocol = Atom
+3868,Tr = Recovery Timer
+3875,var-name           = token
+3875,extension-var-name = token
+3875,extension-auth = token
+3875,type         = token
+3875,subtype      = token
+3875,attribute    = token
+3875,protocol          = token
+3875,product-version = token
+3875,field-name      = token
+3875,extension-code = 3digit
+3876,initial      = value
+3876,final        = value
+3885,local-envid     = xtext
+3885,fqhn            = xtext
+3887,mtrk-secret = base64
+3890,s=Example of TIAS and maxprate in use
+3890,config=000001B008000001B509000001010000012000884006682C2090A21F
+3892,micalg=sha1; boundary=dragons39
+3892,handling=required
+3892,s=Session SDP
+3892,micalg=sha1; boundary=boundary42
+3893,s=Session SDP
+3893,micalg=sha1; boundary=boundary42
+3893,handling=required
+3903,entity-tag         = token
+3917,M = must
+3917,S = should
+3917,O = may (optional)
+3920,rspauth=ea40f60335c427b5527b84dbabcdfffd
+3947,NAT-OAi = Iaddr
+3947,NAT-OAr = Raddr
+3947,NAT-OAi = NATPub
+3947,NAT-OAr = Nat2Pub
+3947,NAT-OAi = Nat1Pub
+3949,Count = number of strips
+3949,Count = SamplesPerPixel
+3951,cfileid=NULL;
+3951,pbytes=bytes;
+3951,maxcc = cc;
+3951,lag = ilag;
+3951,po = Out;
+3951,pa = a;
+3951,pos=cbvectors;
+3951,lag=i;
+3951,bestcrit=crit;
+3951,hfl=hfl2;
+3951,pu=useq1;
+3951,tloc=i;
+3951,pp=residual;
+3951,scale=maxIn;
+3951,tindex=i;
+3951,minmeasure=measure;
+3951,pos=cbvec;
+3951,chirp = coef;
+3951,mindist = dist;
+3951,ppe = energy;
+3951,gain = ftmp;
+3951,eInd = range;
+3951,counter = sInd;
+3951,j=i;
+3951,bitno-=posLeft;
+3951,bitno-=BitsLeft;
+3951,po=Out;
+3958,target = [initial domain]
+3958,naptr-done = false
+3958,rr-done = false
+3958,cur-rr = [first NAPTR RR]
+3958,rr-done = true
+3958,cur-rr = [next rr in list]
+3958,naptr-done = true
+3961,tmp2 = truncate tmp1 to multiple of m
+3961,newstate = last block of ciphertext
+3962,Salt=0x1234567878563412
+3973,oiflist = NULL
+3977,"command-datastream = UNDEFINED
+  ; not used, provided as a hook for extensions"
+3989,mc = middlebox challenge
+4004,Session-Id = foo
+4004,Session-Id = bar
+4006,service-context = Token
+4009,L = R;
+4010,s = 6n
+4018,template-type=iscsi
+4018,iscsi-name = string
+4018,portal-group = integer
+4018,transports = string M L
+4018,mgmt-entity = string O
+4018,alias = string O
+4018,auth-name = string M X
+4018,auth-addr = string M X
+4018,auth-cred = string M X
+4018,boot-list = string M O
+4018,protocols = string M
+4018,server-priority = integer
+4024,Subject=Fax Message (3p)
+4035,name = fqdn
+4036,diffServClfrElementSpecific=zeroDotZero row of
+4067,"PCTD = 0x4 (Predictive Context Transfer
+            Data)"
+4080,Appl = signaling application
+4088,securityName    = userinfo    ; SNMP securityName
+4088,contextName     = segment     ; SNMP contextName
+4117,a=recvonly
+4117,a=sendonly
+4128,"Nmax = link capacity; i.e., the maximum number of simultaneously
+       established LSPs for all classes together"
+4134,micalg=SHA1;
+4141,image-coding=JBIG
+4141,paper-size=letter
+4165,IPx = IP address
+4165,PW  = Registered port number for M2PA
+4170,TRANSMIT-LENGTH    = infinite
+4186,MK = e576d5ca 332e9930 018bf1ba ee2763c7 95b3c712
+4186,"EMSK =   5949eab0 fff69d52 315c6c63 4fd14a7f
+         0d52023d 56f79698 fa6596ab eed4f93f
+         bb48eb53 4d985414 ceed0d9a 8ed33c38
+         7c9dfdab 92ffbdf2 40fcecf6 5a2c93b9"
+4186,"MSK   =  6263f614 973895e1 335f7e30 cff028ee
+         2176f519 002c9abe 732fe0ef 00cf167c
+         756d9e4c ed6d5ed6 40eb3fe3 8565ca07
+         6e7fb8a8 17cfe8d9 adbce441 d47c4f5e"
+4188,floor   =  quotient [ignore remainder]
+4202,Encoding = SDH
+4202,Encoding = SDH (comes from DWDM)
+4202,Encoding = Lambda (photonic)
+4202,Encoding = SDH (comes from WDM)
+4226,i = C
+4226,offset = truncationOffset;
+4226,Secret = 0x3132333435363738393031323334353637383930
+4231,"HMAC-SHA-224 = 896fb1128abbdf196832107cd49df33f
+               47b4b1169912ba4f53684b22"
+4231,"HMAC-SHA-256 = b0344c61d8db38535ca8afceaf0bf12b
+               881dc200c9833da726e9376c2e32cff7"
+4231,"HMAC-SHA-384 = afd03944d84895626b0825f4ab46907f
+               15f9dadbe4101ec682aa034c7cebc59c
+               faea9ea9076ede7f4af152e8b2fa9cb6"
+4231,"HMAC-SHA-512 = 87aa7cdea5ef619d4ff0b4241a1d6cb0
+               2379f4e2ce4ec2787ad0b30545e17cde
+               daa833b7d6b8a702038b274eaea3f4e4
+               be9d914eeb61f1702e696c203a126854"
+4231,"HMAC-SHA-224 = a30e01098bc6dbbf45690f3a7e9e6d0f
+               8bbea2a39e6148008fd05e44"
+4231,"HMAC-SHA-256 = 5bdcc146bf60754e6a042426089575c7
+               5a003f089d2739839dec58b964ec3843"
+4231,"HMAC-SHA-384 = af45d2e376484031617f78d2b58a6b1b
+               9c7ef464f5a01b47e42ec3736322445e
+               8e2240ca5e69e2c78b3239ecfab21649"
+4231,"HMAC-SHA-512 = 164b7a7bfcf819e2e395fbe73b56e0a3
+               87bd64222e831fd610270cd7ea250554
+               9758bf75c05a994a6d034f65f8f0e6fd
+               caeab1a34d4a6b4b636e070a38bce737"
+4231,"HMAC-SHA-224 = 7fb3cb3588c6c1f6ffa9694d7d6ad264
+               9365b0c1f65d69d1ec8333ea"
+4231,"HMAC-SHA-256 = 773ea91e36800e46854db8ebd09181a7
+               2959098b3ef8c122d9635514ced565fe"
+4231,"HMAC-SHA-384 = 88062608d3e6ad8a0aa2ace014c8a86f
+               0aa635d947ac9febe83ef4e55966144b
+               2a5ab39dc13814b94e3ab6e101a34f27"
+4231,"HMAC-SHA-512 = fa73b0089d56a284efb0f0756c890be9
+               b1b5dbdd8ee81a3655f83e33b2279d39
+               bf3e848279a722c806b485a47e67c807
+               b946a337bee8942674278859e13292fb"
+4231,"HMAC-SHA-224 = 6c11506874013cac6a2abc1bb382627c
+               ec6a90d86efc012de7afec5a"
+4231,"HMAC-SHA-256 = 82558a389a443c0ea4cc819899f2083a
+               85f0faa3e578f8077a2e3ff46729665b"
+4231,"HMAC-SHA-384 = 3e8a69b7783c25851933ab6290af6ca7
+               7a9981480850009cc5577c6e1f573b4e
+               6801dd23c4a7d679ccf8a386c674cffb"
+4231,"HMAC-SHA-512 = b0ba465637458c6990e5a8c5f61d4af7
+               e576d97ff94b872de76f8050361ee3db
+               a91ca5c11aa25eb4d679275cc5788063
+               a5f19741120c4f2de2adebeb10a298dd"
+4231,HMAC-SHA-224 = 0e2aea68a90c8d37c988bcdb9fca6fa8
+4231,HMAC-SHA-256 = a3b6167473100ee06e0c796c2955552b
+4231,HMAC-SHA-384 = 3abf34c3503b2a23a46efc619baef897
+4231,HMAC-SHA-512 = 415fad6271580a531d4179bc891d87a6
+4231,"HMAC-SHA-224 = 95e9a0db962095adaebe9b2d6f0dbce2
+               d499f112f2d2b7273fa6870e"
+4231,"HMAC-SHA-256 = 60e431591ee0b67f0d8a26aacbf5b77f
+               8e0bc6213728c5140546040f0ee37f54"
+4231,"HMAC-SHA-384 = 4ece084485813e9088d2c63a041bc5b4
+               4f9ef1012a2b588f3cd11f05033ac4c6
+               0c2ef6ab4030fe8296248df163f44952"
+4231,"HMAC-SHA-512 = 80b24263c7c1a3ebb71493c1dd7be8b4
+               9b46d1f41b4aeec1121b013783f8f352
+               6b56d037e05f2598bd0fd2215d6a1e52
+               95e64f73f63f0aec8b915a985d786598"
+4231,"HMAC-SHA-224 = 3a854166ac5d9f023f54d517d0b39dbd
+               946770db9c2b95c9f6f565d1"
+4231,"HMAC-SHA-256 = 9b09ffa71b942fcb27635fbcd5b0e944
+               bfdc63644f0713938a7f51535c3a35e2"
+4231,"HMAC-SHA-384 = 6617178e941f020d351e2f254e8fd32c
+               602420feb0b8fb9adccebb82461e99c5
+               a678cc31e799176d3860e6110c46523e"
+4231,"HMAC-SHA-512 = e37b6a775dc87dbaa4dfa9f96e5e3ffd
+               debd71f8867289865df5a32d20cdc944
+               b6022cac3c4982b10d5eeb55c3e4de15
+               134676fb6de0446065c97440fa8c6a58"
+4233,Tr = Recovery Timer
+4234,b           =  binary
+4234,d           =  decimal
+4234,x           =  hexadecimal
+4236,opes-agent-id = absoluteURI
+4240,vxml-keyword      = token
+4240,vxml-value        = token
+4240,instance-id     = token
+4244,s=Session SDP
+4247,C-HDR = compressed header
+4247,HD    = header decompression
+4269,T = R;
+4287,atomUri = text
+4293,icmpMsgStatsType=X MAY be instantiated before but MUST be
+4302,Seqh = Th
+4302,Tl = Seql (shift bits)
+4303,Seqh = Th
+4303,Tl = Seql (shift bits)
+4314,identifier      = astring
+4314,"mod-rights      = astring
+                    ;; +rights to add, -rights to remove
+                    ;; rights to replace"
+4314,"rights          = astring
+                    ;; only lowercase ASCII letters and digits
+                    ;; are allowed."
+4315,append-uid      = uniqueid
+4317,a=sendonly
+4317,a=recvonly
+4321,E = T2
+4324,icalbody = calprops component
+4324,"csidpart = hostport   ; As defined in Section 3.2.2 of RFC 2396
+                      ;"
+4324,"beep-localize    = text ; As defined in [BEEP]
+                 ; The value supplied MUST be one value from
+                 ; the initial [BEEP] greeting 'localize'
+                 ; attribute, specifying the locale to use
+                 ; for error messages during
+                 ; this instance of the command."
+4346,RSA = none
+4396,TBC = Text string Byte Count
+4396,BOM = Byte Order Mark
+4396,TSx    = Text Sample x
+4396,rtptsy = the standard RTP timestamp for PAYLOAD y
+4396,sdurx  = the duration of Text Sample x
+4396,a=sendrecv
+4396,a=recvonly
+4396,a=sendonly
+4408,identity=mailfrom; client-ip=192.0.2.1;
+4408,c = SMTP client IP (easily readable format)
+4408,t = current timestamp
+4418,Tag           = Pad xor HashedMessage
+4421,colorimetry=SMPTE240M
+4455,Inst = Instance
+4455,Dev = SCSI Device
+4455,Tgt = SCSI Target Device
+4455,Intr = SCSI Initiator Device
+4455,Att = Attached
+4455,Id = Identifier
+4455,Dsc = Discovered
+4455,pSCSI = Parallel SCSI
+4457,database            = LAQUOT DiameterURI RAQUOT
+4460,cwnd = ssthresh
+4463,s=Media Server
+4463,mode=record;ttl=127
+4466,"tag-string         = string
+                     ;; tag of the command that caused
+                     ;; the ESEARCH response, sent as
+                     ;; a string."
+4467,"url-full        = astring
+                     ; contains authimapurlfull as defined below"
+4467,"url-rump        = astring
+                     ; contains authimapurlrump as defined below"
+4474,signed-identity-digest = LDQUOT 32LHEX RDQUOT
+4474,ident-info = LAQUOT absoluteURI RAQUOT
+4474,s=Session SDP
+4475,tag = 98asjd8
+4483,hash=10AB568E91245681AC1B
+4485,header-name     = token
+4503,b    = temp div WORDSIZE
+4503,Cj   = temp mod WORDSIZE
+4512,OU=Engineering
+4514,hexpair = HEX HEX
+4515,equal          = EQUALS
+4515,greaterorequal = RANGLE EQUALS
+4515,lessorequal    = LANGLE EQUALS
+4515,"attr           = attributedescription
+                   ; The attributedescription rule is defined in
+                   ; Section 2.5 of [RFC4512]."
+4515,escaped        = ESC HEX HEX
+4516,extype      = oid               ; From section 1.4 of [RFC4512].
+4517,CountryString  = 2(PrintableCharacter)
+4523,CertificateSerialNumber = INTEGER
+4542,R     = Router
+4551,attr-flag-keyword   = atom
+4566,v=  (protocol version)
+4566,o=  (originator and session identifier)
+4566,s=  (session name)
+4566,s=SDP Seminar
+4566,i=A Seminar on the session description protocol
+4566,a=recvonly
+4566,k=prompt
+4566,a=sendrecv
+4566,a=sendonly
+4566,a=inactive
+4567,keymgmt-data = base64
+4567,s=Secret discussion
+4567,s=Cool stuff
+4567,s=Action Movie
+4568,s=SDP Seminar
+4568,i=A Seminar on the session description protocol
+4568,s=SRTP Discussion
+4568,i=A discussion of Secure RTP
+4570,s=Elvis Impersonation
+4570,a=recvonly
+4570,"basic-IP6-multicast =       hexpart
+                            ; hexpart is as defined in [SDP]."
+4571,s=Example
+4574,i=A Seminar on the session description protocol
+4583,conference-id         = token
+4583,user-id               = token
+4585,s=Media with feedback
+4585,s=Multicast video with feedback
+4590,Digest-Method = INVITE
+4590,Digest-Nonce = 3bada1a0
+4590,Digest-Qop = auth
+4590,Digest-Algorithm = MD5
+4590,Digest-Response = f3ce87e6984557cd0fecc26f3c5e97a4
+4590,Digest-Algorithm = md5
+4590,"Digest-Response-Auth =
+                6303c41b0e2c3e524e413cafe8cce954"
+4590,Digest-Method = GET
+4590,Digest-Nonce = a3086ac8
+4590,Digest-Response = f052b68058b2987aba493857ae1ab002
+4590,"Digest-Response-Auth =
+    e644aa513effbfe1caff67103ff6433c"
+4598,bitStreamConfig = i6d8d14i6d8
+4601,oiflist = NULL
+4601,dr = me
+4601,dr = neighbor
+4601,sentRegisterStop = FALSE;
+4601,sentRegisterStop = TRUE;
+4634,f = e
+4634,b = a
+4634,A = temp;
+4634,key = tempkey;
+4634,err = shaSuccess;
+4634,xoptarg = NULL;
+4653,FlightSizePrev = FlightSize
+4654,DF = THRESHOLD;
+4656,V = tmp;
+4656,SID = 0x2872979303ab47eeac028dab3829dab2
+4656,SID = 0x0102030405060708090a0b0c0d0e0f00
+4656,SID = 0xdeadbeefdeadbeefdeadbeefdeadbeef
+4656,SID = 0xfeed0feed1feed2feed3feed4feed5ab
+4662,branch=z9hG4bKwYb6QREiCL
+4662,branch=z9hG4bKMgRenTETmm
+4662,branch=z9hG4bKMEyGjdG1LH
+4662,branch=z9hG4bKfwpklPxmrW
+4662,branch=z9hG4bKFSrAF8CZFL
+4662,branch=z9hG4bKmGL1nyZfQI
+4662,branch=z9hG4bK4EPlfSFQK1
+4695,s=Example
+4695,config=7A0A0000001A4D546864000000060000000100604D54726B0000
+4695,a=sendonly
+4695,config=7A0A0000001A4D546864000000060000000100604D54726B0
+4695,a=recvonly
+4696,s=Example
+4696,tsmode=buffer; linerate=320000; octpos=last; mperiod=44; rtp_ptime=0;
+4696,tsmode=buffer; linerate=320000;octpos=last;mperiod=44; guardtime=44100;
+4698,Query  =  E
+4698,Query  =  D
+4707,K-=Xwgc
+4737,Type-P-Reordered = False;
+4737,Type-P-Reordered = True
+4737,SequenceDiscontinuty = True;
+4737,SequenceDiscontinuty = False;
+4737,Type-P-Reordered = True;
+4737,Reordering = False;
+4737,Reordering = True;
+4756,s=ULP FEC Seminar
+4757,K = the Key
+4758,bLen = (AES output block length in octets)
+4770,"value      = URI
+             ; URI defined in Section 3 of [3]"
+4784,Vendor-Value = PKOID of the RADIUS AAA Server
+4792,ChoiceOfStringsValue  = StringValue
+4793,Type=Identity
+4793,Nonce=V3
+4793,Nonce=V5
+4793,Nonce=V16
+4793,MAC=V12
+4793,IV=V13
+4793,PIN=V15
+4793,MAC=V16
+4793,IV=V17
+4793,MAC=V19
+4793,IV=V20
+4793,MAC=V22
+4793,IV=V23
+4793,MAC=V26
+4793,IV=V27
+4793,MAC=V29
+4793,IV=V30
+4793,MAC=V32
+4793,IV=V33
+4793,MAC=V36
+4793,IV=V37
+4796,mediacnt-ext        = token
+4796,s=Second lecture from information technology
+4802,gmplsLabelFreeform             = 0xFEDCBA9876543210
+4803,gmplsLabelFreeform            = 0x123456789ABCDEF0
+4803,gmplsLabelFreeform            = 0xFEDCBA9876543210
+4803,mplsInSegmentIndex           = 0x00000015
+4803,mplsInSegmentIndex           = 0x00000016
+4804,R       = RSVP router
+4804,T       = Transit LSR
+4804,H     = Host
+4804,T     = Transit LSR
+4804,GW    = VoIP Gateway
+4825,att-name               = QName
+4825,att-value              = AttValue      ; from XML specification
+4842,t   =  the time of the current frame
+4842,t-1 =  the time of the previous frame
+4860,R       = RSVP router
+4860,Agg     = Aggregator
+4860,Deag    = Deaggregator
+4860,I       = Interior Router
+4860,vDstPort = V1
+4860,PHB-ID = EF
+4860,vDstPort = V2
+4860,vDstPort = V3
+4860,vDstPort = V4
+4868,"PRF-HMAC-SHA-256 = b0344c61d8db38535ca8afceaf0bf12b
+                   881dc200c9833da726e9376c2e32cff7"
+4868,"PRF-HMAC-SHA-384 = afd03944d84895626b0825f4ab46907f
+                   15f9dadbe4101ec682aa034c7cebc59c
+                   faea9ea9076ede7f4af152e8b2fa9cb6"
+4868,"PRF-HMAC-SHA-512 = 87aa7cdea5ef619d4ff0b4241a1d6cb0
+                   2379f4e2ce4ec2787ad0b30545e17cde
+                   daa833b7d6b8a702038b274eaea3f4e4
+                   be9d914eeb61f1702e696c203a126854"
+4868,"PRF-HMAC-SHA-256 = 5bdcc146bf60754e6a042426089575c7
+                   5a003f089d2739839dec58b964ec3843"
+4868,"PRF-HMAC-SHA-384 = af45d2e376484031617f78d2b58a6b1b
+                   9c7ef464f5a01b47e42ec3736322445e
+                   8e2240ca5e69e2c78b3239ecfab21649"
+4868,"PRF-HMAC-SHA-512 = 164b7a7bfcf819e2e395fbe73b56e0a3
+                   87bd64222e831fd610270cd7ea250554
+                   9758bf75c05a994a6d034f65f8f0e6fd
+                   caeab1a34d4a6b4b636e070a38bce737"
+4868,"PRF-HMAC-SHA-256 = 773ea91e36800e46854db8ebd09181a7
+                   2959098b3ef8c122d9635514ced565fe"
+4868,"PRF-HMAC-SHA-384 = 88062608d3e6ad8a0aa2ace014c8a86f
+                   0aa635d947ac9febe83ef4e55966144b
+                   2a5ab39dc13814b94e3ab6e101a34f27"
+4868,"PRF-HMAC-SHA-512 = fa73b0089d56a284efb0f0756c890be9
+                   b1b5dbdd8ee81a3655f83e33b2279d39
+                   bf3e848279a722c806b485a47e67c807
+                   b946a337bee8942674278859e13292fb"
+4868,"PRF-HMAC-SHA-256 = 82558a389a443c0ea4cc819899f2083a
+                   85f0faa3e578f8077a2e3ff46729665b"
+4868,"PRF-HMAC-SHA-384 = 3e8a69b7783c25851933ab6290af6ca7
+                   7a9981480850009cc5577c6e1f573b4e
+                   6801dd23c4a7d679ccf8a386c674cffb"
+4868,"PRF-HMAC-SHA-512 = b0ba465637458c6990e5a8c5f61d4af7
+                   e576d97ff94b872de76f8050361ee3db
+                   a91ca5c11aa25eb4d679275cc5788063
+                   a5f19741120c4f2de2adebeb10a298dd"
+4868,"PRF-HMAC-SHA-256 = 60e431591ee0b67f0d8a26aacbf5b77f
+                   8e0bc6213728c5140546040f0ee37f54"
+4868,"PRF-HMAC-SHA-384 = 4ece084485813e9088d2c63a041bc5b4
+                   4f9ef1012a2b588f3cd11f05033ac4c6
+                   0c2ef6ab4030fe8296248df163f44952"
+4868,"PRF-HMAC-SHA-512 = 80b24263c7c1a3ebb71493c1dd7be8b4
+                   9b46d1f41b4aeec1121b013783f8f352
+                   6b56d037e05f2598bd0fd2215d6a1e52
+                   95e64f73f63f0aec8b915a985d786598"
+4868,"PRF-HMAC-SHA-256 = 9b09ffa71b942fcb27635fbcd5b0e944
+                   bfdc63644f0713938a7f51535c3a35e2"
+4868,"PRF-HMAC-SHA-384 = 6617178e941f020d351e2f254e8fd32c
+                   602420feb0b8fb9adccebb82461e99c5
+                   a678cc31e799176d3860e6110c46523e"
+4868,"PRF-HMAC-SHA-512 = e37b6a775dc87dbaa4dfa9f96e5e3ffd
+                   debd71f8867289865df5a32d20cdc944
+                   b6022cac3c4982b10d5eeb55c3e4de15
+                   134676fb6de0446065c97440fa8c6a58"
+4868,"PRF-HMAC-SHA-256 = 198a607eb44bfbc69903a0f1cf2bbdc5
+                   ba0aa3f3d9ae3c1c7a3b1696a0b68cf7"
+4868,HMAC-SHA-256-128 = 198a607eb44bfbc69903a0f1cf2bbdc5
+4868,"PRF-HMAC-SHA-256 = 167f928588c5cc2eef8e3093caa0e87c
+                   9ff566a14794aa61648d81621a2a40c6"
+4868,HMAC-SHA-256-128 = 167f928588c5cc2eef8e3093caa0e87c
+4868,"PRF-HMAC-SHA-256 = cdcb1220d1ecccea91e53aba3092f962
+                   e549fe6ce9ed7fdc43191fbde45c30b0"
+4868,HMAC-SHA-256-128 = cdcb1220d1ecccea91e53aba3092f962
+4868,"PRF-HMAC-SHA-256 = 372efcf9b40b35c2115b1346903d2ef4
+                   2fced46f0846e7257bb156d3d7b30d3f"
+4868,HMAC-SHA-256-128 = 372efcf9b40b35c2115b1346903d2ef4
+4868,"PRF-HMAC-SHA-384 = b6a8d5636f5c6a7224f9977dcf7ee6c7
+                   fb6d0c48cbdee9737a959796489bddbc
+                   4c5df61d5b3297b4fb68dab9f1b582c2"
+4868,"HMAC-SHA-384-128 = b6a8d5636f5c6a7224f9977dcf7ee6c7
+                   fb6d0c48cbdee973"
+4868,"PRF-HMAC-SHA-384 = 2c7353974f1842fd66d53c452ca42122
+                   b28c0b594cfb184da86a368e9b8e16f5
+                   349524ca4e82400cbde0686d403371c9"
+4868,"HMAC-SHA-384-192 = 2c7353974f1842fd66d53c452ca42122
+                   b28c0b594cfb184d"
+4868,"PRF-HMAC-SHA-384 = 809f439be00274321d4a538652164b53
+                   554a508184a0c3160353e3428597003d
+                   35914a18770f9443987054944b7c4b4a"
+4868,"HMAC-SHA-384-192 = 809f439be00274321d4a538652164b53
+                   554a508184a0c316"
+4868,"PRF-HMAC-SHA-384 = 5b540085c6e6358096532b2493609ed1
+                   cb298f774f87bb5c2ebf182c83cc7428
+                   707fb92eab2536a5812258228bc96687"
+4868,"HMAC-SHA-384-192 = 5b540085c6e6358096532b2493609ed1
+                   cb298f774f87bb5c"
+4868,"PRF-HMAC-SHA-512 = 637edc6e01dce7e6742a99451aae82df
+                   23da3e92439e590e43e761b33e910fb8
+                   ac2878ebd5803f6f0b61dbce5e251ff8
+                   789a4722c1be65aea45fd464e89f8f5b"
+4868,"HMAC-SHA-512-256 = 637edc6e01dce7e6742a99451aae82df
+                   23da3e92439e590e43e761b33e910fb8"
+4868,"PRF-HMAC-SHA-512 = cb370917ae8a7ce28cfd1d8f4705d614
+                   1c173b2a9362c15df235dfb251b15454
+                   6aa334ae9fb9afc2184932d8695e397b
+                   fa0ffb93466cfcceaae38c833b7dba38"
+4868,"HMAC-SHA-512-256 = cb370917ae8a7ce28cfd1d8f4705d614
+                   1c173b2a9362c15df235dfb251b15454"
+4868,"PRF-HMAC-SHA-512 = 2ee7acd783624ca9398710f3ee05ae41
+                   b9f9b0510c87e49e586cc9bf961733d8
+                   623c7b55cebefccf02d5581acc1c9d5f
+                   b1ff68a1de45509fbe4da9a433922655"
+4868,"HMAC-SHA-512-256 = 2ee7acd783624ca9398710f3ee05ae41
+                   b9f9b0510c87e49e586cc9bf961733d8"
+4868,"PRF-HMAC-SHA-512 = 5e6688e5a3daec826ca32eaea224eff5
+                   e700628947470e13ad01302561bab108
+                   b8c48cbc6b807dcfbd850521a685babc
+                   7eae4a2a2e660dc0e86b931d65503fd2"
+4868,"HMAC-SHA-512-256 = 5e6688e5a3daec826ca32eaea224eff5
+                   e700628947470e13ad01302561bab108"
+4870,q=dns; c=simple
+4870,c=simple; q=dns;
+4871,Tag=value pairs that represent the default value MAY be included to
+4876,saslmech    = SASL mechanism name as defined in [SASLMECH]
+4876,attribute         = descr
+4876,objectclass       = keystring
+4880,k  = the length in octets of the key modulus
+4880,M  = message to be encoded
+4916,s=Session SDP
+4918,"Extension = path
+  ; path is defined in Section 3.3 of [RFC3986]"
+4954,AUTH=mailbox
+4956,RCODE=NOERROR
+4960,cwnd = ssthresh
+4964,branch=z9hG4bKnashds8
+4998,pht2 = SEQ (h3)
+4998,pht4 = SEQ (h1)
+4998,pht5 = SEQ (h3)
+5023,start = appService
+5023,atomURI = text
+5023,atomCommonAttributes = appCommonAttributes
+5023,start = appCategories
+5024,SFIDOSIZ = Original File Size
+5024,SFIDFSIZ = Transmitted File Size
+5024,drop = false
+5046,RDMAExtensions=Yes was negotiated on the leading connection of the
+5048,TaskReporting=FastAbort operational (FastAbort sessions) even while
+5054,s = BEB25379 D1A8581E B5A72767 3A2441EE
+5054,k = 7556AA04 5AEF2CDD 07ABAF0F 665C3E81 8913186F
+5054,x = 94B7555A ABE9127C C58CCF49 93DB6CF8 4D16C124
+5057,to-tag=totag2;from-tag=fromtag2>
+5057,local-tag=fromtag1;remote-tag=totag1
+5057,to-tag=totag2;from-tag=fromtag2
+5058,alternative=Xcast
+5058,BITMAP = every destination has a corresponding bit in the bitmap to
+5090,Authenticator = F5E55840E324AA49D216D9DBD069807C
+5090,Digest-Method = INVITE
+5090,Message-Authenticator = 7600D5B0BDC33987A60D5C6167B28B3B
+5090,Authenticator = EBE20199C26EFEAD69BF8AB0E786CA4D
+5090,Digest-Nonce = 3bada1a0
+5090,Digest-Qop = auth
+5090,Digest-Algorithm = MD5
+5090,Message-Authenticator = 5DA18ED3BBC9513DCBDE0A37F51B7DE3
+5090,Authenticator = F5E55840E324AA49D216D9DBD069807D
+5090,Digest-CNonce = 56593a80
+5090,Digest-Response = 756933f735fcd93f90a4bbdd5467f263
+5090,Message-Authenticator = B6C7F7F8D11EF261A26933D234561A60
+5090,Authenticator = FFDD74D6470D21CB6FC4D6056BE245D2
+5090,Digest-Response-Auth = f847de948d12285f8f4199e366f1af21
+5090,Message-Authenticator = 7B76E2F10A7067AF601938BF13B0A62E
+5090,Authenticator = F5E55840E324AA49D216D9DBD069807E
+5090,Digest-Method = GET
+5090,Message-Authenticator = 690BFC95E88DF3B185F15CD78E469992
+5090,Authenticator = 2EE5EB01C02C773B6C6EC8515F565E8E
+5090,Digest-Nonce = a3086ac8
+5090,Message-Authenticator = 646DB2B0AF9E72FFF2CF7FEB33C4952A
+5090,Authenticator = F5E55840E324AA49D216D9DBD069807F
+5090,Digest-Response = a4fac45c27a30f4f244c54a2e99fa117
+5090,Message-Authenticator = 237D85C1478C70C67EEAF22A9C456821
+5090,Authenticator = 6364FA6ED66012847C05A0895607C694
+5090,Digest-Response-Auth = 08c4e942d1d0a191de8b3aa98cd35147
+5090,Message-Authenticator = 43795A3166492AD2A890AD57D5F97D56
+5091,q = 0xfffffffffffffffffffffffffffbffff
+5091,p = 0xbffffffffffffffffffffffffffcffff3
+5091,l = 0xb8bbbc0089098f2769b32373ade8f0daf
+5091,n = 0xffffffffffffffffffffefffffffffffffffffff
+5091,v = 0x79317c1610c1fc018e9c53d89d59c108cd518608
+5091,p = 0xa6a0ffd016103ffffffffff595f002fe9ef195f002fe9efb
+5091,q = 0xffffffffffffffffffffffeffffffffffff
+5091,s = 0x749e52ddb807e0220054417e514742b05a0
+5091,alpha = 0xa60c395285ded4d70202c8283d894bad4f0
+5091,beta = 0x48bf012da19f170b13124e5301561f45053
+5091,gamma = 0x226fba82bc38e2ce4e28e56472ccf94a499
+5091,p = 0x91bbe2be1c8950750784befffffffffffff6e441d41e12fb
+5091,q = 0xfffffffffbfffffffffffffffffffffffff
+5091,u = 0xad1ebfa82edf0bcb5111e9dc08ff0737c68
+5092,ucs4 = utf16;
+5092,ucs4 = c;
+5104,s=Media with feedback
+5104,s=Multiparty Video Call
+5106,L = Length included
+5106,M = More fragments
+5106,I = Integrity Checksum Data included
+5109,s=ULP FEC Seminar
+5114,"p = B10B8F96 A080E01D DE92DE5E AE5D54EC 52C99FBC FB06A3C6
+    9A6A9DCA 52D23B61 6073E286 75A23D18 9838EF1E 2EE652C0
+    13ECB4AE A9061123 24975C3C D49B83BF ACCBDD7D 90C4BD70
+    98488E9C 219A7372 4EFFD6FA E5644738 FAA31A4F F55BCCC0
+    A151AF5F 0DC8B4BD 45BF37DF 365C1A65 E68CFDA7 6D4DA708
+    DF1FB2BC 2E4A4371"
+5114,"g = A4D1CBD5 C3FD3412 6765A442 EFB99905 F8104DD2 58AC507F
+    D6406CFF 14266D31 266FEA1E 5C41564B 777E690F 5504F213
+    160217B4 B01B886A 5E91547F 9E2749F4 D7FBD7D3 B9A92EE1
+    909D0D22 63F80A76 A6A24C08 7A091F53 1DBF0A01 69B6A28A
+    D662A4D1 8E73AFA3 2D779D59 18D08BC8 858F4DCE F97C2A24
+    855E6EEB 22B3B2E5"
+5114,"g =  AC4032EF 4F2D9AE3 9DF30B5C 8FFDAC50 6CDEBE7B 89998CAF
+     74866A08 CFE4FFE3 A6824A4E 10B9A6F0 DD921F01 A70C4AFA
+     AB739D77 00C29F52 C57DB17C 620A8652 BE5E9001 A8D66AD7
+     C1766910 1999024A F4D02727 5AC1348B B8A762D0 521BC98A
+     E2471504 22EA1ED4 09939D54 DA7460CD B5F6C6B2 50717CBE
+     F180EB34 118E98D1 19529A45 D6F83456 6E3025E3 16A330EF
+     BB77A86F 0C1AB15B 051AE3D4 28C8F8AC B70A8137 150B8EEB
+     10E183ED D19963DD D9E263E4 770589EF 6AA21E7F 5F2FF381
+     B539CCE3 409D13CD 566AFBB4 8D6C0191 81E1BCFE 94B30269
+     EDFE72FE 9B6AA4BD 7B5A0F1C 71CFFF4C 19C418E1 F6EC0179
+     81BC087F 2A7065B3 84B890D3 191F2BFA"
+5114,"g = 3FB32C9B 73134D0B 2E775066 60EDBD48 4CA7B18F 21EF2054
+    07F4793A 1A0BA125 10DBC150 77BE463F FF4FED4A AC0BB555
+    BE3A6C1B 0C6B47B1 BC3773BF 7E8C6F62 901228F8 C28CBB18
+    A55AE313 41000A65 0196F931 C77A57F2 DDF463E5 E9EC144B
+    777DE62A AAB8A862 8AC376D2 82D6ED38 64E67982 428EBC83
+    1D14348F 6F2F9193 B5045AF2 767164E1 DFC967C1 FB3F2E55
+    A4BD1BFF E83B9C80 D052B985 D182EA0A DB2A3B73 13D3FE14
+    C8484B1E 052588B9 B7D2BBD2 DF016199 ECD06E15 57CD0915
+    B3353BBB 64E0EC37 7FD02837 0DF92B52 C7891428 CDC67EB6
+    184B523D 1DB246C3 2F630784 90F00EF8 D647D148 D4795451
+    5E2327CF EF98C582 664B4C0F 6CC41659"
+5114,"q = 8CF83642 A709A097 B4479976 40129DA2 99B1A47D 1EB3750B
+    A308B0FE 64F5FBD3"
+5114,p = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE FFFFFFFF FFFFFFFF
+5114,a = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE FFFFFFFF FFFFFFFC
+5114,gx = 188DA80E B03090F6 7CBF20EB 43A18800 F4FF0AFD 82FF1012
+5114,gy = 07192B95 FFC8DA78 631011ED 6B24CDD5 73F977A1 1E794811
+5114,n = FFFFFFFF FFFFFFFF FFFFFFFF 99DEF836 146BC9B1 B4D22831
+5114,"a = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE FFFFFFFF FFFFFFFF
+    FFFFFFFE"
+5114,"b = B4050A85 0C04B3AB F5413256 5044B0B7 D7BFD8BA 270B3943
+    2355FFB4"
+5114,"gx = B70E0CBD 6BB4BF7F 321390B9 4A03C1D3 56C21122 343280D6
+     115C1D21"
+5114,"gy = BD376388 B5F723FB 4C22DFE6 CD4375A0 5A074764 44D58199
+     85007E34"
+5114,"n = FFFFFFFF FFFFFFFF FFFFFFFF FFFF16A2 E0B8F03E 13DD2945
+    5C5C2A3D"
+5114,"b = 5AC635D8 AA3A93E7 B3EBBD55 769886BC 651D06B0 CC53B0F6
+    3BCE3C3E 27D2604B"
+5114,"gx = 6B17D1F2 E12C4247 F8BCE6E5 63A440F2 77037D81 2DEB33A0
+     F4A13945 D898C296"
+5114,"gy = 4FE342E2 FE1A7F9B 8EE7EB4A 7C0F9E16 2BCE3357 6B315ECE
+     CBB64068 37BF51F5"
+5114,"b = B3312FA7 E23EE7E4 988E056B E3F82D19 181D9C6E FE814112
+    0314088F 5013875A C656398D 8A2ED19D 2A85C8ED D3EC2AEF"
+5114,"gx = AA87CA22 BE8B0537 8EB1C71E F320AD74 6E1D3B62 8BA79B98
+     59F741E0 82542A38 5502F25D BF55296C 3A545E38 72760AB7"
+5114,"gy = 3617DE4A 96262C6F 5D9E98BF 9292DC29 F8F41DBD 289A147C
+     E9DA3113 B5F0B8C0 0A60B1CE 1D7E819D 7A431D7C 90EA0E5F"
+5114,"n = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF
+    C7634D81 F4372DDF 581A0DB2 48B0A77A ECEC196A CCC52973"
+5114,"p = 000001FF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF
+    FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF
+    FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF"
+5114,"a = 000001FF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF
+    FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF
+    FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFC"
+5114,"gx = 000000C6 858E06B7 0404E9CD 9E3ECB66 2395B442 9C648139
+     053FB521 F828AF60 6B4D3DBA A14B5E77 EFE75928 FE1DC127
+     A2FFA8DE 3348B3C1 856A429B F97E7E31 C2E5BD66"
+5114,xB =          9392C9F9 EB6A7A6A 9022F7D8 3E7223C6 835BBDDA
+5114,"yB =                                     717A6CB0 53371FF4
+     A3B93294 1C1E5663 F861A1D6 AD34AE66 576DFB98 F6C6CBF9
+     DDD5A56C 7833F6BC FDFF0955 82AD868E 440E8D09 FD769E3C
+     ECCDC3D3 B1E4CFA0 57776CAA F9739B6A 9FEE8E74 11F8D6DA
+     C09D6A4E DB46CC2B 5D520309 0EAE6126 311E53FD 2C14B574
+     E6A3109A 3DA1BE41 BDCEAA18 6F5CE067 16A2B6A0 7B3C33FE"
+5114,"Z  =                                     5C804F45 4D30D9C4
+     DF85271F 93528C91 DF6B48AB 5F80B3B5 9CAAC1B2 8F8ACBA9
+     CD3E39F3 CB614525 D9521D2E 644C53B8 07B810F3 40062F25
+     7D7D6FBF E8D5E8F0 72E9B6E9 AFDA9413 EAFB2E8B 0699B1FB
+     5A0CACED DEAEAD7E 9CFBB36A E2B42083 5BD83A19 FB0B5E96
+     BF8FA4D0 9E345525 167ECD91 55416F46 F408ED31 B63C6E6D"
+5114,"xA =                                              22E62601
+     DBFFD067 08A680F7 47F361F7 6D8F4F72 1A0548E4 83294B0C"
+5114,"xB =                                              4FF3BC96
+     C7FC6A6D 71D3B363 800A7CDF EF6FC41B 4417EA15 353B7590"
+5114,"yB =                   4DCEE992 A9762A13 F2F83844 AD3D77EE
+      0E31C971 8B3DB6C2 035D3961 182C3E0B A247EC41 82D760CD
+      48D99599 970622A1 881BBA2D C822939C 78C3912C 6661FA54
+      38B20766 222B75E2 4C2E3AD0 C7287236 129525EE 15B5DD79
+      98AA04C4 A9696CAC D7172083 A97A8166 4EAD2C47 9E444E4C
+      0654CC19 E28D7703 CEE8DACD 6126F5D6 65EC52C6 7255DB92
+      014B037E B621A2AC 8E365DE0 71FFC140 0ACF077A 12913DD8
+      DE894734 37AB7BA3 46743C1B 215DD9C1 2164A7E4 053118D1
+      99BEC8EF 6FC56117 0C84C87D 10EE9A67 4A1FA8FF E13BDFBA
+      1D44DE48 946D68DC 0CDD7776 35A7AB5B FB1E4BB7 B856F968
+      27734C18 4138E915 D9C3002E BCE53120 546A7E20 02142B6C"
+5114,"xA =                                     0881382C DB87660C
+     6DC13E61 4938D5B9 C8B2F248 581CC5E3 1B354543 97FCE50E"
+5114,"xB =                                     7D62A7E3 EF36DE61
+     7B13D1AF B82C780D 83A23BD4 EE670564 5121F371 F546A53D"
+5114,dA   = 323FA316 9D8E9C65 93F59476 BC142000 AB5BE0E2 49C43426
+5114,dB   = 631F95BB 4A67632C 9C476EEE 9AB695AB 240A0499 307FCF62
+5114,"dA   =                                              B558EB6C
+       288DA707 BBB4F8FB AE2AB9E9 CB62E3BC 5C7573E2 2E26D37F"
+5114,"dB   =                                              AC3B1ADD
+       3D9770E6 F6A708EE 9F3B8E0A B3B480E9 F27F85C8 8B5E6D18"
+5114,"dB   =                                     2CE1788E C197E096
+       DB95A200 CC0AB26A 19CE6BCC AD562B8E EE1B5937 61CF7F41"
+5114,"dA   = D27335EA 71664AF2 44DD14E9 FD126071 5DFD8A79 65571C48
+       D709EE7A 7962A156 D706A90C BCB5DF29 86F05FEA DB9376F1"
+5114,"dB   = 52D1791F DB4B70F8 9C0F00D4 56C2F702 3B612526 2C36A7DF
+       1F802311 21CCE3D3 9BE52E00 C194A413 2C4A6C76 8BCD94D2"
+5114,"dB   =              00CE E3480D86 45A17D24 9F2776D2 8BAE6169
+       52D1791F DB4B70F7 C3378732 AA1B2292 8448BCD1 DC2496D4
+       35B01048 066EBE4F 72903C36 1B1A9DC1 193DC2C9 D0891B96"
+5118,branch=z9hG4bKas3
+5124,s=Media with feedback
+5124,s=Multicast video with feedback
+5126,micalg=sha1; boundary=boundary42
+5141,iso      = International Organization for Standardization
+5141,iso-iec  = jointly developed by ISO and IEC
+5141,"iso-astm = jointly developed by ISO and the American Society for
+           Testing and Materials (ASTM) International"
+5141,"iso-ieee = jointly developed by ISO and the Institute for
+           Electrical and Electronics Engineers (IEEE)"
+5141,guide = Guide
+5141,isp   = International Standardized Profile
+5141,iwa   = International Workshop Agreement
+5141,pas   = Publicly Available Specification
+5141,tr    = Technical Report
+5141,ts    = Technical Specification
+5141,tta   = Technology Trends Assessment
+5141,"draft     = document that has not yet been accepted for
+            publication by international ballot"
+5141,cancelled = document that has been deleted or withdrawn
+5189,mc = middlebox challenge
+5216,L = Length included
+5216,M = More fragments
+5216,R = Reserved
+5219,needToEnqueue = False;
+5219,endOfData = endOfHeadFrame;
+5219,aduFrame = the next ADU frame from the depacketizing step;
+5219,iiLastSeen = ii;
+5219,iccLastSeen = icc;
+5234,b           =  binary
+5234,d           =  decimal
+5234,x           =  hexadecimal
+5236,RI = m;
+5236,newS = new sequence from arriving stream;
+5245,transport-extension   = token              ; from RFC 3261
+5255,"lang-range-quoted = astring
+    ; Once any literal wrapper or quoting is removed, this
+    ; follows the language-range rule in [RFC4647]"
+5255,"lang-tag-quoted   = astring
+    ; Once any literal wrapper or quoting is removed, this follows
+    ; the Language-Tag rule in [RFC4646]"
+5255,"comp-id-quoted    = astring
+    ; Once any literal wrapper or quoting is removed, this
+    ; follows the collation-id rule from [RFC4790]"
+5255,"comp-order-quoted = astring
+    ; Once any literal wrapper or quoting is removed, this
+    ; follows the collation-order rule from [RFC4790]"
+5255,"comp-sel-quoted   = astring
+    ; Once any literal wrapper or quoting is removed, this
+    ; follows the collation-selected rule from [RFC4790]"
+5256,"thread-alg-ext  = atom
+                    ; New algorithms MUST be registered with IANA"
+5258,"eitem-standard-tag =  atom
+            ; a tag for extended list data defined in a Standard
+            ; Track or Experimental RFC."
+5258,"option-standard-tag =  atom
+            ; an option defined in a Standards Track or
+            ; Experimental RFC"
+5259,transcoding-param-value = astring
+5259,"tag-string = string
+              ; tag of the command that caused
+              ; the CONVERTED response, sent as
+              ; a string."
+5259,"convert-err-descript = string
+     ; Human-readable text explaining the conversion error.
+             ; The default charset is US-ASCII, unless
+             ; the LANGUAGE command [IMAP-I18N] is called, when
+             ; the charset changes to UTF-8."
+5263,branch=z9hG4bKnashds7
+5263,branch=z9hG4bKna998sk
+5263,branch=z9hG4bKna998sl
+5267,"context-position      = number
+    ;; Context position may be 0 for SEARCH result additions.
+    ;; <number> from [IMAP]"
+5272,subject = My Proposed DN
+5272,publicKey = My Public Key
+5281,L = Length included
+5281,M = More fragments
+5281,S = Start
+5281,R = Reserved
+5285,m=video
+5285,a=sendrecv
+5285,m=audio
+5285,extensionname = URI
+5288,Salt          = eedc68dc
+5296,K = rRK and
+5297,T = Sn xorend D
+5336,"ALT-ADDRESS-value = xtext
+       ; The value is a mailbox name encoded as xtext."
+5337,"utf-8-addr-xtext    = xtext
+                  ; xtext is defined in [RFC3461].
+                  ; When xtext encoding is removed,
+                  ; the syntax MUST conform to
+                  ; utf-8-addr-unitext."
+5348,DF = THRESHOLD;
+5348,NotLimited1 = NotLimited2;
+5359,a=sendonly
+5359,a=recvonly
+5359,a=sendrecv
+5372,pt=default;width=720;height=480
+5372,pt=layer;width=320;height=240
+5381,capability = new
+5381,holder = new
+5381,srcdir=src
+5381,destdir=classes
+5381,skeletondir=skeleton
+5407,a=sendonly
+5407,a=recvonly
+5432,extension-mech       = token
+5465,"event-ext       = atom
+                ;; For future extensions"
+5475,len = length;
+5476,informationElementId = timeMicroseconds
+5503,RKS-Group-ID            = token
+5503,Laes-sig          = hostport
+5536,archive-param   =  parameter
+5536,verb            =  token
+5536,product-version =  [CFWS] token
+5545,cal-address        = uri
+5545,"FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1"
+5545,FREQ=DAILY;COUNT=10;INTERVAL=2
+5547,filesize-value       = integer        ;integer defined in RFC 4566
+5547,file-tr-id-value     = token
+5547,file-disp-value      = token
+5547,start-offset         = integer        ; integer defined in RFC 4566
+5547,i=This is my latest picture
+5547,a=sendonly
+5547,a=recvonly
+5552,userAuthorized = true
+5555,proto=any
+5572,charset=utf8
+5580,R = Retransmission Allowed
+5583,dependent-fmt = fmt
+5583,fmt-dependency = fmt
+5583,s=LAYERED VIDEO SIGNALING Seminar
+5583,s=MULTI DESCRIPTION VIDEO SIGNALING Seminar
+5584,s=AAL Multiplexed Streaming
+5584,s=AAL Multi Session Streaming
+5589,micalg=sha1;
+5589,s=Session SDP
+5591,transportDomain = snmpSSHDomain
+5591,securityModel = Transport Security Model
+5591,securityName = alice
+5591,securityLevel = authPriv
+5592,tmTransportDomain = snmpSSHDomain
+5604,pwTDMCfgPktReorder      = FALSE
+5604,pwTDMCfgRtpHdrUsed      = FALSE
+5631,a=sendonly
+5631,a=recvonly
+5639,p = E95E4A5F737059DC60DFC7AD95B3D8139515620F
+5639,A = 340E7BE2A280EB74E2BE61BADA745D97E8F7C300
+5639,B = 1E589A8595423412134FAA2DBDEC95C8D8675E58
+5639,x = BED5AF16EA3F6A4F62938C4631EB5AF7BDBCDBC3
+5639,y = 1667CB477A1A8EC338F94741669C976316DA6321
+5639,q = E95E4A5F737059DC60DF5991D45029409E60FC09
+5639,Z = 24DBFF5DEC9B986BBFE5295A29BFBAE45E0F5D0B
+5639,A = E95E4A5F737059DC60DFC7AD95B3D8139515620C
+5639,B = 7A556B6DAE535B7B51ED2C4D7DAA7A0B5C55F380
+5639,x = B199B13B9B34EFC1397E64BAEB05ACC265FF2378
+5639,y = ADD6718B7C7C1961F0991B842443772152C9E0AD
+5639,p = C302F41D932A36CDA7A3463093D18DB78FCE476DE1A86297
+5639,A = 6A91174076B1E0E19C39C031FE8685C1CAE040E5C69A28EF
+5639,B = 469A28EF7C28CCA3DC721D044F4496BCCA7EF4146FBF25C9
+5639,x = C0A0647EAAB6A48753B033C56CB0F0900A2F5C4853375FD6
+5639,y = 14B690866ABD5BB88B5F4828C1490002E6773FA2FA299B8F
+5639,q = C302F41D932A36CDA7A3462F9E9E916B5BE8F1029AC4ACC1
+5639,Z = 1B6F5CC8DB4DC7AF19458A9CB80DC2295E5EB9C3732104CB
+5639,A = C302F41D932A36CDA7A3463093D18DB78FCE476DE1A86294
+5639,B = 13D56FFAEC78681E68F9DEB43B35BEC2FB68542E27897B79
+5639,x = 3AE9E58C82F63C30282E1FE7BBF43FA72C446AF6F4618129
+5639,y = 097E2C5667C2223A902AB5CA449D0084B7E5B3DE7CCC01C9
+5639,p = D7C134AA264366862A18302575D1D787B09F075797DA89F57EC8C0FF
+5639,A = 68A5E62CA9CE6C1C299803A6C1530B514E182AD8B0042A59CAD29F43
+5639,B = 2580F63CCFE44138870713B1A92369E33E2135D266DBB372386C400B
+5639,x = 0D9029AD2C7E5CF4340823B2A87DC68C9E4CE3174C1E6EFDEE12C07D
+5639,y = 58AA56F772C0726F24C6B89E4ECDAC24354B9E99CAA3F6D3761402CD
+5639,q = D7C134AA264366862A18302575D0FB98D116BC4B6DDEBCA3A5A7939F
+5639,Z = 2DF271E14427A346910CF7A2E6CFA7B3F484E5C2CCE1C8B730E28B3F
+5639,A = D7C134AA264366862A18302575D1D787B09F075797DA89F57EC8C0FC
+5639,B = 4B337D934104CD7BEF271BF60CED1ED20DA14C08B3BB64F18A60888D
+5639,x = 6AB1E344CE25FF3896424E7FFE14762ECB49F8928AC0C76029B4D580
+5639,y = 0374E9F5143E568CD23F3F4D7C0D4B1E41C8CC0D1C6ABD5F1A46DB4C
+5639,p = D35E472036BC4FB7E13C785ED201E065F98FCFA6F6F40DEF4F92B9EC7893EC
+5639,A = 3EE30B568FBAB0F883CCEBD46D3F3BB8A2A73513F5EB79DA66190EB085FFA9
+5639,B = 520883949DFDBC42D3AD198640688A6FE13F41349554B49ACC31DCCD884539
+5639,x = 43BD7E9AFB53D8B85289BCC48EE5BFE6F20137D10A087EB6E7871E2A10A599
+5639,y = 14FDD05545EC1CC8AB4093247F77275E0743FFED117182EAA9C77877AAAC6A
+5639,q = D35E472036BC4FB7E13C785ED201E065F98FCFA5B68F12A32D482EC7EE8658
+5639,Z = 15F75CAF668077F7E85B42EB01F0A81FF56ECD6191D55CB82B7D861458A18F
+5639,A = D35E472036BC4FB7E13C785ED201E065F98FCFA6F6F40DEF4F92B9EC7893EC
+5639,B = A7F561E038EB1ED560B3D147DB782013064C19F27ED27C6780AAF77FB8A547
+5639,x = 925BE9FB01AFC6FB4D3E7D4990010F813408AB106C4F09CB7EE07868CC136F
+5639,y = 63BA3A7A27483EBF6671DBEF7ABB30EBEE084E58A0B077AD42A5A0989D1EE7
+5639,p = 8CB91E82A3386D280F5D6F7E50E641DF152F7109ED5456B412B1DA197FB711
+5639,A = 7BC382C63D8C150C3C72080ACE05AFA0C2BEA28E4FB22787139165EFBA91F9
+5639,B = 04A8C7DD22CE28268B39B55416F0447C2FB77DE107DCD2A62E880EA53EEB62
+5639,x = 1D1C64F068CF45FFA2A63A81B7C13F6B8847A3E77EF14FE3DB7FCAFE0CBD10
+5639,y = 8ABE1D7520F9C2A45CB1EB8E95CFD55262B70B29FEEC5864E19C054FF99129
+5639,q = 8CB91E82A3386D280F5D6F7E50E641DF152F7109ED5456B31F166E6CAC0425
+5639,Z = 41DFE8DD399331F7166A66076734A89CD0D2BCDB7D068E44E1F378F41ECBAE
+5639,A = 8CB91E82A3386D280F5D6F7E50E641DF152F7109ED5456B412B1DA197FB711
+5639,B = 7F519EADA7BDA81BD826DBA647910F8C4B9346ED8CCDC64E4B1ABD11756DCE
+5639,x = 18DE98B02DB9A306F2AFCD7235F72A819B80AB12EBD653172476FECD462AAB
+5639,y = 25AB056962D30651A114AFD2755AD336747F93475B7A1FCA3B88F2B6A208CC
+5639,p = AADD9DB8DBE9C48B3FD4E6AE33C9FC07CB308DB3B3C9D20ED6639CCA703308
+5639,A = 7830A3318B603B89E2327145AC234CC594CBDD8D3DF91610A83441CAEA9863
+5639,B = 3DF91610A83441CAEA9863BC2DED5D5AA8253AA10A2EF1C98B9AC8B57F1117
+5639,x = 81AEE4BDD82ED9645A21322E9C4C6A9385ED9F70B5D916C1B43B62EEF4D009
+5639,y = 7DDE385D566332ECC0EABFA9CF7822FDF209F70024A57B1AA000C55B881F81
+5639,q = AADD9DB8DBE9C48B3FD4E6AE33C9FC07CB308DB3B3C9D20ED6639CCA703308
+5639,Z = 12EE58E6764838B69782136F0F2D3BA06E27695716054092E60A80BEDB212B
+5639,A = AADD9DB8DBE9C48B3FD4E6AE33C9FC07CB308DB3B3C9D20ED6639CCA703308
+5639,B = 7CBBBCF9441CFAB76E1890E46884EAE321F70C0BCB4981527897504BEC3E36
+5639,x = 640ECE5C12788717B9C1BA06CBC2A6FEBA85842458C56DDE9DB1758D39C031
+5639,y = 5B534BD595F5AF0FA2C892376C84ACE1BB4E3019B71634C01131159CAE03CE
+5661,modified = TRUE;
+5661,fh = filehandle returned by OPEN;
+5664,L = logical offset into the file
+5664,W = total number of components
+5664,P = number of parity devices in each stripe
+5691,samplingFrequencyIndex=0x6 (24kHz);
+5691,extensionSamplingFrequencyIndex=0x3 (48kHz); channelConfiguration=2
+5707,s=media server session
+5707,a=sendrecv
+5707,s=RadiSys SIP Media Server session
+5738,"UTF8=ALL       ; Note, same as above"
+5751,micalg=sha1; boundary=boundary42
+5759,"r=  52e3f7b7 27fba9e8 eddb1d08 3b75c188
+    2517e6dc 63ded9c0 524f8f9a 45dc8661"
+5759,"s=  b8930438 de8d33bd ab12c3a2 bdad9795
+    92a1fd65 76d1734c 3eb0af34 0456aef4"
+5760,FT = Feedback Target
+5760,x = MnDV;
+5763,s=example1
+5763,a=sendrecv
+5763,s=example2
+5777,Timezone-Flag = LOCAL;
+5777,Protocol = TCP;
+5777,Direction = OUT;
+5777,Protocol = UDP;
+5792,product-vendor-id=Vendor Y
+5794,C1 =  0x517cc1b727220a94fe13abe8fa9a6ee0
+5794,C2 =  0x6db14acc9e21c820ff28b1d5ef5de2b0
+5794,C3 =  0xdb92371d2126e9700324977504e8c90e
+5798,H = Host computer
+5798,MR = Master Router
+5798,BR = Backup Router
+5798,H  =  Host computer
+5798,MR  =  Master Router
+5810,T = SET
+5812,T = SET
+5831,"S    = 66B70F5E F163F461 468A9528 61D60593
+       E5EC8A37 3FD42279 3CD1602D DD783E86"
+5831,"KSI  = 2B6EC233 C7BC89E4 2ABC2692 5FEA7285
+       DD3848D1 C6AC997A 24F74E2B 09A3AEF7"
+5831,"S    = 2AEBFA76 A85FB57D 6F164DE9 2951A581
+       C31E7435 4930FD05 1F8A4942 550A582D"
+5831,"KSI  = FAFF37A6 15A81669 1CFF3EF8 B68CA247
+       E09525F3 9F811983 2EB81975 D366C4B1"
+5831,"H    = FAFF37A6 15A81669 1CFF3EF8 B68CA247
+       E09525F3 9F811983 2EB81975 D366C4B1"
+5831,"S    = FF41797C EEAADAC2 43C9B1DF 2E14681C
+       EDDC2210 1EE1ADF9 FA67E757 DAFE3AD9"
+5831,"KSI  = F0CEEA4E 368B5A60 C63D96C1 E5B51CD2
+       A93BEFBD 2634F0AD CBBB69CE ED2D5D9A"
+5831,"H    = F0CEEA4E 368B5A60 C63D96C1 E5B51CD2
+       A93BEFBD 2634F0AD CBBB69CE ED2D5D9A"
+5831,"S    = 62A07EA5 EF3C3309 2CE1B076 173D48CC
+       6881EB66 F5C7959F 63FCA1F1 D33C31B8"
+5831,"KSI  = 95BEA0BE 88D5AA02 FE3C9D45 436CE821
+       B8287CB6 2CBC135B 3E339EFE F6576CA9"
+5831,"H    = 95BEA0BE 88D5AA02 FE3C9D45 436CE821
+       B8287CB6 2CBC135B 3E339EFE F6576CA9"
+5831,"S    = D42336E0 2A0A6998 6C65478A 3D08A1B9
+       9FDDFF20 4808E863 94FD9D6D F776A7AD"
+5831,"S    = 790DD7A1 066544EA 2829563C 3C39D781
+       25EF9645 EE2C05DD A5ECAD92 2511A4D1"
+5831,"KSI  = 0852F562 3B89DD57 AEB4781F E54DF14E
+       EAFBC135 0613763A 0D770AA6 57BA1A47"
+5831,"H    = 0852F562 3B89DD57 AEB4781F E54DF14E
+       EAFBC135 0613763A 0D770AA6 57BA1A47"
+5832,a = 0x7
+5848,certInitialRepeat = number of times each Certificate Block should
+5848,certResendDelay = maximum time delay in seconds until resending
+5848,certResendCount = maximum number of other syslog messages to send
+5848,sigMaxDelay = generate a new Signature Block if this many seconds
+5848,sigResendDelay = send the next retransmission when this many
+5848,sigResendCount = send the next retransmission when this many other
+5854,start = metalinkMetalink
+5854,agent-version = token
+5854,metalinkUri = text
+5863,i= string might provide a useful adjunct value for additional
+5869,OKM = first L octets of T
+5869,salt = not provided (defaults to HashLen zero octets)
+5888,"identification-tag = token
+                     ; token is defined in RFC 4566"
+5888,"semantics-extension = token
+                      ; token is defined in RFC 4566"
+5888,i=This media stream contains the Spanish translation
+5888,a=recvonly
+5905,synch = TRUE;
+5905,delay = BDELAY;
+5905,low = 2e9; high = -2e9;
+5905,max = dtemp;
+5905,qmax = q;
+5905,rval = SLEW;
+5905,state = SPIK;
+5905,rval = STEP;
+5905,etemp = AVG;
+5921,TSI = Transport Service Instance
+5921,TP  = Transport Path
+5927,maxsizeacked = claimedmtu;
+5931,L = length
+5939,option-tag        = token    ; defined in [RFC4566]
+5939,att-par     = attribute    ;defined in [RFC4566]
+5944,Identification = Network Time Protocol timestamp or Nonce
+5946,NotifyD = Notify message containing a downstream notification
+5946,NotifyU = Notify message containing an upstream notification
+5953,snmpTargetAddrTDomain           = snmpTLSTCPDomain
+5953,snmpTlstmCertToTSNFingerprint = HASH (appropriate fingerprint)
+5953,snmpTlstmCertToTSNMapType     = snmpTlstmCertSANAny
+5953,snmpTlstmCertToTSNFingerprint  = HASH (appropriate fingerprint)
+5953,snmpTlstmCertToTSNMapType      = snmpTlstmCertSpecified
+5956,s=FEC Grouping Semantics
+5956,s=FEC Grouping Semantics for SSRC Multiplexing
+5971,RAO = Router Alert Option
+5973,lt  = lifetime
+5977,m = large;
+5977,b = large;
+5987,attribute     = token
+5988,ext-rel-type   = URI
+5990,c = StringToInteger (C)
+6015,s=Interleaved Parity FEC Example
+6030,Key1 = 0123456789ABCDEF
+6030,Key2 = 23456789ABCDEF01
+6030,Key3 = 456789ABCDEF0123
+6031,Key1 = 0123456789ABCDEF
+6031,Key2 = 23456789ABCDEF01
+6031,Key3 = 456789ABCDEF0123
+6035,from-tag=9123dh311
+6035,from-tag=9123dh3111
+6044,privacy=full
+6047,component=vevent
+6047,Component=vevent
+6049,MinDelay = (FiniteDelay [j])
+6050,a=sendrecv
+6063,bLen = (AES output block length in octets)
+6068,caf=E9
+6080,PNC = Profile Notification Component
+6080,PCC = Profile Content Component
+6080,branch=z9hG4bK6d6d35b6e2a203104d97211a3d18f57a
+6080,branch=z9hG4bK1e3effada91dc37fd5a0c95cbf6767d0
+6080,hash=10AB568E91245681AC1B
+6080,branch=z9hG4bK1e3effada91dc37fd5a0c95cbf6767d1
+6080,hash=123456789AAABBBCCCDD
+6080,branch=z9hG4bK1e3effada91dc37fd5a0c95cbf6767d2
+6086,Info-package-name   =  token
+6090,R = Q
+6090,R = P
+6090,P3 = P2
+6090,P3 = P1
+6109,AP = Access Point
+6109,DP = Delivery Point
+6109,InP = Incoming Point
+6128,i=Multicast Stream
+6130,Value = LOST also performs the function of an Address Block TLV with
+6130,Value = LOST
+6134,"addrbook = segment
+     ; <segment> defined in [RFC3986]"
+6134,"extensions = query
+     ; <query> defined in [RFC3986]"
+6134,"ext-list-types  = string
+        ; space separated list of URI schema parts
+        ; for supported externally stored list types.
+        ; MUST NOT be empty."
+6141,a=sendrecv
+6141,a=recvonly
+6141,a=inactive
+6141,a=sendonly
+6189,zrtp-version     = token
+6189,H1 = hash (H0)
+6190,max-recv-base-level=000d
+6216,OU=Sipit Test Certificate Authority
+6216,CN=fluffy
+6216,subjectKeyIdentifier=hash
+6234,f = e
+6234,b = a
+6234,A = temp;
+6234,key = tempkey;
+6234,salt = nullSalt;
+6234,err = shaSuccess;
+6240,pwCepCfgPktReorder            = true
+6240,pwCepCfgEnableDBA             = unequipped
+6240,pwCepCfgRtpHdrSuppress        = false
+6240,pwCepCfgRowStatus             = createAndGo
+6243,mode=explicit
+6249,rel=duplicate; pri=1; pref; depth=4
+6252,RO = Router Optimization
+6252,D = Coverage diameter
+6252,Tpsk = Time spent to install keys proactively on the target APs
+6256,done = False
+6256,flag = 0x80
+6256,done = True
+6265,cookie-name       = token
+6266,disp-ext-type       = token
+6284,s=Local Retransmissions
+6284,i=Multicast Stream
+6284,i=Unicast Retransmission Stream
+6284,a=sendonly
+6285,s=Rapid Acquisition Example
+6285,i=Primary Multicast Stream
+6285,a=sendonly
+6287,seed = SEED;
+6287,seed = SEED32;
+6287,password = PASS1234;
+6287,seed = SEED64;
+6287,ocraSuite = ocraSuite1;
+6287,ocraSuite = ocraSuite2;
+6295,s=Example
+6295,config=7A0A0000001A4D546864000000060000000100604D54726B0000
+6295,a=sendonly
+6295,config=7A0A0000001A4D546864000000060000000100604D54726B0
+6295,a=recvonly
+6296,result = number1;
+6306,UER=Unique ELOC region
+6306,EP=Endpoint
+6306,aRBR=anycast RBR
+6306,uRBR=unicast RBR
+6306,BR=Border Router
+6324,v4src = IP2; v4dst = IP1
+6350,SOURCE-value = URI
+6350,PHOTO-value = URI
+6350,TEL-uri-value = URI
+6350,IMPP-value = URI
+6350,GEO-value = URI
+6350,LOGO-value = URI
+6350,MEMBER-value = URI
+6350,SOUND-value = URI
+6350,UID-uri-value = URI
+6350,URL-value = URI
+6350,KEY-uri-value = URI
+6350,FBURL-value = URI
+6350,CALADRURI-value = URI
+6350,CALURI-value = URI
+6353,snmpTargetAddrTDomain           = snmpTLSTCPDomain
+6353,snmpTlstmCertToTSNFingerprint = HASH (appropriate fingerprint)
+6353,snmpTlstmCertToTSNMapType     = snmpTlstmCertSANAny
+6353,snmpTlstmCertToTSNFingerprint  = HASH (appropriate fingerprint)
+6353,snmpTlstmCertToTSNMapType      = snmpTlstmCertSpecified
+6364,name        = token
+6364,s=FEC Framework Examples
+6376,Tag=value pairs that represent the default value MAY be included to
+6376,b=AuUoFEfDxTDkHlLXSZEpZj79LICEps6eda7W3deTVFOk4yAUoqOB
+6386,currentBlockHasCoeffs = true;
+6386,prevCoeffWasZero = true;
+6386,ip = output;
+6386,op = output;
+6386,reference = output;
+6416,config=40008B18388380
+6416,config=40005623101fe0; SBR-enabled=1
+6416,config=400026103fc0; SBR-enabled=1
+6416,config=8FF8004192B11880FF0DDE3699F2408C00536C02313CF3CE0FF0
+6416,config=40005623101fe0; MPS-profile-level-id=55;
+6416,MPS-asc=F1B4CF920442029B501185B6DA00;
+6431,right = temp
+6455,Sec-WebSocket-Version-Client = version
+6455,registered-token = token
+6455,Sec-WebSocket-Protocol-Server = token
+6458,snp = buf;
+6458,timeout = TIMEOUT;
+6465,i=A Seminar on the session description protocol
+6465,i=Un seminaire sur le protocole de description des sessions
+6466,s=SDP image example
+6466,a=sendrecv
+6469,s=POI Seminar
+6469,i=A Seminar on how to make Presentations on the Internet
+6501,"conference-state-type =
+  anyAttribute"
+6501,free-text-extension = text
+6503,confUserID=null;
+6503,confObjID=confXYZ;
+6503,operation=create;
+6503,confUserID=user345;
+6507,Jx = r  modulo p
+6508,z      = AFF429D3 5F84B110 D094803B 3595A6E2 998BC99F
+6508,"Zx     = 5958EF1B 1679BF09 9B3A030D F255AA6A
+         23C1D8F1 43D4D23F 753E69BD 27A832F3
+         8CB4AD53 DDEF4260 B0FE8BB4 5C4C1FF5
+         10EFFE30 0367A37B 61F701D9 14AEF097
+         24825FA0 707D61A6 DFF4FBD7 273566CD
+         DE352A0B 04B7C16A 78309BE6 40697DE7
+         47613A5F C195E8B9 F328852A 579DB8F9
+         9B1D0034 479EA9C5 595F47C4 B2F54FF2"
+6508,"Rby    = 557E134A D85BB1D4 B9CE4F8B E4B08A12
+         BABF55B1 D6F1D7A6 38019EA2 8E15AB1C
+         9F76375F DD1210D4 F4351B9A 009486B7
+         F3ED46C9 65DED2D8 0DADE4F3 8C6721D5
+         2C3AD103 A10EBD29 59248B4E F006836B
+         F097448E 6107C9ED EE9FB704 823DF199
+         F832C905 AE45F8A2 47A072D8 EF729EAB
+         C5E27574 B07739B3 4BE74A53 2F747B86"
+6508,H      = 89E0BC66 1AA1E916 38E6ACC8 4E496507
+6508,"Kbx    = 93AF67E5 007BA6E6 A80DA793 DA300FA4
+         B52D0A74 E25E6E7B 2B3D6EE9 D18A9B5C
+         5023597B D82D8062 D3401956 3BA1D25C
+         0DC56B7B 979D74AA 50F29FBF 11CC2C93
+         F5DFCA61 5E609279 F6175CEA DB00B58C
+         6BEE1E7A 2A47C4F0 C456F052 59A6FA94
+         A634A40D AE1DF593 D4FECF68 8D5FC678
+         BE7EFC6D F3D68353 25B83B2C 6E69036B"
+6508,"w      = 7D2A8438 E6291C64 9B6579EB 3B79EAE9
+         48B1DE9E 5F7D1F40 70A08F8D B6B3C515
+         6F2201AF FBB5CB9D 82AA3EC0 D0398B89
+         ABC78A13 A760C0BF 3F77E63D 0DF3F1A3
+         41A41B88 11DF197F D6CD0F00 3125606F
+         4F109F40 0F7292A1 0D255E3C 0EBCCB42
+         53FB182C 68F09CF6 CD9C4A53 DA6C74AD
+         007AF36B 8BCA979D 5895E282 F483FCD6"
+6508,"TESTy  = 557E134A D85BB1D4 B9CE4F8B E4B08A12
+         BABF55B1 D6F1D7A6 38019EA2 8E15AB1C
+         9F76375F DD1210D4 F4351B9A 009486B7
+         F3ED46C9 65DED2D8 0DADE4F3 8C6721D5
+         2C3AD103 A10EBD29 59248B4E F006836B
+         F097448E 6107C9ED EE9FB704 823DF199
+         F832C905 AE45F8A2 47A072D8 EF729EAB
+         C5E27574 B07739B3 4BE74A53 2F747B86"
+6508,"h2     = 2B32DB6C 2C0A6235 FB1397E8 225EA85E
+         0F0E6E8C 7B126D00 16CCBDE0 E667151E"
+6508,"h4     = FE15C0D3 EBE314FA D720A08B 839A004C
+         2E6386F5 AECC19EC 74807D19 20CB6AEB"
+6508,"v1     = FA2656CA 1D2DBD79 015AE918 773DFEDC
+         24957C91 E3C9C335 40D6BF6D 7C3C0055"
+6508,"v2     = F016CD67 59620AD7 87669E3A DD887DF6
+         25895A91 0CEE1486 91A06735 B2F0A248"
+6508,"v3     = AC45C6F9 7F83BCE0 A2BBD0A1 4CF4D7F4
+         CB3590FB FAF93AE7 1C64E426 185710B5"
+6508,"v4     = E65D50BD 551A54EF 981F535E 072DE98D
+         2223ACAD 4621E026 3B0A61EA C56DB078"
+6509,"p      = 997ABB1F 0A563FDA 65C61198 DAD0657A
+         416C0CE1 9CB48261 BE9AE358 B3E01A2E
+         F40AAB27 E2FC0F1B 228730D5 31A59CB0
+         E791B39F F7C88A19 356D27F4 A666A6D0
+         E26C6487 326B4CD4 512AC5CD 65681CE1
+         B6AFF4A8 31852A82 A7CF3C52 1C3C09AA
+         9F94D6AF 56971F1F FCE3E823 89857DB0
+         80C5DF10 AC7ACE87 666D807A FEA85FEB"
+6509,"Px     = 53FC09EE 332C29AD 0A799005 3ED9B52A
+         2B1A2FD6 0AEC69C6 98B2F204 B6FF7CBF
+         B5EDB6C0 F6CE2308 AB10DB90 30B09E10
+         43D5F22C DB9DFA55 718BD9E7 406CE890
+         9760AF76 5DD5BCCB 337C8654 8B72F2E1
+         A702C339 7A60DE74 A7C1514D BA66910D
+         D5CFB4CC 80728D87 EE9163A5 B63F73EC
+         80EC46C4 967E0979 880DC8AB EAE63895"
+6509,"g      = 66FC2A43 2B6EA392 148F1586 7D623068
+         C6A87BD1 FB94C41E 27FABE65 8E015A87
+         371E9474 4C96FEDA 449AE956 3F8BC446
+         CBFDA85D 5D00EF57 7072DA8F 541721BE
+         EE0FAED1 828EAB90 B99DFB01 38C78433
+         55DF0460 B4A9FD74 B4F1A32B CAFA1FFA
+         D682C033 A7942BCC E3720F20 B9B7B040
+         3C8CAE87 B7A0042A CDE0FAB3 6461EA46"
+6521,KRm = SHA1 (home keygen token)
+6527,if      = IfIndex
+6527,AddrType= vrrpv3OperationsInetAddrType
+6527,VrId    = vrrpv3OperationsVrId
+6527,State   = vrrpv3OperationsStatus
+6527,Prior   = vrrpv3OperationsPriority
+6527,IpAddr  = vrrpv3OperationsMasterIpAddr
+6533,"utf-8-address       = Mailbox
+  ; Mailbox as defined in [RFC6531]."
+6591,s=testkey; d=sender.example; h=From:To:Subject:Date;
+6591,b=AuUoFEfDxTDkHlLXSZEpZj79LICEps6eda7W3deTVFOk4yAUoqOB
+6595,IdP-Identifier = domain ; domain name with corresponding IdP
+6595,authentication-request = URI
+6601,RBWck = total amount of bandwidth reserved by all established
+6616,"Identifier = URI             ; Identifier is specified in
+                             ; Sec. 7.2 of the OpenID 2.0 spec."
+6616,authentication-request = URI
+6617,v = psk
+6617,SKE = ELE
+6630,K = pRK and
+6637,ZB = x;
+6637,VB = convert point V to the octet string
+6651,dkim=all; ra=dkim-adsp-errors; rr=u
+6654,Host = IPv6 customer host device
+6654,GW   = provider edge device (Gateway)
+6654,BR   = border router (dual stack)
+6659,s=RAMS Scenarios
+6665,extension-substate   = token
+6665,event-reason-extension = token
+6679,init-ext       = token
+6679,parm-name      = token
+6679,s=VoIP call
+6679,i=SDP offer for VoIP call with ICE and ECN for RTP
+6679,s=Multicast SDP session using ECN for RTP
+6679,i=Multicasted audio chat using ECN for RTP
+6681,s=Raptor FEC Example
+6682,s=Raptor RTP FEC Example
+6682,P=A; repair-window=200000
+6690,ext-rel-type   = URI
+6696,K = rRK and
+6698,S = Selector
+6698,M = Matching Type
+6703,i=j
+6710,ORCPT=rfc822;Dana@Ivory.example.net
+6715,EXPERTISE-value =  text
+6715,HOBBY-value =  text
+6715,INTEREST-value =  text
+6715,ORG-DIRECTORY-value=  uri
+6715,INDEX-value =  integer
+6716,LSB = Least Significant Bit
+6716,MSB = Most Significant Bit
+6729,value = token
+6729,unreg-state-keyword = token
+6730,subjectKeyIdentifier = hash
+6730,extendedKeyUsage= emailProtection
+6731,swapped = FALSE;
+6731,swapped = TRUE;
+6736,Protocol = TCP
+6736,Direction = OUT
+6736,Protocol = UDP
+6736,NAT-Control-Binding-Status = Removed
+6740,FQDN = Fully Qualified Domain Name
+6740,MAC = Media Access Control
+6740,A = IP Address
+6740,I = Identifier
+6740,L = Locator
+6740,CN  = Correspondent Node
+6740,D  = Device
+6740,H  = Host
+6740,SBR  = Site Border Router
+6740,SBR = Site Border Router
+6740,CP     = coordination protocol
+6740,H = host
+6742,MSB = most significant bit
+6742,LSB = least significant bit
+6748,CN = Correspondent Node
+6748,H = Host
+6748,SBR = Site Border Router
+6748,CP     = coordination protocol
+6748,H = host
+6748,raN = radio interface N
+6748,HN = host N
+6748,sbrN = interface N on sbr
+6748,CN = correspondent node
+6748,LN = global Locator value N
+6748,V = Virtual machine image
+6748,Hx = Host x
+6748,LRR = Locator Rewriting Relay
+6758,ORCPT=rfc822;Dana@Ivory.example.net
+6759,p2pTechnology=NO
+6759,tunnelTechnology=YES
+6759,encryptedTechnology=NO
+6775,Src= LL64 (6LN)
+6775,SLLAO= MAC64 (6LN)
+6775,Src= LL64 (6LR)
+6775,Dst= LL64 (6LN)
+6775,Src= GP16 (6LN)
+6775,Dst= LL64 (6LR)
+6775,SLLAO= MAC16 (6LN)
+6775,Src= GP64 or GP16 (6LR)
+6775,Dst= GP64 or GP16 (6LBR)
+6775,Src= GP64 or GP16 (6LBR)
+6775,Dst= GP64 or GP16 (6LR)
+6775,Dst= GP16 (6LN)
+6797,directive-name            = token
+6801,s=FEC Framework Examples
+6803,newstate = newIV
+6803,Salt=0x1234567878563412
+6837,base-uri  =    uri ; from RFC 3986
+6848,country     = US
+6871,encoding-name      = token ;defined in RFC 4566
+6871,encoding-parms     = token
+6871,format-name        = token ;defined in RFC 4566
+6871,fmt-specific-param-list = text ; defined in RFC 4566
+6871,i=main video stream
+6871,i=secondary video (slides)
+6871,s=An SDP Media NEG example
+6871,a=sendonly
+6873,R = Request
+6873,r = Response
+6873,O = Original transmission
+6873,D = Duplicate transmission
+6873,S = Sent message
+6873,R = Received message
+6873,U = UDP
+6873,T = TCP
+6873,S = SCTP
+6873,U = Unencrypted message
+6873,branch=z9hG4bKnashds8;received=192.0.2.1
+6873,s=Session SDP
+6873,tag=DL88360fa5fc;epid=0x34619b0
+6875,v=Version number
+6875,ip=IP address of physical interface
+6875,port=Port number of physical interface
+6875,numpeers=number of responding peers
+6896,scs-cookie-name   = token
+6917,s=MediaCtrl
+6917,s=A conversation
+6929,p = q;
+6929,fp = stdin;
+6929,p = buffer;
+6932,p = D7C134AA264366862A18302575D1D787B09F075797DA89F57EC8C0FF
+6932,A = 68A5E62CA9CE6C1C299803A6C1530B514E182AD8B0042A59CAD29F43
+6932,B = 2580F63CCFE44138870713B1A92369E33E2135D266DBB372386C400B
+6932,x = 0D9029AD2C7E5CF4340823B2A87DC68C9E4CE3174C1E6EFDEE12C07D
+6932,y = 58AA56F772C0726F24C6B89E4ECDAC24354B9E99CAA3F6D3761402CD
+6932,q = D7C134AA264366862A18302575D0FB98D116BC4B6DDEBCA3A5A7939F
+6932,z = 2DF271E14427A346910CF7A2E6CFA7B3F484E5C2CCE1C8B730E28B3F
+6932,p = A9FB57DBA1EEA9BC3E660A909D838D726E3BF623D52620282013481D1F6E5377
+6932,A = 7D5A0975FC2C3057EEF67530417AFFE7FB8055C126DC5C6CE94A4B44F330B5D9
+6932,B = 26DC5C6CE94A4B44F330B5D9BBD77CBF958416295CF7E1CE6BCCDC18FF8C07B6
+6932,x = 8BD2AEB9CB7E57CB2C4B482FFC81B7AFB9DE27E1E3BD23C23A4453BD9ACE3262
+6932,y = 547EF835C3DAC4FD97F8461A14611DC9C27745132DED8E545C1D54C72F046997
+6932,q = A9FB57DBA1EEA9BC3E660A909D838D718C397AA3B561A6F7901E0E82974856A7
+6932,z = 3E2D4BD9597B58639AE7AA669CAB9837CF5CF20A2C852D10F655668DFC150EF0
+6932,"p = 8CB91E82A3386D280F5D6F7E50E641DF152F7109ED5456B412B1DA197FB711
+    23ACD3A729901D1A71874700133107EC53"
+6932,"A = 7BC382C63D8C150C3C72080ACE05AFA0C2BEA28E4FB22787139165EFBA91F9
+    0F8AA5814A503AD4EB04A8C7DD22CE2826"
+6932,"B = 04A8C7DD22CE28268B39B55416F0447C2FB77DE107DCD2A62E880EA53EEB62
+    D57CB4390295DBC9943AB78696FA504C11"
+6932,"x = 1D1C64F068CF45FFA2A63A81B7C13F6B8847A3E77EF14FE3DB7FCAFE0CBD10
+    E8E826E03436D646AAEF87B2E247D4AF1E"
+6932,"y = 8ABE1D7520F9C2A45CB1EB8E95CFD55262B70B29FEEC5864E19C054FF99129
+    280E4646217791811142820341263C5315"
+6932,"q = 8CB91E82A3386D280F5D6F7E50E641DF152F7109ED5456B31F166E6CAC0425
+    A7CF3AB6AF6B7FC3103B883202E9046565"
+6932,"z = 41DFE8DD399331F7166A66076734A89CD0D2BCDB7D068E44E1F378F41ECBAE
+    97D2D63DBC87BCCDDCCC5DA39E8589291C"
+6932,"p = AADD9DB8DBE9C48B3FD4E6AE33C9FC07CB308DB3B3C9D20ED6639CCA703308
+    717D4D9B009BC66842AECDA12AE6A380E62881FF2F2D82C68528AA6056583A
+    48F3"
+6932,"A = 7830A3318B603B89E2327145AC234CC594CBDD8D3DF91610A83441CAEA9863
+    BC2DED5D5AA8253AA10A2EF1C98B9AC8B57F1117A72BF2C7B9E7C1AC4D77FC
+    94CA"
+6932,"B = 3DF91610A83441CAEA9863BC2DED5D5AA8253AA10A2EF1C98B9AC8B57F1117
+    A72BF2C7B9E7C1AC4D77FC94CADC083E67984050B75EBAE5DD2809BD638016
+    F723"
+6932,"x = 81AEE4BDD82ED9645A21322E9C4C6A9385ED9F70B5D916C1B43B62EEF4D009
+    8EFF3B1F78E2D0D48D50D1687B93B97D5F7C6D5047406A5E688B352209BCB9
+    F822"
+6932,"z = 12EE58E6764838B69782136F0F2D3BA06E27695716054092E60A80BEDB212B
+    64E585D90BCE13761F85C3F1D2A64E3BE8FEA2220F01EBA5EEB0F35DBD29D9
+    22AB"
+6940,Via=A
+6940,Dest=Z
+6940,Dest=A
+6940,Via=X1
+6940,exists = False
+6947,rtcp-port = port
+6954,dA = 39F155483CEE191FBECFE9C81D8AB1A03CDA6790E7184ACE44BCA161
+6954,dB = 6060552303899E2140715816C45B57D9B42204FB6A5BF5BEAC10DB00
+6954,dA = 1E20F5E048A5886F1F157C74E91BDE2B98C8B52D58E5003D57053FC4B0BD6
+6954,dB = 032640BC6003C59260F7250C3DB58CE647F98E1260ACCE4ACDA3DD869F74E
+6954,dA = 16302FF0DBBB5A8D733DAB7141C1B45ACBC8715939677F6A56850A38BD87B
+6954,dB = 230E18E1BCC88A362FA54E4EA3902009292F7F8033624FD471B5D8ACE49D1
+6955,b = the output size of HASH in bits
+6955,Epriv = entity private value
+6976,RX = Reception
+6976,TX = Transmission
+6986,"h = fd102cf8812ccb1191ea34af21394f38
+    17a86641445aa9a626488adb33738ebd
+    2754f6908cbbbac5d3ed0f522c50815c
+    954135793fb1f5d905fee4736b3bdae2"
+6986,"h = 5c881fd924695cf196c2e4fec20d14b6
+    42026f2a0b1716ebaabb7067d4d59752
+    3d2db69d6d3794622147a14f19a66e7f
+    9037e1d662d34501a8901a5de7771d7c"
+6986,"h = 486f64c1917879417fef082b3381a4e2
+    11c324f074654c38823a7b76f830ad00
+    fa1fbae42b1285c0352f227524bc9ab1
+    6254288dd6863dccd5b9f54a1ad0541b"
+6986,"h = e3bbadbf78af3264c9137127608aa510
+    de90ba4d3075665844965fb611dbb199
+    8d48552a0c0ce6bcba71bc802a4f5b2d
+    2a07b12c22e25794178570341096fdc7"
+6986,"h = 70f22bada4cfe18a6a56ec4b3f328cd4
+    0db8e1bf8a9d5f711d5efab11191279d
+    715aab7648d07eddbf87dc79c80516e6
+    ffcbcf5678b0ac29ea00fa85c8173cc6"
+6986,"h = 00557be5e584fd52a449b16b0251d05d
+    27f94ab76cbaa6da890b59d8ef1e159d
+    2088e482e2acf564e0e9795a51e4dd26
+    1f3f667985a2fcc40ac8631faca1709a"
+6986,"M2 = fbe2e5f0eee3c820fbeafaebef20fffb
+     f0e1e0f0f520e0ed20e8ece0ebe5f0f2
+     f120fff0eeec20f120faf2fee5e2202c
+     e8f6f3ede220e8e6eee1e8f0f2d1202c
+     e8f0f2e5e220e5d1"
+6986,"h = cd7f602312faa465e3bb4ccd9795395d
+    e2914e938f10f8e127b7ac459b0c517b
+    98ef779ef7c7a46aa7843b8889731f48
+    2e5d221e8e2cea852e816cdac407c7af"
+6986,"EPSILON = fbeafaebef20fffbf0e1e0f0f520e0ed
+          20e8ece0ebe5f0f2f120fff0eeec20f1
+          20faf2fee5e2202ce8f6f3ede220e8e6
+          eee1e8f0f2d1202ce8f0f2e5e220e5d1"
+6986,"h = c544ae6efdf14404f089c72d5faf8dc6
+    aca1db5e28577fc07818095f1df70661
+    e8b84d0706811cf92dffb8f96e61493d
+    c382795c6ed7a17b64685902cbdc878e"
+6986,"EPSILON = fbeafaebef20fffbf0e1e0f0f520e0ed
+          20e8ece0ebe5f0f2f120fff0eeec20f1
+          20faf2fee5e2202ce8f6f3ede220e8e6
+          eee1e8f0f2d1202ee4d3d8d6d104adf1"
+6986,"h = 4deb6649ffa5caf4163d9d3f9967fbbd
+    6eb3da68f916b6a09f41f2518b81292b
+    703dc5d74e1ace5bcd3458af43bb456e
+    837326088f2b5df14bf83997a0b1ad8d"
+6986,"h = 28fbc9bada033b1460642bdcddb90c3f
+    b3e56c497ccd0f62b8a2ad4935e85f03
+    7613966de4ee00531ae60f3b5a47f8da
+    e06915d5f2f194996fcabf2622e6881e"
+6986,"h = 203cc15dd55fcaa5b7a3bd98fb2408a6
+    7d5b9f33a80bb50540852b204265a2c1
+    aaca5efe1d8d51b2e1636e34f5becc07
+    7d930114fefaf176b69c15ad8f2b6878"
+6986,"h = a69049e7bd076ab775bc2873af26f098
+    c538b17e39a5c027d532f0a2b3b56426
+    c96b285fa297b9d39ae6afd8b9001d97
+    bb718a65fcc53c41b4ebf4991a617227"
+6986,"h = aee3bd55ea6f387bcf28c6dcbdbbfb3d
+    dacc67dcc13dbd8d548c6bf808111d4b
+    75b8e74d2afae960835ae6a5f0357555
+    9c9fd839783ffcd5cf99bd61566b4818"
+6986,"h = 508f7e553c06501d749a66fc28c6cac0
+    b005746d97537fa85d9e40904efed29d
+    c345e53d7f84875d5068e4eb743f0793
+    d673f09741f9578471fb2598cb35c230"
+7001,"authserv-id = value
+            ; see below for a description of this element"
+7001,"result = Keyword
+       ; indicates the results of the attempt to authenticate
+       ; the message; see below for details"
+7006,type=value
+7006,att-field          = token
+7008,L1 = nL1;   R1 = nR1;   L2 = nL2;   R2 = nR2;
+7016,ackCursor = cumulativeAck;
+7016,ackCursor = rangeTo;
+7027,dA = 1E20F5E048A5886F1F157C74E91BDE2B98C8B52D58E5003D57053FC4B0BD6
+7027,dB = 032640BC6003C59260F7250C3DB58CE647F98E1260ACCE4ACDA3DD869F74E
+7027,dA = 16302FF0DBBB5A8D733DAB7141C1B45ACBC8715939677F6A56850A38BD87B
+7027,dB = 230E18E1BCC88A362FA54E4EA3902009292F7F8033624FD471B5D8ACE49D1
+7058,s=MediaCtrl
+7058,s=A conversation
+7058,branch=z9hG4bK1396873708
+7088,a=active
+7088,a=recvonly
+7088,a=sendonly
+7091,a = 0x7
+7104,s=DUP Grouping Semantics
+7104,s=Delayed Duplication
+7139,N = Ceiling of
+7143,TaskReporting=FastAbort operational (FastAbort sessions) even while
+7143,key=value in the data part of the following Login or Text Response or
+7143,key=value pairs of its own as part of a sequence and not only in
+7143,InitiatorAlias=Exchange Server
+7143,Offset=Immediate Data Length and Desired Data Transfer
+7143,AuthMethod=KRB5
+7143,AuthMethod=SRP
+7143,TargetAuth=Yes
+7143,TargetAuth=No
+7143,AuthMethod=CHAP
+7143,AuthMethod=None
+7143,SendTargets=All
+7143,send-data-SNACK = TRUE;
+7143,send-status-SNACK = TRUE;
+7143,send-recovery-R2T = TRUE;
+7143,snack-failure = FALSE;
+7143,snack-failure = TRUE;
+7143,send-status-SNACK = FALSE;
+7143,AffectedConnection = Connection;
+7143,NewConnection = Connection;
+7145,RDMAExtensions=Yes was negotiated on the leading connection of the
+7161,proto = MH
+7162,attr-flag-keyword   = atom
+7181,Type = GATEWAY that is also associated with more than one outgoing
+7193,encapsulatingContent=y; where y is one or more CMS ECT
+7193,innerContent=x; where x is one or more CMS ICT (Inner Content Type)
+7195,ext-mech-name      = token
+7195,ext-mech-value     = token
+7197,s=Delayed Duplication
+7198,s=Delayed Duplication
+7198,s=DUP Grouping Semantics
+7208,c = SMTP client IP (easily readable format)
+7208,t = current timestamp
+7208,identity=mailfrom; client-ip=192.0.2.1;
+7208,sender           = Mailbox
+7230,authority-form = authority
+7231,type       = token
+7231,subtype    = token
+7231,charset = token
+7231,content-coding   = token
+7231,method = token
+7231,From    = mailbox
+7231,product-version = token
+7231,From = mailbox
+7231,content-coding = token
+7231,subtype = token
+7231,type = token
+7233,other-range-unit = token
+7235,auth-scheme    = token
+7235,auth-scheme = token
+7253,P = INVALID
+7261,annexb=no
+7273,clksrc-param-name  = token
+7273,ptp-version-ext = token
+7273,s=SDP Seminar
+7273,i=A Seminar on the session description protocol
+7273,a=recvonly
+7273,media-clktag = base64
+7273,mediaclock-param-name  = token
+7273,a=sendonly
+7281,smime=fail (certificate is revoked by CRL)
+7281,micalg=SHA1;
+7310,variant=standard
+7310,variant=enhanced
+7316,PNI-value                 = hostname
+7393,IWF = Internetworking Function
+7398,GRA = Globally Routable Address
+7398,GW = Gateway
+7398,UE = User Equipment
+7398,RAN = Radio Access Network
+7398,GGSN = Gateway General Packet Radio Service (GPRS) Support Node
+7398,BRAS = Broadband Remote Access Server
+7398,CGN = Carrier Grade NAT
+7398,RT = Resource Transition Point
+7410,"ptype = Keyword
+      ; indicates whether the property being evaluated was
+      ; a parameter to an [SMTP] command, was a value taken
+      ; from a message header field, was some property of
+      ; the message body, or was some other property evaluated by
+      ; the receiving Message Transfer Agent (MTA)"
+7415,LCT = ta;
+7417,R     = RSVP router
+7425,markerFound = false;
+7425,markerFound = true;
+7425,hmacLength = negotiated length;
+7428,SCI =  0x3
+7428,DCI =  0x2
+7431,P = Primary path
+7431,S = Secondary path
+7433,pkg-param-value = token
+7433,cont-param-value = token
+7444,sio-label-parm = parameter
+7444,fgcolor=black; bgcolor=red;
+7444,fgcolor = black ; bgcolor = red ;
+7444,change=delete;
+7444,new-fgcolor=black; new-bgcolor=red;
+7444,change=replace;
+7444,change=add;
+7452,TLS = Transport Layer Security
+7453,mplsTunnelExtEgressLSRLocalIdValid = true
+7453,mplsInSegmentIndex           = 0x0000001
+7463,s=IP SIP UA
+7463,a=sendrecv
+7469,directive-name        = token
+7486,realm = unreserved
+7489,MSA = Mail Submission Agent
+7489,MDA = Mail Delivery Agent
+7489,selected = true
+7489,selected = false
+7489,"receiver = domain
+           ; imported from [MAIL]"
+7489,policy-domain   = domain
+7490,X = Normal label stack packet arriving at S
+7490,Y = Normal label stack packet leaving S
+7490,Z = RLFA label stack to D via C as the remote LFA repair target
+7497,GW = Gateway
+7499,State = 0xabc00001
+7499,State = 0xabc000001
+7499,State = 0xdef00002
+7499,State = 0x98700003
+7499,Service-Type = Login
+7499,State = 0xcba00003
+7499,State = 0xcba00004
+7499,State = 0xfda000003
+7502,n = TRUE
+7502,n = FALSE
+7512,type=cert;
+7512,type=private
+7512,type=cert
+7530,modified = TRUE;
+7539,Block = 6f4620636968706172676f7470797243
+7539,Acc = 2c88c77849d64ae9147ddeb88e69c83fc
+7539,Block = 6f7247206863726165736552206d7572
+7539,Acc = 2d8adaf23b0337fa7cccfb4ea344b30de
+7540,HTTP2-Settings    = token68
+7540,extension-field = bar
+7540,foo = bar
+7541,B = next octet
+7544,privacy=off
+7544,reason=unconditional;counter=1
+7597,r = length of the IPv4 prefix given by the BMR;
+7597,o = length of the EA bit field as given by the BMR;
+7601,"authserv-id = value
+            ; see below for a description of this element"
+7601,"result = Keyword
+       ; indicates the results of the attempt to authenticate
+       ; the message; see below for details"
+7616,userhash=true
+7616,userhash=false
+7639,protocol-id     = token ; percent-encoded ALPN protocol identifier
+7644,filter=title pr
+7662,token=2YotnFZFEjr1zCsicMWpAA
+7664,x = seed
+7664,save = base
+7664,PE = temp
+7667,FT = Feedback Target
+7693,b = t;
+7699,Identifier = local value indicating the laser in use
+7701,standard-token    = token
+7701,a=chatroom
+7714,P = Plaintext (to be encrypted and authenticated)
+7714,A = Associated Data (to be authenticated only)
+7714,C = Ciphertext (encrypted and authenticated)
+7714,A = Associated Data (authenticated only)
+7728,s=Pausing Media
+7747,WATime=time traffic first flows
+7749,start = rfc
+7761,oiflist = NULL
+7761,dr = me
+7761,dr = neighbor
+7761,sentRegisterStop = FALSE;
+7761,sentRegisterStop = TRUE;
+7804,data=biwsbj11c2VyLHI9ck9wck5HZndFYmVSV2diTkVrcU8K
+7804,"data=cj1yT3ByTkdmd0ViZVJXZ2JORWtxTyVodllEcFdVYTJSYVRDQWZ1eEZJ
+   bGopaE5sRixzPVcyMlphSjBTTlk3c29Fc1VFamI2Z1E9PSxpPTQwOTYK"
+7804,"data=Yz1iaXdzLHI9ck9wck5HZndFYmVSV2diTkVrcU8laHZZRHBXVWEyUmFUQ
+   0FmdXhGSWxqKWhObEYscD1kSHpiWmFwV0lrNGpVaE4rVXRlOXl0YWc5empm"
+7804,data=dj02cnJpVFJCaTIzV3BSUi93dHVwK21NaFVaVW4vZEI1bkxUSlJzamw5N
+7804,"data=Yz1iaXdzLHI9ck9wck5HZndFYmVSV2diTkVrcU80MDk2JWh2WURwV1VhM
+ lJhVENBZnV4RklsailoTmxGLHA9ZEh6YlphcFdJazRqVWhOK1V0ZTl5dGFnOX
+ pqZk1IZ3NxbW1pejdBbmRWUT0K"
+7807,start = problem
+7811,localroot = x
+7811,Z = P
+7811,cur = prev
+7825,s=SDP Seminar
+7825,i=A Seminar on the session description protocol
+7825,a=recvonly
+7826,Time-Limited=20141224T1500Z
+7826,time=20130618T161256Z
+7826,s=SDP Seminar
+7826,i=A Seminar on the session description protocol
+7826,Time-Limited=20081128T165900
+7826,ssrc=93CB001E
+7826,ssrc=A813FC13
+7826,MIKEY=VGhpcyBpcyB0aGUgZmlyc3Qgc3RyZWFtcyBNSUtFWSBtZXNzYWdl
+7826,ssrc=93CB001E;
+7826,MIKEY=TUlLRVkgUmVzcG9uc2UgdHdpc3Rlci4zZ3AvdHJhY2tJRD0x
+7826,ssrc=A813FC13;
+7826,MIKEY=TUlLRVkgUmVzcG9uc2UgdHdpc3Rlci4zZ3AvdHJhY2tJRD00
+7826,i=audio test
+7826,setup=active;connection=new
+7826,setup=passive;connection=new;ssrc=93CB001E
+7826,s=I came from a web page
+7826,s=I contain
+7838,protocol-id   = token ; percent-encoded ALPN protocol name
+7866,a=sendonly
+7866,a=recvonly
+7868,lik = the link connecting node i to neighbor k
+7878,BEEP = Blocks Extensible Exchange Protocol
+7878,TLS = Transport Layer Security
+7879,DTLS-SRTP=XXX v
+7914,X = Salsa (T)
+7914,X = scryptBlockMix (T)
+7925,UDH = user data header
+7925,IEI = information element identifier
+7932,crc = 0xffffffffUL;
+7940,start = lgr
+7945,VoD = Video on Demand
+7945,HLS  = HTTP Live Streaming
+7945,DASH = Dynamic Adaptive Streaming over HTTP
+7967,S = estimated response size
+7967,G = group size estimate
+7967,R = data transfer rate
+7989,remote=47755a9de7794ba387653f2099600ef2
+7996,start = svg
+8007,Absolute-Time = number ; seconds since UNIX epoch (Section 5.2.5)
+8007,Ccid = tstr ; see RFC 8006
+8007,URI = tstr
+8009,IV = cipher state
+8009,L = length of C in bits
+8030,Topic = token
+8030,cache-control  = private
+8032,s=self
+8032,p=point
+8032,z=q
+8034,R = Maximum Sustained Traffic Rate (bps)
+8034,P = Peak Traffic Rate (bps)
+8034,B = Maximum Traffic Burst (bytes)
+8034,drop = TRUE;
+8040,root = string  ;; replacement string for {+restconf}
+8040,key-value = string  ;; constrained chars are percent-encoded
+8040,basic-mode=explicit
+8053,auth-style=modal
+8053,O = MAY contain; n = SHOULD NOT contain; N = MUST NOT contain
+8053,i = SHOULD be ignored; I = MUST be ignored;
+8055,op-id          = token
+8056,linked = associated
+8056,ok = active
+8056,pendingCreate = pending create
+8056,pendingDelete = pending delete
+8056,pendingRenew = pending renew
+8056,pendingTransfer = pending transfer
+8056,pendingUpdate = pending update
+8056,addPeriod = add period
+8056,autoRenewPeriod = auto renew period
+8056,clientDeleteProhibited = client delete prohibited
+8056,clientHold = client hold
+8056,clientRenewProhibited = client renew prohibited
+8056,clientTransferProhibited = client transfer prohibited
+8056,clientUpdateProhibited = client update prohibited
+8056,pendingRestore = pending restore
+8056,redemptionPeriod = redemption period
+8056,renewPeriod = renew period
+8056,serverDeleteProhibited = server delete prohibited
+8056,serverRenewProhibited = server renew prohibited
+8056,serverTransferProhibited = server transfer prohibited
+8056,serverUpdateProhibited = server update prohibited
+8056,serverHold = server hold
+8056,transferPeriod = transfer period
+8068,a=sendonly
+8075,"q  = query            ; from [RFC3986], Section 3.4"
+8098,attribute = Atom
+8098,value = word
+8098,address-type = Atom
+8098,mta-name-type = Atom
+8098,disposition-modifier-extension = Atom
+8130,g = Gain
+8130,BP = Bandpass Voicing
+8130,LSF = Line Spectral Frequencies
+8130,FEC = Forward Error Correction Parity Bits
+8130,FM = Fourier Magnitudes
+8130,AF = Aperiodic Flag
+8130,BP = Bandpass voicing
+8130,FS = Fourier magnitudes
+8130,LSP = Line Spectral Pair
+8130,GAIN = Gain
+8130,JITTER = Jitter
+8130,GAIN2 = MSVQ index of the 2nd stage
+8133,X = 0xa69d51caf1a309fa9e9b66187759b0174c274e080356f23cfcbfe84d396ad7bb
+8133,Y = 0x5d26f29ecc2e9ac0404dcf7986fa55fe94986362170f54b9616426a659786dac
+8133,SEED = 0x0001
+8133,X = 0x3d715a874a4b17cb3b517893a9794a2b36c89d2ffc693f01ee4cc27e7f49e399
+8133,Y = 0x1c5a641fcf7ce7e87cdf8cea38f3db3096eace2fad158384b53953365f4fe7fe
+8133,SEED = 0x0000
+8133,X = 0x1e36383e43bb6cfa2917167d71b7b5dd3d6d462b43d7c64282ae67dfbec2559d
+8133,Y = 0x137478a9f721c73932ea06b45cf72e37eb78a63f29a542e563c614650c8b6399
+8133,SEED = 0x0006
+8133,"X = 0x2a17f8833a32795327478871b5c5e88aefb91126c64b4b8327289bea62559425
+      d18198f133f400874328b220c74497cd240586cb249e158532cb8090776cd61c"
+8133,"Y = 0x728f0c4a73b48da41ce928358fad26b47a6e094e9362bae82559f83cddc4ec3a
+      4676bd3707edeaf4cd85e99695c64c241edc622be87dc0cf87f51f4367f723c5"
+8133,"X = 0x7e1fae8285e035bec244bef2d0e5ebf436633cf50e55231dea9c9cf21d4c8c33
+      df85d4305de92971f0a4b4c07e00d87bdbc720eb66e49079285aaf12e0171149"
+8133,"Y = 0x2cc89998b875d4463805ba0d858a196592db20ab161558ff2f4ef7a85725d209
+      53967ae621afdeae89bb77c83a2528ef6fce02f68bda4679d7f2704947dbc408"
+8133,X = 0xb51adf93a40ab15792164fad3352f95b66369eb2a4ef5efae32829320363350e
+8133,Y = 0x74a358cc08593612f5955d249c96afb7e8b0bb6d8bd2bbe491046650d822be18
+8133,U = 0xebe97afffe0d0f88b8b0114b8de430ac2b34564e4420af24728e7305bc48aeaa
+8133,V = 0x828f2dcf8f06612b4fea4da72ca509c0f76dd37df424ea22bfa6f4f65748c1e4
+8133,"X = 0x489c91784e02e98f19a803abca319917f37689e5a18965251ce2ff4e8d8b298f
+      5ba7470f9e0e713487f96f4a8397b3d09a270c9d367eb5e0e6561adeeb51581d"
+8133,"Y = 0x684ea885aca64eaf1b3fee36c0852a3be3bd8011b0ef18e203ff87028d6eb5db
+      2c144a0dcc71276542bfd72ca2a43fa4f4939da66d9a60793c704a8c94e16f18"
+8133,"U = 0x3a3496f97e96b3849a4fa7db60fd93858bde89958e4beebd05a6b3214216b37c
+      9d9a560076e7ea59714828b18fbfef996ffc98bf3dc9f2d3cb0ed36a0d6ace88"
+8133,"V = 0x52d884c8bf0ad6c5f7b3973e32a668daa1f1ed092eff138dae6203b2ccdec561
+      47464d35fec4b727b2480eb143074712c76550c7a54ff3ea26f70059480dcb50"
+8133,SEED = 0x0013
+8133,X = 0xA69D51CAF1A309FA9E9B66187759B0174C274E080356F23CFCBFE84D396AD7BB
+8133,Y = 0x5D26F29ECC2E9AC0404DCF7986FA55FE94986362170F54B9616426A659786DAC
+8133,X = 0x59495655D1E7C7424C622485F575CCF121F3122D274101E8AB734CC9C9A9B45E
+8133,Y = 0x48D1C311D33C9B701F3B03618562A4A07A044E3AF31E3999E67B487778B53C62
+8133,alpha=0x1F2538097D5A031FA68BBB43C84D12B3DE47B7061C0D5E24993E0C873CDBA6B3
+8133,X = 0xBBC77CF42DC1E62D06227935379B4AA4D14FEA4F565DDF4CB4FA4D31579F9676
+8133,Y = 0x8E16604A4AFDF28246684D4996274781F6CB80ABBBA1414C1513EC988509DABF
+8133,X = 0x204F564383B2A76081B907F3FCA8795E806BE2C2ED228730B5B9E37074229E8D
+8133,Y = 0xE84F9E442C61DDE37B601A7F37E7CA11C56183FA071DFA9320EDE3E7521F9D41
+8133,beta=0xDC497D9EF6324912FD367840EE509A2032AEDB1C0A890D133B45F596FCCBD45D
+8133,X = 0x6097341C1BE388E83E7CA2DF47FAB86E2271FD942E5B7B2EB2409E49F742BC29
+8133,Y = 0xC81AA48BDB4CA6FA0EF18B9788AE25FE30857AA681B3942217F9FED151BAB7D0
+8133,X = 0xDC137A2F1D4A35AEBC0ECBF6D3486DEF8480BFDC752A86DD4F207D7D1910E22D
+8133,Y = 0x7532F0CE99DCC772A4D77861DAE57C138F07AE304A727907FB0AAFDB624ED572
+8133,X = 0x3D715A874A4B17CB3B517893A9794A2B36C89D2FFC693F01EE4CC27E7F49E399
+8133,Y = 0x1C5A641FCF7CE7E87CDF8CEA38F3DB3096EACE2FAD158384B53953365F4FE7FE
+8133,X = 0x6DC2AE26BC691FCA5A73D9C452790D15E34BA5404D92955B914C8D2662ABB985
+8133,Y = 0x3B02AAA9DD65AE30C335CED12F3154BBAC059F66B088306747453EDF6E5DB077
+8133,alpha=0x499D72B90299CAB0DA1F8BE19D9122F622A13B32B730C46BD0664044F2144FAD
+8133,X = 0x61D6F916DB717222D74877F179F7EBEF7CD4D24D8C1F523C048E34A1DF30F8DD
+8133,Y = 0x3EC48863049CFCFE662904082E78503F4973A4E105E2F1B18C69A5E7FB209000
+8133,X = 0x21F5437AF33D2A1171A070226B4AE82D3765CD0EEBFF1ECEFE158EBC50C63AB1
+8133,Y = 0x5C9553B5D11AAAECE738AD9A9F8CB4C100AD4FA5E089D3CBCCEA8C0172EB7ECC
+8133,beta=0x0F69FF614957EF83668EDC2D7ED614BE76F7B253DB23C5CC9C52BF7DF8F4669D
+8133,X = 0x33BC6F7E9C0BA10CFB2B72546C327171295508EA97F8C8BA9F890F2478AB4D6C
+8133,Y = 0x75D57B396C396F492F057E9222CCC686437A2AAD464E452EF426FC8EEED1A4A6
+8133,X = 0x089DDEE718EE8A224A7F37E22CFFD731C25FCBF58860364EE322412CDCEF99AC
+8133,Y = 0x0ECE03D4E395A6354C571871BEF425A532D5D463B0F8FD427F91A43E20CDA55C
+8133,X = 0x1E36383E43BB6CFA2917167D71B7B5DD3D6D462B43D7C64282AE67DFBEC2559D
+8133,Y = 0x137478A9F721C73932EA06B45CF72E37EB78A63F29A542E563C614650C8B6399
+8133,X = 0x945821DAF91E158B839939630655A3B21FF3E146D27041E86C05650EB3B46B59
+8133,Y = 0x3A0C2816AC97421FA0E879605F17F0C9C3EB734CFF196937F6284438D70BDC48
+8133,alpha=0x3A54AC3F19AD9D0B1EAC8ACDCEA70E581F1DAC33D13FEAFD81E762378639C1A8
+8133,X = 0x96B7F09C94D297C257A7DA48364C0076E59E48D221CBA604AE111CA3933B446A
+8133,Y = 0x54E4953D86B77ECCEB578500931E822300F7E091F79592CA202A020D762C34A6
+8133,X = 0x81BBD6FCA464D2E2404A66D786CE4A777E739A89AEB68C2DAC99D53273B75387
+8133,Y = 0x6B6DBD922EA7E060998F8B230AB6EF07AD2EC86B2BF66391D82A30612EADD411
+8133,beta=0x448781782BF7C0E52A1DD9E6758FD3482D90D3CFCCF42232CF357E59A4D49FD4
+8133,X = 0x4B9C0AB55A938121F282F48A2CC4396EB16E7E0068B495B0C1DD4667786A3EB7
+8133,Y = 0x223460AA8E09383E9DF9844C5A0F2766484738E5B30128A171B69A77D9509B96
+8133,X = 0x2ED9B903254003A672E89EBEBC9E31503726AD124BB5FC0A726EE0E6FCCE323E
+8133,Y = 0x4CF5E1042190120391EC8DB62FE25E9E26EC60FB0B78B242199839C295FCD022
+8133,"X = 0x2A17F8833A32795327478871B5C5E88AEFB91126C64B4B8327289BEA62559425
+      D18198F133F400874328B220C74497CD240586CB249E158532CB8090776CD61C"
+8133,"Y = 0x728F0C4A73B48DA41CE928358FAD26B47A6E094E9362BAE82559F83CDDC4EC3A
+      4676BD3707EDEAF4CD85E99695C64C241EDC622BE87DC0CF87F51F4367F723C5"
+8133,"X = 0x0C0AB53D0E0A9C607CAD758F558915A0A7DC5DC87B45E9A58FDDF30EC3385960
+      283E030CD322D9E46B070637785FD49D2CD711F46807A24C40AF9A42C8E2D740"
+8133,"Y = 0xDF93A8012B86D3A3D4F8A4D487DA15FC739EB31B20B3B0E8C8C032AAF8072C63
+      37CF7D5B404719E5B4407C41D9A3216A08CA69C271484E9ED72B8AAA52E28B8B"
+8133,"alpha=0x3CE54325DB52FE798824AEAD11BB16FA766857D04A4AF7D468672F16D90E7396
+        046A46F815693E85B1CE5464DA9270181F82333B0715057BBE8D61D400505F0E"
+8133,"X = 0xB93093EB0FCC463239B7DF276E09E592FCFC9B635504EA4531655D76A0A3078E
+      2B4E51CFE2FA400CC5DE9FBE369DB204B3E8ED7EDD85EE5CCA654C1AED70E396"
+8133,"Y = 0x809770B8D910EA30BD2FA89736E91DC31815D2D9B31128077EEDC371E9F69466
+      F497DC64DD5B1FADC587F860EE256109138C4A9CD96B628E65A8F590520FC882"
+8133,"X = 0xE7510A9EDD37B869566C81052E2515E1563FDFE79F1D782D6200F33C3CC2764D
+      40D0070B73AD5A47BAE9A8F2289C1B07DAC26A1A2FF9D3ECB0A8A94A4F179F13"
+8133,"Y = 0xBA333B912570777B626A5337BC7F727952460EEBA2775707FE4537372E902DF5
+      636080B25399751BF48FB154F3C2319A91857C23F39F89EF54A8F043853F82DE"
+8133,"beta=0xB5C286A79AA8E97EC0E19BC1959A1D15F12F8C97870BA9D68CC12811A56A3BB1
+        1440610825796A49D468CDC9C2D02D76598A27973D5960C5F50BCE28D8D345F4"
+8133,"X = 0x238B38644E440452A99FA6B93D9FD7DA0CB83C32D3C1E3CFE5DF5C3EB0F9DB91
+      E588DAEDC849EA2FB867AE855A21B4077353C0794716A6480995113D8C20C7AF"
+8133,"Y = 0xB2273D5734C1897F8D15A7008B862938C8C74CA7E877423D95243EB7EBD02FD2
+      C456CF9FC956F078A59AA86F19DD1075E5167E4ED35208718EA93161C530ED14"
+8133,"X = 0xC33844126216E81B372001E77C1FE9C7547F9223CF7BB865C4472EC18BE0C79A
+      678CC5AE4028E3F3620CCE355514F1E589F8A0C433CEAFCBD2EE87884D953411"
+8133,"Y = 0x8B520D083AAF257E8A54EC90CBADBAF4FEED2C2D868C82FF04FCBB9EF6F38E56
+      F6BAF9472D477414DA7E36F538ED223D2E2EE02FAE1A20A98C5A9FCF03B6F30D"
+8133,"X = 0x7E1FAE8285E035BEC244BEF2D0E5EBF436633CF50E55231DEA9C9CF21D4C8C33
+      DF85D4305DE92971F0A4B4C07E00D87BDBC720EB66E49079285AAF12E0171149"
+8133,"Y = 0x2CC89998B875D4463805BA0D858A196592DB20AB161558FF2F4EF7A85725D209
+      53967AE621AFDEAE89BB77C83A2528EF6FCE02F68BDA4679D7F2704947DBC408"
+8133,"X = 0x7D03E65B8050D1E12CBB601A17B9273B0E728F5021CD47C8A4DD822E4627BA5F
+      9C696286A2CDDA9A065509866B4DEDEDC4A118409604AD549F87A60AFA621161"
+8133,"Y = 0x16037DAD45421EC50B00D50BDC6AC3B85348BC1D3A2F85DB27C3373580FEF87C
+      2C743B7ED30F22BE22958044E716F93A61CA3213A361A2797A16A3AE62957377"
+8133,"alpha=0x715E893FA639BF341296E0623E6D29DADF26B163C278767A7982A989462A3863
+        FE12AEF8BD403D59C4DC4720570D4163DB0805C7C10C4E818F9CB785B04B9997"
+8133,"X = 0x10C479EA1C04D3C2C02B0576A9C42D96226FF033C1191436777F66916030D87D
+      02FB93738ED7669D07619FFCE7C1F3C4DB5E5DF49E2186D6FA1E2EB5767602B9"
+8133,"Y = 0x039F6044191404E707F26D59D979136A831CCE43E1C5F0600D1DDF8F39D0CA3D
+      52FBD943BF04DDCED1AA2CE8F5EBD7487ACDEF239C07D015084D796784F35436"
+8133,"X = 0x45C05CCE8290762F2470B719B4306D62B2911CEB144F7F72EF11D10498C7E921
+      FF163FE72044B4E7332AD8CBEC3C12117820F53A60762315BCEB5BC6DA5CF1E0"
+8133,"Y = 0x5BE483E382D0F5F0748C4F6A5045D99E62755B5ACC9554EC4A5B2093E121A2DD
+      5C6066BC9EDE39373BA19899208BB419E38B39BBDEDEB0B09A5CAAEAA984D02E"
+8133,"beta=0x30FA8C2B4146C2DBBE82BED04D7378877E8C06753BD0A0FF71EBF2BEFE8DA8F3
+        DC0836468E2CE7C5C961281B6505140F8407413F03C2CB1D201EA1286CE30E6D"
+8133,"X = 0x34C0149E7BB91AE377B02573FCC48AF7BFB7B16DEB8F9CE870F384688E3241A3
+      A868588CC0EF4364CCA67D17E3260CD82485C202ADC76F895D5DF673B1788E67"
+8133,"Y = 0x608E944929BD643569ED5189DB871453F13333A1EAF82B2FE1BE8100E775F13D
+      D9925BD317B63BFAF05024D4A738852332B64501195C1B2EF789E34F23DDAFC5"
+8133,"X = 0x0535F95463444C4594B5A2E14B35760491C670925060B4BEBC97DE3A3076D1A5
+      81F89026E04282B040925D9250201024ACA4B2713569B6C3916A6F3344B840AD"
+8133,"Y = 0x40E6C2E55AEC31E7BCB6EA0242857FC6DFB5409803EDF4CA20141F72CC3C7988
+      706E076765F4F004340E5294A7F8E53BA59CB67502F0044558C854A7D63FE900"
+8133,X = 0xB51ADF93A40AB15792164FAD3352F95B66369EB2A4EF5EFAE32829320363350E
+8133,Y = 0x74A358CC08593612F5955D249C96AFB7E8B0BB6D8BD2BBE491046650D822BE18
+8133,X = 0xDBF99827078956812FA48C6E695DF589DEF1D18A2D4D35A96D75BF6854237629
+8133,Y = 0x9FDDD48BFBC57BEE1DA0CFF282884F284D471B388893C48F5ECB02FC18D67589
+8133,alpha=0x147B72F6684FB8FD1B418A899F7DBECAF5FCE60B13685BAA95328654A7F0707F
+8133,X = 0x33FBAC14EAE538275A769417829C431BD9FA622B6F02427EF55BD60EE6BC2888
+8133,Y = 0x22F2EBCF960A82E6CDB4042D3DDDA511B2FBA925383C2273D952EA2D406EAE46
+8133,X = 0xE569AB544E3A13C41077DE97D659A1B7A13F61DDD808B633A5621FE2583A2C43
+8133,Y = 0xA21A743A08F4D715661297ECD6F86553A808925BF34802BF7EC34C548A40B2C0
+8133,beta=0x30D5CFADAA0E31B405E6734C03EC4C5DF0F02F4BA25C9A3B320EE6453567B4CB
+8133,X = 0x2B2D89FAB735433970564F2F28CFA1B57D640CB902BC6334A538F44155022CB2
+8133,Y = 0x10EF6A82EEF1E70F942AA81D6B4CE5DEC0DDB9447512962874870E6F2849A96F
+8133,X = 0x190D2F283F7E861065DB53227D7FBDF429CEBF93791262CB29569BDF63C86CA4
+8133,Y = 0xB3F1715721E9221897CCDE046C9B843A8386DBF7818A112F15A02BC820AC8F6D
+8133,"X = 0x489C91784E02E98F19A803ABCA319917F37689E5A18965251CE2FF4E8D8B298F
+      5BA7470F9E0E713487F96F4A8397B3D09A270C9D367EB5E0E6561ADEEB51581D"
+8133,"Y = 0x684EA885ACA64EAF1B3FEE36C0852A3BE3BD8011B0EF18E203FF87028D6EB5DB
+      2C144A0DCC71276542BFD72CA2A43FA4F4939DA66D9A60793C704A8C94E16F18"
+8133,"X = 0x0185AE6271A81BB7F236A955F7CAA26FB63849813C0287D96C83A15AE6B6A864
+      67AB13B6D88CE8CD7DC2E5B97FF5F28FAC2C108F2A3CF3DB5515C9E6D7D210E8"
+8133,"Y = 0xED0220F92EF771A71C64ECC77986DB7C03D37B3E2AB3E83F32CE5E074A762EC0
+      8253C9E2102B87532661275C4B1D16D2789CDABC58ACFDF7318DE70AB64F09B8"
+8133,"alpha=0x332F930421D14CFE260042159F18E49FD5A54167E94108AD80B1DE60B13DE799
+        9A34D611E63F3F870E5110247DF8EC7466E648ACF385E52CCB889ABF491EDFF0"
+8133,"X = 0x561655966D52952E805574F4281F1ED3A2D498932B00CBA9DECB42837F09835B
+      FFBFE2D84D6B6B242FE7B57F92E1A6F2413E12DDD6383E4437E13D72693469AD"
+8133,"Y = 0xF6B18328B2715BD7F4178615273A36135BC0BF62F7D8BB9F080164AD36470AD0
+      3660F51806C64C6691BADEF30F793720F8E3FEAED631D6A54A4C372DCBF80E82"
+8133,"X = 0x40645B4B9A908D74DEF98886A336F98BAE6ADA4C1AC9B7594A33D5E4A16486C5
+      533C7F3C5DD84797AB5B4340BFC70CAF1011B69A01A715E5B9B5432D5151CBD7"
+8133,"Y = 0x267FBB18D0B79559D1875909F2A15F7B49ECD8ED166CF7F4FCD1F44891550483
+      5E80D52BE8D34ADA5B5E159CF52979B1BCFE8F5048DC443A0983AA19192B8407"
+8133,"beta=0x38481771E7D054F96212686B613881880BD8A6C89DDBC656178F014D2C093432
+        A033EE10415F13A160D44C2AD61E6E2E05A7F7EC286BCEA3EA4D4D53F8634FA2"
+8133,"X = 0xB7C5818687083433BC1AFF61CB5CA79E38232025E0C1F123B8651E62173CE687
+      3F3E6FFE7281C2E45F4F524F66B0C263616ED08FD210AC4355CA3292B51D71C3"
+8133,"Y = 0x497F14205DBDC89BDDAF50520ED3B1429AD30777310186BE5E68070F016A44E0
+      C766DB08E8AC23FBDFDE6D675AA4DF591EB18BA0D348DF7AA40973A2F1DCFA55"
+8133,"X = 0xB772FD97D6FDEC1DA0771BC059B3E5ADF9858311031EAE5AEC6A6EC8104B4105
+      C45A6C65689A8EE636C687DB62CC0AFC9A48CA66E381286CC73F374C1DD8F445"
+8133,"Y = 0xC64F69425FFEB2995130E85A08EDC3A686EC28EE6E8469F7F09BD3BCBDD843AC
+      573578DA6BA1CB3F5F069F205233853F06255C4B28586C9A1643537497B1018C"
+8133,swap = True
+8133,X = Px
+8133,Y = Py
+8133,resX = None
+8133,resY = None
+8133,r = m
+8133,res = None
+8141,f-component   = fragment
+8152,values = any
+8171,MBZ = MUST be zero
+8171,Z   = zero
+8180,Timeslot = 0x0000 (2B)
+8180,Len1 = Header IE Length (none)
+8180,M = Key Identifier Mode (0x01)
+8188,NONCE = Bcs8gkIRKLI8GeI8
+8208,"k = A6E3C57DD01ABE90086538398355DD4C
+    3B17AA873382B0F24D6129493D8AAD60"
+8208,"x = D8AA4DFBE2478F86E88A7451BF075565
+    709C575AC1C136D081C540254CA440B9"
+8208,"Ux = 7391BABB92A0CB3BE10E59B19EBFFB21
+     4E04A91E0CBA1B139A7D38D90F77E55A"
+8208,"Uy = A05B8E695678E0FA16904B55D9D4F5C0
+     DFC58895EE50BC4F75D205A25BD36FF5"
+8208,"x = 6CB2E931B112F24554BCDCAAFD9553A9
+    519A9AF33C023B60846A21FC95583172"
+8208,"Ux = 28FC5FE9AFCF5F4CAB3F5F85CB212FC1
+     E9D0E0DBEAEE425BD2F0D3175AA0E989"
+8208,"Uy = EA9B603E38F35FB329DF495641F2BA04
+     0F1C3AC6138307F257CBA6B8B588F41F"
+8216,AttributeName=AttributeValue
+8220,OutgoingPortList = UserDefinedPortList
+8224,ident-info-uri = LAQUOT absoluteURI RAQUOT
+8224,s=Session SDP
+8227,MSB = most significant bit
+8227,LSB = least significant bit
+8237,YY = the last two decimal digits of the current year
+8237,MM = the two decimal digits of the current month
+8237,DD = the two decimal digits of the current day
+8269,SSRC = Synchronization Source
+8274,md5=e2710ceb088dacdcb03678db250742b7
+8274,action=install
+8274,md5=c3c528c939f9b176c883ae0ce5df0001
+8285,m=video
+8285,a=sendrecv
+8285,m=audio
+8285,extensionname = URI
+8286,s=RTP Splicing Example
+8286,i=Main RTP Stream
+8286,i=Substitutive RTP Stream
+8286,a=sendonly
+8286,a=recvonly
+8286,i=Substitutive audio RTP Stream
+8286,i=Substitutive video RTP Stream
+8288,x=y
+8288,ext-rel-type   = URI ; Section 3 of [RFC3986]
+8300,SCL = Service Classifier
+8313,AD = Administrative Domain (independent autonomous system)
+8313,BR = Border Router
+8313,AR = AMT Relay
+8313,AG = AMT Gateway
+8323,Token =               0x7f
+8323,Token =               0x42
+8331,s=Professional Networked Media Test
+8331,i=A test of synchronized video and ANC data
+8342,ct = config true; cf = config false
+8421,SRFLX = server reflexive
+8428,start = sensml
+8428,binary-value = tstr             ; base64url encoded
+8428,binary-value = bstr
+8439,a = 0x11111111
+8439,b = 0x01020304
+8439,c = 0x77777777
+8439,d = 0x01234567
+8439,c = 0x9b8d6f43
+8439,a = 0xea2a92f4
+8439,b = 0xcb1cf8ce
+8439,c = 0x4581472e
+8439,d = 0x5881c4bb
+8439,Block = 6f4620636968706172676f7470797243
+8439,Acc = 2c88c77849d64ae9147ddeb88e69c83fc
+8439,Block = 6f7247206863726165736552206d7572
+8439,Acc = 2d8adaf23b0337fa7cccfb4ea344b30de
+8441,sec-websocket-protocol = chat
+8446,AlertLevel=fatal and MUST be treated as error alerts when received
+8452,Tag =                       dc20e2d83f25705bb49e439eca56de25
+8452,Tag =                       578782fff6013b815b287c22493a364c
+8452,Tag =                       a4978db357391a0bc4fdec8b0d106639
+8452,Tag =                       303aaf90f6fe21199c6068577437a0c4
+8452,Tag =                       1a8e45dcd4578c667cd86847bf6155ff
+8452,Tag =                       5e6e311dbf395d35b0fe39c2714388f8
+8452,Tag =                       8a263dd317aa88d56bdf3936dba75bb8
+8452,Tag =                       3b0a1a2560969cdf790d99759abd1508
+8452,Tag =                       08299c5102745aaa3a0c469fad9e075a
+8452,Tag =                       8f8936ec039e4e4bb97ebd8c4457441f
+8452,Tag =                       e6af6a7f87287da059a71684ed3498e1
+8452,Tag =                       6a8cc3865f76897c2e4b245cf31c51f2
+8452,Tag =                       cdc46ae475563de037001ef84ae21744
+8452,Tag =                       07eb1f84fb28f8cb73de8e99e2f48a14
+8452,Tag =                       24afc9805e976f451e6d87f6fe106514
+8452,Tag =                       bff9b2ef00fb47920cc72a0c0f13b9fd
+8452,Key =                       e66021d5eb8e4f4066d4adb9c33560e4
+8452,Nonce =                     f46e44bb3da0015c94f70887
+8452,Tag =                       a4194b79071b01a87d65f706e3949578
+8452,Key =                       36864200e0eaf5284d884a0e77d31646
+8452,Nonce =                     bae8e37fc83441b16034566b
+8452,Tag =                       711bd85bc1e4d3e0a462e074eea428a8
+8452,Key =                       aedb64a6c590bc84d1a5e269e4b47801
+8452,Nonce =                     afc0577e34699b9e671fdd4f
+8452,Tag =                       d6a9c45545cfc11f03ad743dba20f966
+8452,Key =                       d5cc1fd161320b6920ce07787f86743b
+8452,Nonce =                     275d1ab32f6d1f0434d8848c
+8452,Tag =                       1d02fd0cd174c84fc5dae2f60f52fd2b
+8452,Key =                       b3fed1473c528b8426a582995929a149
+8452,Nonce =                     9e9ad8780c8d63d0ab4149c0
+8452,Tag =                       c1dc2f871fb7561da1286e655e24b7b0
+8452,Key =                       2d4ed87da44102952ef94b02b805249b
+8452,Nonce =                     ac80e6f61455bfac8308a2d4
+8452,Tag =                       83b3449b9f39552de99dc214a1190b0b
+8452,Key =                       bde3b2f204d1e9f8b06bc47f9745b3d1
+8452,Nonce =                     ae06556fb6aa7890bebc18fe
+8452,Tag =                       3e377094f04709f64d7b985310a4db84
+8452,Key =                       f901cfe8a69615a93fdf7a98cad48179
+8452,Nonce =                     6245709fb18853f68d833640
+8452,Tag =                       2d15506c84a9edd65e13e9d24a2a6e70
+8452,Tag =                       07f5f4169bbf55a8400cd47ea6fd400f
+8452,Tag =                       843122130f7364b761e0b97427e3df28
+8452,Tag =                       8ca50da9ae6559e48fd10f6e5c9ca17e
+8452,Tag =                       c9eac6fa700942702e90862383c6c366
+8452,Tag =                       e819e63abcd020b006a976397632eb5d
+8452,Tag =                       790bc96880a99ba804bd12c0e6a22cc4
+8452,Tag =                       112864c269fc0d9d88c61fa47e39aa08
+8452,Tag =                       91213f267e3b452f02d01ae33e4ec854
+8452,Tag =                       c1a4a19ae800941ccdc57cc8413c277f
+8452,Tag =                       b292d28ff61189e8e49f3875ef91aff7
+8452,Tag =                       aea1bad12702e1965604374aab96dbbc
+8452,Tag =                       03332742b228c647173616cfd44c54eb
+8452,Tag =                       5bde0285037c5de81e5b570a049b62a0
+8452,Tag =                       1835e517741dfddccfa07fa4661b74cf
+8452,Tag =                       b879ad976d8242acc188ab59cabfe307
+8452,Tag =                       cfcdf5042112aa29685c912fc2056543
+8452,"Key =                       e66021d5eb8e4f4066d4adb9c33560e4
+                            f46e44bb3da0015c94f7088736864200"
+8452,Nonce =                     e0eaf5284d884a0e77d31646
+8452,Tag =                       169fbb2fbf389a995f6390af22228a62
+8452,"Key =                       bae8e37fc83441b16034566b7a806c46
+                            bb91c3c5aedb64a6c590bc84d1a5e269"
+8452,Nonce =                     e4b47801afc0577e34699b9e
+8452,Tag =                       93da9bb81333aee0c785b240d319719d
+8452,"Key =                       6545fc880c94a95198874296d5cc1fd1
+                            61320b6920ce07787f86743b275d1ab3"
+8452,Nonce =                     2f6d1f0434d8848c1177441f
+8452,Tag =                       6b62b84dc40c84636a5ec12020ec8c2c
+8452,"Key =                       d1894728b3fed1473c528b8426a58299
+                            5929a1499e9ad8780c8d63d0ab4149c0"
+8452,Nonce =                     9f572c614b4745914474e7c7
+8452,Tag =                       c0fd3dc6628dfe55ebb0b9fb2295c8c2
+8452,"Key =                       a44102952ef94b02b805249bac80e6f6
+                            1455bfac8308a2d40d8c845117808235"
+8452,Nonce =                     5c9e940fea2f582950a70d5a
+8452,Tag =                       404099c2587f64979f21826706d497d5
+8452,"Key =                       9745b3d1ae06556fb6aa7890bebc18fe
+                            6b3db4da3d57aa94842b9803a96e07fb"
+8452,Nonce =                     6de71860f762ebfbd08284e4
+8452,Tag =                       b3080d28f6ebb5d3648ce97bd5ba67fd
+8452,"Key =                       b18853f68d833640e42a3c02c25b6486
+                            9e146d7b233987bddfc240871d7576f7"
+8452,Nonce =                     028ec6eb5ea7e298342a94d4
+8452,Tag =                       454fc2a154fea91f8363a39fec7d0a49
+8452,"Key =                       3c535de192eaed3822a2fbbe2ca9dfc8
+                            8255e14a661b8aa82cc54236093bbc23"
+8452,Nonce =                     688089e55540db1872504e1c
+8452,Tag =                       9d6c7029675b89eaf4ba1ded1a286594
+8452,Tag =                       ffffffff000000000000000000000000
+8460,"sender          = domain ; from [RFC5321] -- this is used
+                  ; as the domain for the `contact-info`
+                  ; address in the report body.
+                  ; In the case of Internationalized Domain
+                  ; Names [RFC5891], the domain MUST consist of
+                  ; the Punycode-encoded A-labels [RFC3492] and
+                  ; not the U-labels."
+8460,"policy-domain   = domain
+                  ; In the case of Internationalized Domain
+                  ; Names [RFC5891], the domain MUST consist of
+                  ; the Punycode-encoded A-labels [RFC3492] and
+                  ; not the U-labels."
+8461,secure = false
+8463,b=F45dVWDfMbQDGHJFlXUNB2HKfbCeLRyhDXgFpEL8GwpsRe0IeIixNTe3
+8466,VM = Virtual Machine
+8473,Sec-Token-Binding = EncodedTokenBindingMessage
+8492,x = val
+8492,save = seed
+8506,service-context = Token
+8507,C = IPv4 compatibility flag; see [IPAE].
+8511,cwnd = ssthresh
+8551,From=20because some mail transport agents will insert a
+8554,Tc = tmp
+8554,d = L
+8554,key = pub
+8554,key = msg
+8554,j = i;
+8582,LCT = ta;
+8586,pseudonym = token
+8599,pn-provider=acme;
+8601,"authserv-id = value
+            ; see below for a description of this element"
+8601,"result = Keyword
+       ; indicates the results of the attempt to authenticate
+       ; the message; see below for details"
+8605,CONTACT-URI-value = uri ; uri from [RFC3986]
+8606,location=LN
+8608,"k = A6E3C57DD01ABE90086538398355DD4C
+    3B17AA873382B0F24D6129493D8AAD60"
+8608,"x = D8AA4DFBE2478F86E88A7451BF075565
+    709C575AC1C136D081C540254CA440B9"
+8608,"Ux = 7391BABB92A0CB3BE10E59B19EBFFB21
+     4E04A91E0CBA1B139A7D38D90F77E55A"
+8608,"Uy = A05B8E695678E0FA16904B55D9D4F5C0
+     DFC58895EE50BC4F75D205A25BD36FF5"
+8608,"x = 6CB2E931B112F24554BCDCAAFD9553A9
+    519A9AF33C023B60846A21FC95583172"
+8608,"Ux = 28FC5FE9AFCF5F4CAB3F5F85CB212FC1
+     E9D0E0DBEAEE425BD2F0D3175AA0E989"
+8608,"Uy = EA9B603E38F35FB329DF495641F2BA04
+     0F1C3AC6138307F257CBA6B8B588F41F"
+8610,device-address = byte
+8610,solid = tstr
+8610,t = [group1]
+8610,t = [group3]
+8610,t = [group4]
+8610,t = [group4a]
+8610,bytes = bstr
+8610,text = tstr
+8610,null = nil
+8613,E = Encrypt and Integrity Protect (Inner)
+8613,U = Unprotected (Outer)
+8618,ticks = int
+8618,uticks = uint
+8621,htmlBody = null;
+8621,textBody = null;
+8627,s=FlexFEC minimal SDP signaling Example
+8649,R1 = The initial Root key pair
+8662,S = Source LSR
+8662,D = Destination LSR
+8688,a=sendrecv
+8727,start = iodef
+8727,IDREFType = IDtype
+8727,URLtype = uri
+8727,DATETIME = tdate
+8727,BYTE = eb64legacy
+8727,PAddressType = MLStringType
+8734,dA = 1E20F5E048A5886F1F157C74E91BDE2B98C8B52D58E5003D57053FC4B0BD6
+8734,dB = 032640BC6003C59260F7250C3DB58CE647F98E1260ACCE4ACDA3DD869F74E
+8734,dA = 16302FF0DBBB5A8D733DAB7141C1B45ACBC8715939677F6A56850A38BD87B
+8734,dB = 230E18E1BCC88A362FA54E4EA3902009292F7F8033624FD471B5D8ACE49D1
+8743,loopFlag=False
+8743,loopFlag=True
+8785,next = true;
+8802,extension-method = token
+8802,s=Q4S
+8802,i=Q4S parameters
+8805,retval = True
+8805,retval = False
+8824,Value = temperature
+8824,Value = 0x0904636c69656e74
+8827,identity-assertion-value = base64
+8827,extension-name           = token
+8827,s=example1
+8827,a=sendrecv
+8829,a=recvonly
+8829,a=sendrecv
+8829,a=sendonly
+8839,transport-extension   = token              ; from RFC 3261
+8839,extension-att-name    = token
+8848,a=sendrecv
+8848,a=sendonly
+8848,a=recvonly
+8848,a=inactive
+8851,a=sendrecv
+8851,a=recvonly
+8859,a=sendonly
+8859,a=recvonly
+8859,m=audio
+8859,m=video
+8864,ordered=true
+8864,ordered=false
+8864,ordered=true;max-retr=<number of retransmissions>
+8864,ordered=false;max-retr=<number of retransmissions>
+8864,ordered=true;max-time=<lifetime in milliseconds>
+8864,ordered=false;max-time=<lifetime in milliseconds>
+8866,v=  (protocol version)
+8866,o=  (originator and session identifier)
+8866,s=  (session name)
+8866,s=Call to John Smith
+8866,a=inactive
+8866,a=sendrecv
+8866,a=recvonly
+8866,a=sendonly
+8881,modified = TRUE;
+8881,fh = filehandle returned by OPEN;
+8887,sec-websocket-protocol = jmap
+8922,x = Interface is exposed
+8927,empty = shared
+8927,root = any
+8927,b = number
+8927,root = bool
+8927,root = number
+8927,root = tstr
+8927,root = tdate
+8932,GA   = Google Analytics
+8932,d    = dnswasher
+8932,TC   = TCPdpriv
+8932,C    = CryptoPAn
+8932,TS   = TSA
+8932,i    = ipcipher
+8932,B    = Bloom filter
+8990,grasp-option = any
+8990,reason = text  ; optional UTF-8 error message
+8990,objective-name = text
+8990,objective-value = any
+8994,objective-value = any        ; Reserved for future extensions.
+8994,extension = any
+8994,method-param = any
+8995,initiator = ACP address to contact registrar
+8995,objective-value   =  any       ; none
+8995,ipv6-address      = the v6 LL of the Proxy
+8995,port-number      = selected by Proxy
+8998,"b  = 28E9FA9E 9D9F5E34 4D5A9E4B CF6509A7
+     F39789F5 15AB8F92 DDBCBD41 4D940E93"
+8998,"n  = FFFFFFFE FFFFFFFF FFFFFFFF FFFFFFFF
+     7203DF6B 21C6052B 53BBF409 39D54123"
+8998,"Gx = 32C4AE2C 1F198119 5F990446 6A39C994
+     8FE30BBF F2660BE1 715A4589 334C74C7"
+8998,"Gy = BC3736A2 F4F6779C 59BDCEE3 6B692153
+     D0A9877C C62A4740 02DF32E5 2139F0A0"
+9001,sample = d1b1c98dd7689fb8ec11d242b123dc9b
+9001,header = c000000001088394c8f03e5157080000449e7b9aec34
+9001,sample = 2cd0991cd25b0aac406a5816b6394100
+9001,mask   = 2ec0d8356a
+9001,header = cf000000010008f067a5502a4262b5004075c0d9
+9001,nonce              = e0459b3474bdd0e46d417eb0
+9001,sample = 5e5cd55c41f69080575d7999c25a5bfb
+9001,mask   = aefefe7d03
+9001,header = 4cfe4189
+9001,packet = 4cfe4189655e5cd55c41f69080575d7999c25a5bfb
+9002,space = Initial
+9002,ssthresh = infinite
+9024,X   = Service protection
+9024,DFx = DetNet member flow x over a TE LSP
+9024,AC  = Attachment Circuit
+9024,Tnl = Tunnel
+9034,OTD = 0x64
+9040,CWND = IW;
+9043,range = 0xFF00;
+9043,range  = rangeoff;
+9052,values = any
+9056,DFx = DetNet member flow x over a TE LSP
+9073,ENCODING=BASE64;VALUE=BINARY:ICAgIDxzY3JpcHQgdHlwZT0iYXBwb
+9073,VALUE=TEXT is used to provide rich text inline as the property
+9097,n=m
+9110,From    = mailbox
+9110,From = mailbox
+9112,method         = token
+9112,chunk-ext-name = token
+9112,method = token
+9113,extension-field = bar
+9113,foo = bar
+9115,rsaKeySize = uint
+9116,"hash-alg         =  token
+                      ; imported from RFC 2045; see RFC 4880 Section
+                      ; 10.3.3 for a pointer to the registry of
+                      ; valid values"
+9134,colorimetry=BT709;TCS=SDR;RANGE=FULL;TP=2110TPNL
+9148,Token = 0x9a (client generated)
+9148,Payload = [Empty]
+9148,Token = 0x9a   (copied from request by server)
+9148,Token = 0x9a    (client generated)
+9148,Token = 0x9a     (copied from request by server)
+9163,directive-name      = token
+9171,dtn-time = uint
+9171,ext-data-previous-node = eid
+9171,ext-data-bundle-age = uint
+9176,rel=describedby
+9176,R =  used at registration
+9176,L =  used at lookup
+9176,A =  expressed in the target attribute
+9177,missing-block-number = uint
+9189,"x = 0x6531D4A72E655BFC9DFB94293B260702
+      82FABF10D5C49B7366148C60E0BF8167"
+9189,"y = 0x37F8CC71DC5D917FC4A66F7826E72750
+      8270B4FFC266C26CD4363E77B553A5B8"
+9189,"x = 0xA8F36D63D262A203978F1B3B6795CDBB
+      F1AE7FB8EF7F47F1F18871C198E00793"
+9189,"y = 0x34CA5D6B4485640EA195435993BEB1F8
+      B016ED610496B5CC175AC2EA1F14F887"
+9189,"x = 0xF14589DA479AD972C66563669B3FF580
+      92E6A30A288BF447CD9FF6C3133E9724
+      7A9706B267703C9B4E239F0D7C7E3310
+      C22D2752B35BD2E4FD39B8F11DEB833A"
+9189,"y = 0xF305E95B36502D4E60A1059FB20AB30B
+      FC7C95727F3A2C04B1DFDDB53B0413F2
+      99F2DFE66A5E1CCB4101A7A01D612BE6
+      BD78E1E3B3D567EBB16ABE587A11F4EA"
+9189,"x = 0x0F5DB18A9E15F324B778676025BFD7B5
+      DF066566EABAA1C51CD879F87B0B4975"
+9189,"y = 0x9EE5BBF18361F842D3F087DEC2943939
+      E0FA2BFB4EDEC25A8D10ABB22C48F386"
+9189,"x = 0xC941BE5193189B476D5A0334114A3E04
+      BBE5B37C738AE40F150B334135288664
+      FEBFC5622818894A07B1F7AD60E28480
+      B4B637B90EA7D4BA980186B605D75BC6"
+9189,"y = 0xA154F7B93E8148652011F4FD52C9A06A
+      6471ADB28D0A949AE26BC786DE874153
+      ABC00B35164F3214A8A83C00ECE27831
+      B093528456234EFE766224FC2A7E9ABE"
+9189,"x = 0x16DB0566C0278AC8204143994824236D
+      97F36A13D5433E990B2EAC859D2E9B7A
+      E054794655389158B8242923E3841B14
+      24FD89F221701C89D9A3BF6A9F946795"
+9189,"y = 0xD01E80DEC5BD23C8BC6B85F12BBB1635
+      A5AE7AD50DE24FB8FD02CB285A4AE65A
+      7D6FBB99AAFFDA80629826F2F7F73282
+      220444761615A06D082077C4A00FD4CF"
+9189,"x = 0x4B9CB381BCC737E493E43B2D7FD95BFE
+      2AEF6BE8F6224882E5E559ADA08170DC
+      49A815B3A1B3B323D2B50195153CFC60
+      DD6139C3770C5762A6A7719FABF84BFB"
+9189,"y = 0x95CEF28392C846A5EEFCB51C84E4960A
+      77B77D0D85EBD22061BFDA0013C5AB6C
+      42DDD04973F65D2AEB8A5427A53D6872
+      CF2D68F5F722C4640D7AAF2E0194FBD0"
+9190,Type = 0x0D
+9203,nonce1 = 0x48018a278f7faab55a
+9203,nonce2 = 0x4825a8991cd700ac01
+9204,n = count of entries inserted
+9204,d = count of entries dropped
+9208,quota-root-name =  astring
+9208,resource-limit =   number64
+9208,"resource-name-ext =  atom
+                   ;; Future resource registrations"
+9208,"resource-usage =  number64
+                   ;; must be less than corresponding resource-limit"
+9215,a = 0x7
+9237,local-path = tstr   ; URI relative to enforcement point
+9260,SRTT = R
+9260,cwnd = ssthresh
+9260,cwnd = PMDCS
+9271,password = sekret
+9271,actions = SET
+9271,instcmds = ALL
+9316,C4=QoS
+9321,binary-value = text             ; base64 classic with padding
