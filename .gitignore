@@ -1,0 +1,8 @@
+
+.vscode/*
+__pycache__/*
+
+
+*/rfc*.txt
+*.csv
+test_scipts/*
