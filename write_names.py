@@ -1,6 +1,6 @@
 # 处理1000个文件
 from data_utils import read_rulelist
-from n_cross_def import get_dependence_rulename
+from cross_def import get_dependence_rulename
 import os
 
 
