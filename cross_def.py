@@ -101,16 +101,25 @@ def get_def_dict(folder_path):
 
 
 def remove_duplicate(rulelist):
-    seen = {}
-    duplicates = []
-    new_list = []
+    # 初始化一个字典来保存rule和它出现的次数
+    rule_dict = {}
+    # 初始化一个列表来保存被删除的rule
+    deleted_rules = []
+    
+    # 遍历规则列表
     for rule in rulelist:
-        if rule not in seen:
-            seen[rule] = 1
-            new_list.append(rule)
+        # 提取每一个规则名称，即等号左边的部分
+        rule_name = rule.split('=')[0].strip()
+        
+        # 如果这个规则名称在字典中还没有出现过，就将它和对应的rule添加到字典中
+        if rule_name not in rule_dict:
+            rule_dict[rule_name] = rule
+        # 否则，将这个rule添加到删除的列表中
         else:
-            duplicates.append(rule)
-    return new_list, duplicates
+            deleted_rules.append(rule)
+            
+    # 将字典转换为列表并返回
+    return list(rule_dict.values()), deleted_rules
 
 
 
@@ -176,6 +185,40 @@ def get_dependence_rulename(rule): # 找到一条rule里等号右侧的所有rul
     return name_list
 
 
+def get_group(node):
+    """Do a breadth-first search of the tree for addr-spec node.  If found, 
+    return its value."""
+    rulenames = []
+    queue = [node]
+    while queue:
+        n, queue = queue[0], queue[1:]
+        if n.name == 'group':
+            rulenames.append(n.value)
+        
+        queue.extend(n.children)
+    return rulenames
+
+def get_group_names(rule):
+    import re
+
+    def extract_words_from_parentheses(text):
+        # 使用正则表达式提取括号内的内容
+        matches = re.findall(r'\((.*?)\)', text)
+        if matches:
+            words = matches[0].split()  # 分割单词
+            return words  # 在每个单词两侧添加双引号并返回列表
+        return []
+    
+    parser = abnf.grammars.rfc5234.Rule('rule')
+    node = parser.parse_all(rule)
+    group = get_group(node)
+    if group:
+        group_names = extract_words_from_parentheses(group[0])
+        return group_names
+    else:
+        return []
+
+
 def delete_non_abnf(rulelist):
     import abnf
 
@@ -214,10 +257,6 @@ def delete_non_abnf(rulelist):
 
 
             
-
-
-
-
 
 
 

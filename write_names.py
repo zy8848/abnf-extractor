@@ -36,17 +36,18 @@ def read_file(file_path):
     return data
 
 
-for i in range(1, 9999):
+if __name__ == '__main__':
+    for i in range(1,9999):
 
-    input_file = f"parse_out/rfc{i}.txt"
-    output_file = f"names/rfc{i}.txt"
+        input_file = f"parse_out/rfc{i}.txt"
+        output_file = f"names/rfc{i}.txt"
 
-    # 从文件中获取列表
-    if os.path.exists(input_file):
-        print(i)
-        data = get_list(input_file)
+        # 从文件中获取列表
+        if os.path.exists(input_file):
+            print(i)
+            data = get_list(input_file)
 
-        write_list_to_file(data, output_file)
+            write_list_to_file(data, output_file)
 
 
 
