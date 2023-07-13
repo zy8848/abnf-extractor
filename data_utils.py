@@ -3,7 +3,10 @@ def write_list_txt(rulelist, file_path):
         for i, rule_lines in enumerate(rulelist):
             if i > 0:
                 # 每个ABNF规则之间空一行
-                f_out.write("\n\n")
+                if rule_lines.endswith("\n"):
+                    f_out.write("\n")
+                else:
+                    f_out.write("\n\n")
             for l in rule_lines:
                 f_out.write(l)
         if rulelist:
@@ -15,5 +18,6 @@ def read_rulelist(file_path):
     with open(file_path, 'r') as f:
         file_str = f.read()
         rules = file_str.split('\n\n')
-    rules.remove('')
+    if '' in rules:
+        rules.remove('')
     return rules

@@ -3,7 +3,8 @@ import csv
 from data_utils import read_rulelist, write_list_txt
 import abnf
 import re
-
+import glob
+from tqdm import tqdm
 from abnf.grammars import rfc5234
 
 
@@ -263,49 +264,58 @@ def delete_non_abnf(rulelist):
 
 if __name__ =="__main__":
     # 找到rulelist中没有定义的name，在字典中查找他们，如果在字典中，则将对应的rule添加到该list中
-    
+    input_folder = 'abnf/parse_out'
+    output_folder = 'abnf/cross_def'
+
     data = []
 
     undefined_names = []
     undefined_nums = []
-    rule_dict = get_def_dict("parse_out") # rulename:{'rule':'aaa = bbb','src':i}
+    rule_dict = get_def_dict("abnf/parse_out") # rulename:{'rule':'aaa = bbb','src':i}
     non_abnf_data = []
-    for i in range(1,9999):
-        file_path =  f'parse_out/rfc{i}.txt'
-        out_path = f'cross_def/rfc{i}.txt'
-        if os.path.exists(file_path):
-            print(i)
-
-            rulelist = read_rulelist(file_path)
-            rulelist, removed = remove_duplicate(rulelist)
-            rulelist, non_abnf = delete_non_abnf(rulelist)
-            
-            valid_names, invalid_names = check_names_definition_simple(rulelist)
-            
-
-            added_rules = []
-            for name in invalid_names:
-                if name in rule_dict:
-                    rule = rule_dict[name]['rule']
-                    added_rules.append(rule)
-                    # 记录csv 
-                    data.append((i,rule,rule_dict[name]['src']))
-
-            
-            for rule in non_abnf:
-                non_abnf_data.append((i,rule))
-
-            rulelist.extend(added_rules)
-            write_list_txt(rulelist,out_path)
 
 
-            names_and_rules, undefined_all  = get_undefined_names(rulelist,rule_dict)
+    os.makedirs("abnf/cross_def", exist_ok=True)
+
+    txt_files = glob.glob(input_folder + "/*.txt")
+
+    for file_path in tqdm(txt_files):
+        match = re.search(r'rfc(\d+)\.txt', file_path)
+        i = int(match.group(1)) if match else None
+        out_path = f'{output_folder}/rfc{i}.txt'
+
+        rulelist = read_rulelist(file_path)
+        rulelist, removed = remove_duplicate(rulelist) # remove duplicate rules
+        rulelist, non_abnf = delete_non_abnf(rulelist) 
+        
+        # get undefined names
+        valid_names, invalid_names = check_names_definition_simple(rulelist) 
+        
+        # search undefined names in other rfc doc
+        added_rules = []
+        for name in invalid_names:
+            if name in rule_dict:
+                rule = rule_dict[name]['rule']
+                added_rules.append(rule)
+                # 记录csv 
+                data.append((i,rule,rule_dict[name]['src']))
+
+        
+        # keep record of deleted rules
+        for rule in non_abnf:
+            non_abnf_data.append((i,rule))
+
+        rulelist.extend(added_rules)
+        write_list_txt(rulelist,out_path)
 
 
-            for t in names_and_rules:
-                undefined_names.append((i,t[0],t[1],t[2]))
+        names_and_rules, undefined_all  = get_undefined_names(rulelist,rule_dict)
 
-            undefined_nums.append((i,undefined_all,len(undefined_all)))
+
+        for t in names_and_rules:
+            undefined_names.append((i,t[0],t[1],t[2]))
+
+        undefined_nums.append((i,undefined_all,len(undefined_all)))
 
 
 

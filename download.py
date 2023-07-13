@@ -1,42 +1,65 @@
 import urllib.request
 import os
-from multiprocessing.pool import ThreadPool
+import re
+from bs4 import BeautifulSoup
+from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
 
-# 指定要下载的RFC文档编号范围
-start_number = 9400
-end_number = 9999
 
-# 指定保存文件的目录
-save_dir = "input_abnf"
+# Specify the directory to save the files
+save_dir = "abnf/rfc_docs"
 
-# 如果目录不存在，则创建目录
+# If the directory does not exist, create it
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
-# 定义下载函数
-def download_rfc(rfc_number):
-    # 构造URL地址
-    url = f"https://www.rfc-editor.org/rfc/rfc{rfc_number}.txt"
+# Get all RFC file list
+def get_rfc_list():
+    url = "https://www.rfc-editor.org/rfc/"
+    req = urllib.request.Request(
+        url,
+        headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36'
+        }
+    )
+    content = urllib.request.urlopen(req).read()
+    soup = BeautifulSoup(content, "html.parser")
+    links = soup.find_all("a")
+    rfc_files = [link.get('href') for link in links if re.match(r"rfc\d+\.txt$", link.get('href', ''))]
+    return rfc_files
 
-    # 指定保存文件的路径
-    save_path = os.path.join(save_dir, f"rfc{rfc_number}.txt")
+# Download the specified RFC file
+def download_rfc(rfc_file):
+    # Construct URL
+    url = f"https://www.rfc-editor.org/rfc/{rfc_file}"
 
-    # 尝试下载文件并保存到指定目录，如果下载失败则返回None
+    # Specify the path to save the file
+    save_path = os.path.join(save_dir, rfc_file)
+
+    # Try to download the file and save it to the specified directory, return None if download fails
     try:
-        urllib.request.urlretrieve(url, save_path)
-        print(f"RFC{rfc_number}已经下载到{save_path}")
-        return rfc_number
-    except:
-        print(f"下载RFC{rfc_number}时出错，跳过该文档")
-        return None
+        req = urllib.request.Request(
+            url,
+            headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36'
+            }
+        )
+        with urllib.request.urlopen(req) as response, open(save_path, 'wb') as out_file:
+            data = response.read()  # a `bytes` object
+            out_file.write(data)
 
-# 使用线程池进行并行下载
-with ThreadPool(processes=50) as pool:
-    # 循环添加每个RFC文档的下载任务到线程池中
-    tasks = [pool.apply_async(download_rfc, args=(rfc_number,)) for rfc_number in range(start_number, end_number + 1)]
+        
+    except Exception as e:
+        print(f"An error occurred when downloading {rfc_file}, skipping this document")
+        print(e)
 
-    # 等待所有任务完成，并收集下载成功的RFC文档编号
-    downloaded_rfcs = [task.get() for task in tasks if task.get() is not None]
+# Get RFC file list
+rfc_files = get_rfc_list()
 
-# 打印所有RFC文档下载完成的提示信息
-print("所有RFC文档已经下载完成！")
+print("Start downloading RFC files from https://www.rfc-editor.org/rfc")
+
+# Use a ThreadPool to download RFC files, and use tqdm to display the progress bar
+with ThreadPoolExecutor(max_workers=50) as executor:
+    list(tqdm(executor.map(download_rfc, rfc_files), total=len(rfc_files)))
+
+print("All RFC documents have been downloaded!")

@@ -1,10 +1,13 @@
 import re
 import os
 import csv
-from abnf.grammars import rfc5234
+import glob
+from data_utils import write_list_txt
+from tqdm import tqdm
 
-input_folder = 'regexp_output'
-output_folder = 'converted'
+
+input_folder = 'abnf/regexp_out'
+output_folder = 'abnf/converted'
 
 
 def abnf_transform(abnf_rule):
@@ -13,7 +16,7 @@ def abnf_transform(abnf_rule):
         min_count = int(min_count) if min_count else 0
         max_count = int(max_count) if max_count else float("inf")
         if min_count>100:
-            print(f"Skip, because it looks like not a abnf: {match.group(0)}")
+            #print(f"Skip, because it looks like not a abnf: {match.group(0)}")
             return match.group(0)
 
         if max_count == float('inf'):
@@ -22,7 +25,7 @@ def abnf_transform(abnf_rule):
             return  " ".join(repetitions) + " *(" + " " + element + ")"
         else:
             # 暂时不考虑这种情况
-            print("cannot convert")
+            # print("cannot convert")
             return match.group(0)
             
     
@@ -30,18 +33,6 @@ def abnf_transform(abnf_rule):
     transformed_abnf = re.sub(r'(\d*)#(\d*)([A-Za-z][A-Za-z0-9-]*)', expand_repeats, transformed_abnf)
     return transformed_abnf
 
-
-def write_list_txt(rulelist, file_path):
-    with open(file_path, "w") as f_out:
-        for i, rule_lines in enumerate(rulelist):
-            if i > 0:
-                # 每个ABNF规则之间空一行
-                f_out.write("\n\n")
-            for l in rule_lines:
-                f_out.write(l)
-        if rulelist:
-            # 最后一个ABNF规则之后不需要再空一行
-            f_out.write("\n")
 
 
 def convert_one_file(rfc_i):
@@ -73,11 +64,14 @@ def convert_one_file(rfc_i):
 
 if __name__ == "__main__":
     data = []
-    for i in range(1,9999):
-        file_path =  f'{input_folder}/rfc{i}.txt'
-        if os.path.exists(file_path):
-            print(i)
-            convert_one_file(i)
+    txt_files = glob.glob(input_folder + "/*.txt")
+    os.makedirs(output_folder, exist_ok=True)
+    for file_path in tqdm(txt_files):
+        match = re.search(r'rfc(\d+)\.txt', file_path)
+        num = int(match.group(1)) if match else None
+        convert_one_file(num)
+    
+    print(f"{len(txt_files)} files have been processed")
 
 
 

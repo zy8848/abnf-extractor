@@ -1,25 +1,9 @@
 from abnf.grammars import rfc5234
 import os
-
-def read_rulelist(file_path):
-    with open(file_path, 'r') as f:
-        file_str = f.read()
-        rules = file_str.split('\n\n')
-    return rules
-
-def write_list_txt(rulelist, file_path):
-    with open(file_path, "w") as f_out:
-        for i, rule_lines in enumerate(rulelist):
-            if i > 0:
-                # 每个ABNF规则之间空一行
-                f_out.write("\n")
-            for l in rule_lines:
-                f_out.write(l)
-        if rulelist:
-            # 最后一个ABNF规则之后不需要再空一行
-            f_out.write("\n")
-
-
+import glob
+import re
+from data_utils import read_rulelist,write_list_txt
+from tqdm import tqdm
 
 def get_rulename_from_node(node):
     """Do a breadth-first search of the tree for addr-spec node.  If found, 
@@ -82,22 +66,29 @@ def process_file(file_path):
 
 
 if __name__ == "__main__":
-    input_folder = "converted"
-    valid_folder = "parse_out"
-    invalid_folder = "parse_invalid"
-    for i in range(4018,9999):
+    input_folder = "abnf/converted"
+    valid_folder = "abnf/parse_out"
+    invalid_folder = "abnf/parse_invalid"
+
+    os.makedirs(valid_folder, exist_ok=True)
+    os.makedirs(invalid_folder, exist_ok=True)
+
+    txt_files = glob.glob(input_folder + "/*.txt")
+    for file_path in tqdm(txt_files):
+        match = re.search(r'rfc(\d+)\.txt', file_path)
+        i = int(match.group(1)) if match else None
+
         file_path =  f'{input_folder}/rfc{i}.txt'
 
         parse_out_path = f'{valid_folder}/rfc{i}.txt'
         invalid_path = f'{invalid_folder}/rfc{i}.txt'
 
-        if os.path.exists(file_path):
-            print(i)
-            valid_rule, invalid_rule = process_file(file_path)
-            if valid_rule:
-                write_list_txt(valid_rule,parse_out_path)
-            if invalid_rule:
-                write_list_txt(invalid_rule,invalid_path)
+
+        valid_rule, invalid_rule = process_file(file_path)
+        if valid_rule:
+            write_list_txt(valid_rule,parse_out_path)
+        if invalid_rule:
+            write_list_txt(invalid_rule,invalid_path)
 
 
 

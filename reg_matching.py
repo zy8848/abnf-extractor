@@ -1,14 +1,18 @@
 
 import re
+import glob
+import os
+import shutil
+from tqdm import tqdm
+import fileinput
 
-def extract_abnf(rfc_num,write_output = True):
-    input_file = f"rfc_docs/rfc{rfc_num}.txt"
+def extract_abnf(input_file,output_file):
   
     rules = []
     rule_lines = []
     rule_indent = None
 
-    with open(input_file, "r") as f_in:
+    with open(input_file, "r", errors='replace') as f_in:
         # lines = filter(lambda line: line.strip(), f_in.readlines())
         for line in f_in:
             # 判断当前行是否为ABNF规则的第一行
@@ -41,10 +45,8 @@ def extract_abnf(rfc_num,write_output = True):
     if rule_lines:
         rules.append(rule_lines)
 
-
     
-    output_file = f"regexp_output/rfc{rfc_num}.txt"
-    if write_output and rules:
+    if rules:
         with open(output_file, "w") as f_out:
             for i, rule_lines in enumerate(rules):
                 if i > 0:
@@ -55,3 +57,41 @@ def extract_abnf(rfc_num,write_output = True):
             if rules:
                 # 最后一个ABNF规则之后不需要再空一行
                 f_out.write("\n")
+    
+    if rules:
+        return True
+    else: 
+        return False
+
+
+
+def main():
+    source_directory = "abnf/rfc_docs/"
+    output_directory = "abnf/regexp_out/"
+
+    # 创建输出目录（如果不存在）
+    os.makedirs(output_directory, exist_ok=True)
+
+    # 获取目录下所有的 txt 文件路径
+    txt_files = glob.glob(source_directory + "*.txt")
+    num_files = 0
+
+    print("Start regexp matching")
+    for txt_file in tqdm(txt_files):
+        filename = os.path.basename(txt_file)
+        output_file = os.path.join(output_directory, filename)
+
+
+        # 调用 extract_abnf 函数处理输入文件并写入输出文件
+        contain_rules = extract_abnf(txt_file, output_file)
+        if contain_rules:
+            num_files += 1
+
+    print(f"{len(txt_files)} files have been processed, {num_files} files contain abnf rules")
+
+
+
+
+
+if __name__ == '__main__':
+    main()
