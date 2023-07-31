@@ -15,17 +15,12 @@ def abnf_transform(abnf_rule):
         min_count, max_count, element = match.groups()
         min_count = int(min_count) if min_count else 0
         max_count = int(max_count) if max_count else float("inf")
-        if min_count>100:
-            #print(f"Skip, because it looks like not a abnf: {match.group(0)}")
-            return match.group(0)
 
         if max_count == float('inf'):
             repetitions = [element for _ in range(min_count)]
-            # return "(" + " ".join(repetitions) + " *(" + " " + element + "))"
             return  " ".join(repetitions) + " *(" + " " + element + ")"
         else:
             # 暂时不考虑这种情况
-            # print("cannot convert")
             return match.group(0)
             
     
@@ -44,9 +39,14 @@ def convert_one_file(rfc_i):
     ori = []
     transformed = []
     for i,rule in enumerate(rules):
-        # rule += "\n"
-        # rule = rule.replace("\n","\r\n")
         if '#' in rule:
+            match = re.search(r'(\d*)#(\d*)', rule)
+            min_count = int(match.group(1)) if match.group(1) else 0
+
+            if min_count > 100:
+                #print(f"Skip, because it looks like not a abnf: {rule}")
+                continue
+
             new_rule = abnf_transform(rule)
             rules[i] = new_rule
             if new_rule != rule:
