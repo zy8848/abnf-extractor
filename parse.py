@@ -1,4 +1,5 @@
 from abnf.grammars import rfc5234
+import rfc5234_extend
 import os
 import glob
 import re
@@ -30,7 +31,7 @@ def get_dependence_rulename(rule): # 找到一条rule里等号右侧的所有rul
 
 
 def can_parse(rule):
-    parser = rfc5234.Rule('rule')
+    parser = rfc5234_extend.Rule('rule')
 
     try:
         node = parser.parse_all(rule)
